@@ -78,4 +78,6 @@
 
 ## 数据与贡献
 
-2026-11-07 首发，精选 **25 个案例**。作品案例和 X 帖子分别计数。原词位置、作者演示和上架证据在各页标明。 [案例数据](data/cases.json) · [172 条已核 X 来源](SOURCES.md) · [机器可读索引](data/x-materials.json) · [提交来源](CONTRIBUTING.md)
+本轮新增 41 条已核 X 来源，包含横图背景跳动的修正、固定参考角色的循环原词、同条件的模型对照，以及微信表情的清晰度与试产检查。 [参考图与原词](https://x.com/alessia_orbit/status/2118539788022337718) · [微信适配与返工](guides/wechat.md#review)
+
+精选 **25 个案例**。作品案例和 X 帖子分别计数。原词位置、作者演示和上架证据在各页标明。 [案例数据](data/cases.json) · [213 条已核 X 来源](SOURCES.md) · [机器可读索引](data/x-materials.json) · [提交来源](CONTRIBUTING.md)

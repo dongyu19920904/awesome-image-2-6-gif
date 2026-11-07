@@ -78,4 +78,6 @@
 
 ## Data and contributions
 
-The 2026-11-07 edition includes **25 selected cases**. Case totals and X source totals are tracked separately. Each case identifies its prompt, creator demonstration or listing evidence. [Case data](data/cases.json) · [172 reviewed X sources](SOURCES.md) · [Machine-readable index](data/x-materials.json) · [Suggest a source](CONTRIBUTING.md)
+This update adds 41 reviewed X sources, including a fix for jumpy framing, reference-based loop prompts, controlled model comparisons and WeChat preparation notes. [Reference image and prompts](https://x.com/alessia_orbit/status/2118539788022337718) · [WeChat preparation and rework](guides/wechat.md#review)
+
+The gallery includes **25 selected cases**. Case totals and X source totals are tracked separately. Each case identifies its prompt, creator demonstration or listing evidence. [Case data](data/cases.json) · [213 reviewed X sources](SOURCES.md) · [Machine-readable index](data/x-materials.json) · [Suggest a source](CONTRIBUTING.md)

@@ -18,6 +18,8 @@ Save a GIF you have permission to use, then follow the custom-sticker workflow i
 
 已核公开规范的资源日期为 2026-07-01，动态主图为 240×240 GIF、每张不超过 500KB，一套 8–24 张。正式提交时再对照当前后台字段。数字游民9527的压缩案例把单个 GIF 从 945KB 调到 483KB，值得对照观感和体积的取舍。他采用的是视频转 GIF，已有 GIF 的读者可从规格处理段开始。 [作者压缩与投稿实录](https://www.cnblogs.com/digital9527/articles/19498223)
 
+还有两种值得对照的处理。马年表情作者用视频转 GIF 比较了帧率、时长和体积，原帖参数属于当时试验。卧云记录了缩小人物图后再做 GIF 容易发糊的问题，并附更新版本和预览。 [帧率与体积试验](https://x.com/aikangarooking/status/2014252294825816305) · [人物导出清晰度修复](https://x.com/Leviwoyun/status/2118261544329138457)
+
 Review the loop, caption, and edges at chat size. For store submissions, check current platform requirements before preparing the album files. [Official guidelines](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/readtemplate?t=guide/index.html#/makingSpecifications#specifications_stickers)
 
 <a id="submit"></a>
@@ -37,6 +39,8 @@ Read the official guidelines and then use Drift's follow-up for a creator's exam
 提交前逐张对照含义词和动作，缩小检查聊天图标，并在深色背景复查封面和边缘。已有作者记录了含义词不匹配、动作衔接不清楚、图标辨识度不足等退回问题。旧案例的尺寸和等待时间按当时经验阅读。 [微信审核标准](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/readtemplate?t=guide/index.html#/auditingStandards#auditingStandards_demand) · [藩鼠的返工经验](https://www.zcool.com.cn/article/ZMTA2NzM4OA==.html) · [深色封面与图标案例](https://cloud.tencent.com/developer/article/2755980)
 
 区分技术检查、上传草稿、已提交、平台审核和作者上架自述。作者给出专辑名时可在微信内核对。 [上架续篇](../prompts/ginger-cat-and-capybara.md)
+
+批量做一套之前，可参考雪瑜发布的做法，先试三张，分别看字幕、动作连贯性和角色一致性。作者的工具同时提供原生请求和帧合成路径。另一条狐狸打工人视频的简介记录了五个动图的参数与角色细节问题，适合作为作品检查的补充。 [三张试产的作者原帖](https://x.com/xueyu1125/status/2118228042413940769) · [狐狸表情作者的视频简介](https://www.bilibili.com/video/BV19h4z6BEiL/)
 
 Check sticker names, readable icons, dark-mode artwork, and the join between the first and last frames. Keep draft upload, submission, review and a public listing as separate milestones. [Review standards](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/readtemplate?t=guide/index.html#/auditingStandards#auditingStandards_demand)
 
