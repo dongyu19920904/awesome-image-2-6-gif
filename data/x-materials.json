@@ -1,9 +1,132 @@
 {
   "checked_on": "2026-11-07",
-  "count": 10,
-  "scope": "Stage 03 case references",
-  "baseline_count": 157,
+  "count": 172,
   "records": [
+    {
+      "id": "2118843579712123227",
+      "url": "https://x.com/r360studio/status/2118843579712123227",
+      "author": "r360studio",
+      "title": "2.6角色循环GIF实测：307方图、16帧约8.3fps；作者另附从输入到完成的解说录像。",
+      "topics": [
+        "角色GIF",
+        "帧数",
+        "分辨率",
+        "实测"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "DOM详情全文已补齐，给出307×307、16帧约8.3fps及角色尾巴循环的具体实测"
+    },
+    {
+      "id": "2118785150368743814",
+      "url": "https://x.com/Superboy4949/status/2118785150368743814",
+      "author": "Superboy4949",
+      "title": "8帧0.96秒、16帧1.92秒；2至3秒循环需更多帧或放慢单帧，并让动作回起始姿势。",
+      "topics": [
+        "原生GIF",
+        "帧时长",
+        "循环提示词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "提供8/16帧各120ms的时长实测，并给循环动作回起点建议"
+    },
+    {
+      "id": "2118784492227965350",
+      "url": "https://x.com/1stLight_Ai/status/2118784492227965350",
+      "author": "1stLight_Ai",
+      "title": "作者观察2.6 GIF在较长生成中结构崩坏，未给具体时长阈值。",
+      "topics": [
+        "原生GIF",
+        "使用限制",
+        "失败实测"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "明确报告较长生成易崩坏；参考照片只是下次计划，未冒充修复"
+    },
+    {
+      "id": "2118758557537710141",
+      "url": "https://x.com/felnartstories/status/2118758557537710141",
+      "author": "felnartstories",
+      "title": "让模型提议魔法穿越静止空间的GIF，结果手臂长矛晃动，头发斗篷也被动画化。",
+      "topics": [
+        "GIF动作设计",
+        "提示词迭代",
+        "失败实测"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Conversation核到完整目标正文，有场景提议及手臂长矛晃动结果；涉及Astra，底层生成路线未说明"
+    },
+    {
+      "id": "2118750260549796019",
+      "url": "https://x.com/Voxyz_ai/status/2118750260549796019",
+      "author": "Voxyz_ai",
+      "title": "角色挥杖回位的12帧 GIF 原词与三档画质对照",
+      "topics": [
+        "角色参考",
+        "原词",
+        "画质对照",
+        "循环"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者给出参考图生成循环 GIF 的原词和同角色的三档画质观察。耗时与花费为作者单次自报，Codex 可用性与收费不由此证实。"
+    },
+    {
+      "id": "2118740802545574019",
+      "url": "https://x.com/ai_bange/status/2118740802545574019",
+      "author": "ai_bange",
+      "title": "半格的微信九宫格动态表情包 Skill",
+      "topics": [
+        "Skill",
+        "微信聊天",
+        "动态九宫格"
+      ],
+      "route": "mixed",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者原帖与同名仓库互证，提供独立可用的工作流入口和导出形态。固定版本可按宿主能力选动图生成或关键帧合成，未绑 Image 2.6 接口或集成微信投稿。"
+    },
+    {
+      "id": "2118697413187657823",
+      "url": "https://x.com/VaneAILab/status/2118697413187657823",
+      "author": "VaneAILab",
+      "title": "给Logo制作眨眼、粒子和紫色能量环GIF",
+      "topics": [
+        "Logo动效",
+        "眨眼",
+        "循环效果"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "正文给出可复用的主体与动作设计细节。直接输出路线按作者描述记录，原文省略号后仅是附件短链接。"
+    },
+    {
+      "id": "2118677271880073230",
+      "url": "https://x.com/ai_edisonZ/status/2118677271880073230",
+      "author": "ai_edisonZ",
+      "title": "长文封面图转自然循环 GIF 的原词",
+      "topics": [
+        "图生GIF",
+        "原词",
+        "保留文字",
+        "循环"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者在演示下公开完整参考图动效提示词，涵盖保留原文字、艺术风格和首尾过渡。适用于原图动效设计。"
+    },
+    {
+      "id": "2118671118345310606",
+      "url": "https://x.com/cheerselflin/status/2118671118345310606",
+      "author": "cheerselflin",
+      "title": "Evolink提示词与API资料入口",
+      "topics": [],
+      "route": "see_original",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
     {
       "id": "2118636908175859897",
       "url": "https://x.com/crayon1267/status/2118636908175859897",
@@ -33,6 +156,60 @@
       "note": "原作者续篇，已读文章全部正文与嵌入 Markdown；列出两套专辑名称、提交前核对和物料原词。上架为自述，文中赞赏人数属于其他作者。"
     },
     {
+      "id": "2118634073195253949",
+      "url": "https://x.com/bywind_art/status/2118634073195253949",
+      "author": "bywind_art",
+      "title": "在ChatGPT网页项目中使用现成表情包Skill的步骤",
+      "topics": [
+        "ChatGPT网页端",
+        "项目文件上传",
+        "动态表情操作"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "独立长帖补足已有项目链接之外的网页操作步骤。原帖未说明网页端底层生成路线，原仓库仍按既有合成路线记录。"
+    },
+    {
+      "id": "2118633386445066345",
+      "url": "https://x.com/bywind_art/status/2118633386445066345",
+      "author": "bywind_art",
+      "title": "ray-sticker-shop使用报告与文档上传方式",
+      "topics": [],
+      "route": "assembled",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118621472847532215",
+      "url": "https://x.com/zhongying14/status/2118621472847532215",
+      "author": "zhongying14",
+      "title": "麻酱AI实验室：投稿与赞赏材料要点及前文导读",
+      "topics": [],
+      "route": "see_original",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118619825559793672",
+      "url": "https://x.com/zhongying14/status/2118619825559793672",
+      "author": "zhongying14",
+      "title": "表情IP、红包封面和品牌曝光路径",
+      "topics": [],
+      "route": "see_original",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118589683819262346",
+      "url": "https://x.com/gbroai/status/2118589683819262346",
+      "author": "gbroai",
+      "title": "Codex原生GIF拼贴B-roll的完整四步教程",
+      "topics": [],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
       "id": "2118586752915095805",
       "url": "https://x.com/vastxie/status/2118586752915095805",
       "author": "vastxie",
@@ -48,6 +225,609 @@
       "note": "作者独立回复给出参考图动作原词与透明调色板示例代码。属于模型出图后处理，未执行作者代码。"
     },
     {
+      "id": "2118584425009344644",
+      "url": "https://x.com/VaneAILab/status/2118584425009344644",
+      "author": "VaneAILab",
+      "title": "AI表情包保姆级SOP：16格动作矩阵、GIF合成与微信物料",
+      "topics": [],
+      "route": "assembled",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118568297243558160",
+      "url": "https://x.com/jev_chat/status/2118568297243558160",
+      "author": "jev_chat",
+      "title": "杰哥回复：现在表情包已经上架",
+      "topics": [],
+      "route": "see_original",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118567853515575380",
+      "url": "https://x.com/cgnot996/status/2118567853515575380",
+      "author": "cgnot996",
+      "title": "铁柱AGI：真人儿童表情投稿身份材料经历，引用杰哥教程",
+      "topics": [],
+      "route": "see_original",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118564264491287014",
+      "url": "https://x.com/SUOHA_AI/status/2118564264491287014",
+      "author": "SUOHA_AI",
+      "title": "微信平台入口与原创授权提醒",
+      "topics": [],
+      "route": "see_original",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118564255867777123",
+      "url": "https://x.com/SUOHA_AI/status/2118564255867777123",
+      "author": "SUOHA_AI",
+      "title": "真人定制表情接单与微信赞赏的比较",
+      "topics": [],
+      "route": "see_original",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118546394797728093",
+      "url": "https://x.com/Frederickkk07/status/2118546394797728093",
+      "author": "Frederickkk07",
+      "title": "ChatGPT 居然能直接做 GIF 了！从玩梗到变米",
+      "topics": [],
+      "route": "mixed",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118525559210930346",
+      "url": "https://x.com/Sleep4993/status/2118525559210930346",
+      "author": "Sleep4993",
+      "title": "同主题 9 帧与 30 帧的作者对照",
+      "topics": [
+        "帧数",
+        "对照",
+        "循环流畅度"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者回复列出初版 9 帧与尝试 30 帧后两版，随帖两条动图预览。其个人观察为两版仍有卡顿，不推断 30 帧必然由原生接口生成。"
+    },
+    {
+      "id": "2118523767626559889",
+      "url": "https://x.com/shoji_ai/status/2118523767626559889",
+      "author": "shoji_ai",
+      "title": "实测 GPT Image 2.6 API 的 GIF 输出与成本",
+      "topics": [
+        "GIF",
+        "API",
+        "成本",
+        "失败实测"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "有格式/帧数/帧时长、两次成本和画风失效记录"
+    },
+    {
+      "id": "2118521104075837700",
+      "url": "https://x.com/crayon1267/status/2118521104075837700",
+      "author": "crayon1267",
+      "title": "crayon1267：按多格参考顺序生成品牌快闪 GIF",
+      "topics": [
+        "多格参考",
+        "品牌GIF",
+        "原词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者提供独立的顺序参考方法及原词，附媒体。多格素材用于输入参考，原帖请求直接输出 GIF。"
+    },
+    {
+      "id": "2118519276848185637",
+      "url": "https://x.com/midori_tatsuta/status/2118519276848185637",
+      "author": "midori_tatsuta",
+      "title": "照片先转Q版再生成循环GIF的两步方法",
+      "topics": [],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118511250275704964",
+      "url": "https://x.com/jev_chat/status/2118511250275704964",
+      "author": "jev_chat",
+      "title": "如何用 ChatGPT 从零到1制作微信动态表情包？附投稿全流程",
+      "topics": [],
+      "route": "mixed",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118470956629021147",
+      "url": "https://x.com/hone_sns/status/2118470956629021147",
+      "author": "hone_sns",
+      "title": "ChatGPT Images 2.6 批量姿势图转 GIF 翻车",
+      "topics": [
+        "gif-failure",
+        "pose-input"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "具体尝试批量姿势图转GIF出现模糊，精灵图阶段正常；未说明GIF环节实现，不强判原生或合成。"
+    },
+    {
+      "id": "2118470153776345294",
+      "url": "https://x.com/vm3jp6u04/status/2118470153776345294",
+      "author": "vm3jp6u04",
+      "title": "用 GPT Images 2.6 生成灰模 GIF 当视频参考",
+      "topics": [
+        "GIF",
+        "视频参考",
+        "工作流"
+      ],
+      "route": "mixed",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "说明2.6灰模GIF延长到15秒后作为H3参考的具体管线"
+    },
+    {
+      "id": "2118466134156480534",
+      "url": "https://x.com/shinshin86/status/2118466134156480534",
+      "author": "shinshin86",
+      "title": "GPT Images 2.6 生成 GIF 接入 AITuber OnAir 虚拟形象",
+      "topics": [
+        "native_gif",
+        "avatar_workflow"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出分情绪生成GIF、注册网页头像并自动切换的具体用法"
+    },
+    {
+      "id": "2118463114173964774",
+      "url": "https://x.com/onmdilfqnqqfjdi/status/2118463114173964774",
+      "author": "onmdilfqnqqfjdi",
+      "title": "Images 2.6 上手：GIF 动效生硬，不如转投视频模型",
+      "topics": [
+        "原生GIF",
+        "背景锁定",
+        "失败实测"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "明确试生成时人物和背景都不自然移动；转Omni更顺只是作者推测，未当已验证修复"
+    },
+    {
+      "id": "2118450538966823011",
+      "url": "https://x.com/hemi3ai/status/2118450538966823011",
+      "author": "hemi3ai",
+      "title": "用 ChatGPT Image 2.6 做角色跳舞转圈循环 GIF 的实测",
+      "topics": [
+        "原生GIF",
+        "循环提示词",
+        "动作偏差"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出二头身跳舞转一圈再跳舞的循环要求，并指出转一圈理解跑偏"
+    },
+    {
+      "id": "2118444663874940983",
+      "url": "https://x.com/axttimm/status/2118444663874940983",
+      "author": "axttimm",
+      "title": "用户反馈 Images 2.6 的 GIF 生成仅限 6 个即时额度",
+      "topics": [
+        "native_gif",
+        "availability",
+        "failure"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "报告Instant可生成而Work和Thinking不可用的具体入口差异"
+    },
+    {
+      "id": "2118427112768164170",
+      "url": "https://x.com/hafuma/status/2118427112768164170",
+      "author": "hafuma",
+      "title": "质疑 GPT Image 2.6 的 GIF 只是精灵图转格式",
+      "topics": [
+        "GIF",
+        "失败实测",
+        "尺寸"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "报告16帧4K请求只返720p；内部精灵图解释仅属推测"
+    },
+    {
+      "id": "2118419076406300915",
+      "url": "https://x.com/zackpaid/status/2118419076406300915",
+      "author": "zackpaid",
+      "title": "用 Images 2.6 做 Meta 广告素材实测",
+      "topics": [
+        "gif-ad-workflow",
+        "character-consistency",
+        "business-evidence"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "自述同人三广告、逐气泡拼写和26帧标题锁定，并给43对60–100美元线索成本；非独立收益核验。"
+    },
+    {
+      "id": "2118418783878644007",
+      "url": "https://x.com/jagthehero/status/2118418783878644007",
+      "author": "jagthehero",
+      "title": "GPT-Image-2.6 Sunburst 生成 16 帧舞蹈 GIF 再转视频",
+      "topics": [
+        "native_gif",
+        "video_workflow"
+      ],
+      "route": "mixed",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "说明Sunburst出16帧舞蹈GIF，再用本地Minimax延展30秒"
+    },
+    {
+      "id": "2118415399205400838",
+      "url": "https://x.com/soyanadev/status/2118415399205400838",
+      "author": "soyanadev",
+      "title": "设计师视角看 Images 2.6 的 GIF 与参考图",
+      "topics": [
+        "reference-image",
+        "gif-editing",
+        "limitations"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出@名称复用参考图、0.5x–2x调速和上传GIF不能编辑的边界；帮助中心说法待核。"
+    },
+    {
+      "id": "2118408795026043260",
+      "url": "https://x.com/cocktailpeanut/status/2118408795026043260",
+      "author": "cocktailpeanut",
+      "title": "用 GPT-Image 2.6 生成 GIF 再接 Minimax H3 做视频",
+      "topics": [
+        "GIF",
+        "视频参考",
+        "工作流"
+      ],
+      "route": "mixed",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "列出ChatGPT生成GIF再喂H3两步管线，长时长主张待核"
+    },
+    {
+      "id": "2118402726019432831",
+      "url": "https://x.com/drtechoman/status/2118402726019432831",
+      "author": "drtechoman",
+      "title": "Images 2.6 把上传图片转成 GIF 动画的用法",
+      "topics": [
+        "GIF",
+        "参考图",
+        "提示词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出上传图后轻微循环并保留人物特征的实际请求示例"
+    },
+    {
+      "id": "2118395480434471074",
+      "url": "https://x.com/NeuroFoxxx/status/2118395480434471074",
+      "author": "NeuroFoxxx",
+      "title": "NeuroFoxxx：固定构图的眨眼、微笑与挥手",
+      "topics": [
+        "原词",
+        "参考图",
+        "英文"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者回复给出完整英文原词，覆盖镜头、主体与额外物件约束。"
+    },
+    {
+      "id": "2118390692347363396",
+      "url": "https://x.com/vm3jp6u04/status/2118390692347363396",
+      "author": "vm3jp6u04",
+      "title": "許文彥：从照片到雪纳瑞 GIF、改速与保存",
+      "topics": [
+        "原生GIF",
+        "速度",
+        "下载"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "四步操作提示包含对话中迭代、打开 GIF 调速和保存，附作者例子。"
+    },
+    {
+      "id": "2118390559060660393",
+      "url": "https://x.com/viberscomtr/status/2118390559060660393",
+      "author": "viberscomtr",
+      "title": "用 Images 2.6 把文字做成霓虹灯 GIF 实测",
+      "topics": [
+        "原生GIF",
+        "文字动画",
+        "动作提示词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "公开把指定文字转霓虹招牌的指令，并报告字母逐个亮起"
+    },
+    {
+      "id": "2118382274270187877",
+      "url": "https://x.com/nonieengel/status/2118382274270187877",
+      "author": "nonieengel",
+      "title": "Leonie：角色图加风格参考的十种反应原词",
+      "topics": [
+        "双参考",
+        "批量",
+        "英文原词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "独立长回复含分开的角色与风格参考说明、八个预设和两个自选反应。"
+    },
+    {
+      "id": "2118367765220171990",
+      "url": "https://x.com/agentlab_dev/status/2118367765220171990",
+      "author": "agentlab_dev",
+      "title": "Images 2.6 上线 ChatGPT、Codex 与 API：GIF 玩法拆解",
+      "topics": [
+        "GIF",
+        "精灵图",
+        "循环"
+      ],
+      "route": "assembled",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出六帧精灵图且末帧接首帧的具体做法，完整模板未归档"
+    },
+    {
+      "id": "2118367371643719978",
+      "url": "https://x.com/VaneAILab/status/2118367371643719978",
+      "author": "VaneAILab",
+      "title": "Vane：角色GIF合成Skill与微信材料",
+      "topics": [],
+      "route": "assembled",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118365893029921037",
+      "url": "https://x.com/baibtw/status/2118365893029921037",
+      "author": "baibtw",
+      "title": "Images 2.6 拆解：quality 与 complexity 两个旋钮怎么用",
+      "topics": [
+        "keyframe-workflow",
+        "loop-constraints",
+        "api-controls"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "提供6帧3×2、固定角色镜头与首尾循环的具体约束；未说明GIF合成环节，不能当原生生成证明。"
+    },
+    {
+      "id": "2118345119774421024",
+      "url": "https://x.com/noclipepe/status/2118345119774421024",
+      "author": "noclipepe",
+      "title": "GPT Images 2.6 把经典梗图做成动画",
+      "topics": [
+        "GIF",
+        "参考图",
+        "梗图"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "明确以原漫画为参考使喝咖啡场景动起来，并注明原画作者"
+    },
+    {
+      "id": "2118343544276652284",
+      "url": "https://x.com/dave_joe_9377/status/2118343544276652284",
+      "author": "dave_joe_9377",
+      "title": "韩文整理：ChatGPT Images 2.6 的 GIF 与两个 API 模型",
+      "topics": [
+        "GIF",
+        "提示词",
+        "循环"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出主体加单动作加循环及背景的模板与白鸡跳舞示例"
+    },
+    {
+      "id": "2118339589144490122",
+      "url": "https://x.com/ai_bange/status/2118339589144490122",
+      "author": "ai_bange",
+      "title": "按参考图设计十二种心情的动态表情原词",
+      "topics": [
+        "提示词原文",
+        "角色一致性",
+        "动作与动态文字"
+      ],
+      "route": "mixed",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "完整提示词在独立作者回复中，原线程标注 Image 2.6。工作流允许静帧后备，未证明模型一次批量交付所有文件。"
+    },
+    {
+      "id": "2118338310649385317",
+      "url": "https://x.com/web30708/status/2118338310649385317",
+      "author": "web30708",
+      "title": "HP：猫咪扫把表情和微信内检索名称",
+      "topics": [
+        "微信投稿",
+        "作者自述",
+        "单句请求"
+      ],
+      "route": "see_original",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "提供猫骑扫把的做法和独立专辑搜索名称。上架状态为作者自述。"
+    },
+    {
+      "id": "2118335661128478773",
+      "url": "https://x.com/yoruhub/status/2118335661128478773",
+      "author": "yoruhub",
+      "title": "Images 2.6 生成 GIF 中间帧崩坏的用户反馈",
+      "topics": [
+        "原生GIF",
+        "中间帧",
+        "失败实测"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "具体区分首尾看似正常而中间颜色手部崩坏；视频抽帧替代只是作者比较意见"
+    },
+    {
+      "id": "2118332951645638807",
+      "url": "https://x.com/kaanakz/status/2118332951645638807",
+      "author": "kaanakz",
+      "title": "用参考图生成像素风格斗角色 GIF 的实测",
+      "topics": [
+        "native_gif",
+        "reference_workflow"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出自创角色经Meta像素化后作参考输入2.6生成GIF的流程"
+    },
+    {
+      "id": "2118328692795748425",
+      "url": "https://x.com/moranai_diary/status/2118328692795748425",
+      "author": "moranai_diary",
+      "title": "用 Images 2.6 把猫角色做成动画 GIF 的教程",
+      "topics": [
+        "GIF工作流",
+        "精灵图",
+        "切帧合成"
+      ],
+      "route": "assembled",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "明确让模型画分格图、切出并连接，且做10种比较；属于组装路线，不能称原生输出"
+    },
+    {
+      "id": "2118326311030591942",
+      "url": "https://x.com/zhongying14/status/2118326311030591942",
+      "author": "zhongying14",
+      "title": "GPT Image 2.6 刚发布，我就把 AI 做的猫咪 GIF 拿去投稿微信表情商店了！附完整教程",
+      "topics": [],
+      "route": "see_original",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118323794498695185",
+      "url": "https://x.com/tgrxsc/status/2118323794498695185",
+      "author": "tgrxsc",
+      "title": "ChatGPT Images 2.6 上线 GIF 生成功能",
+      "topics": [
+        "GIF",
+        "参考图",
+        "修改指令"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "包含跳舞猫GIF、后续加粉红激光和引用参考图的具体请求示例"
+    },
+    {
+      "id": "2118320301259788490",
+      "url": "https://x.com/AXIS95277/status/2118320301259788490",
+      "author": "AXIS95277",
+      "title": "水獭三视图与早安循环 GIF 的两段原词",
+      "topics": [
+        "提示词原文",
+        "角色三视图",
+        "固定字幕"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "独立回复提供父帖未转载的完整两阶段提示词，明确 GIF 输出和当次尺寸。"
+    },
+    {
+      "id": "2118320290065154405",
+      "url": "https://x.com/AXIS95277/status/2118320290065154405",
+      "author": "AXIS95277",
+      "title": "水獭与小人两套原生 GIF 的设定图和逐帧验收",
+      "topics": [
+        "原生GIF",
+        "角色设定图",
+        "循环验收"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者报告含可复用步骤及具体失败复盘；帧数、尺寸、一次通过率均属作者当次测试，未验证微信投稿。"
+    },
+    {
+      "id": "2118295068788621429",
+      "url": "https://x.com/wolfqing1/status/2118295068788621429",
+      "author": "wolfqing1",
+      "title": "橘猫咖啡杯循环表情的完整提示词",
+      "topics": [],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118294955236208942",
+      "url": "https://x.com/wolfqing1/status/2118294955236208942",
+      "author": "wolfqing1",
+      "title": "橘猫需求又改了：角色母图与单个笑点",
+      "topics": [],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118293666456559762",
+      "url": "https://x.com/dokken92047824/status/2118293666456559762",
+      "author": "dokken92047824",
+      "title": "GPT Images 2.6 极简提示词生成 GIF 动画",
+      "topics": [
+        "原生GIF",
+        "参考图",
+        "动作提示词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "附图后只写弹木吉他的男性，是具体图加动作的GIF用法"
+    },
+    {
+      "id": "2118274913337552992",
+      "url": "https://x.com/0xluffy_eth/status/2118274913337552992",
+      "author": "0xluffy_eth",
+      "title": "榨干 Image 2.6 的 10 个神级玩法！【附完整提示词】",
+      "topics": [],
+      "route": "mixed",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118269061952143731",
+      "url": "https://x.com/Adam38363368936/status/2118269061952143731",
+      "author": "Adam38363368936",
+      "title": "Adam：办公室照片到扶额反应原词",
+      "topics": [
+        "照片",
+        "职场表情",
+        "原词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "同线程中另一条独立照片场景，给出键盘、停顿和恢复动作的完整请求。"
+    },
+    {
+      "id": "2118269025231024156",
+      "url": "https://x.com/Adam38363368936/status/2118269025231024156",
+      "author": "Adam38363368936",
+      "title": "Adam：人像眨眼反应 GIF 原词",
+      "topics": [
+        "照片",
+        "反应GIF",
+        "原词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "独立回复带成品预览和完整真人照片动画原词，包含皮肤与镜头约束。"
+    },
+    {
       "id": "2118265895613346263",
       "url": "https://x.com/vastxie/status/2118265895613346263",
       "author": "vastxie",
@@ -61,6 +841,34 @@
       "route": "native",
       "source_scope": "original body read; media, platform approval and earnings not independently verified",
       "note": "完整四步制作与微信显示适配，API请求为作者自述；赠金额消耗不当作盈利或过审证明"
+    },
+    {
+      "id": "2118265063790317712",
+      "url": "https://x.com/spect3ral/status/2118265063790317712",
+      "author": "spect3ral",
+      "title": "GPT Images 2.6 实测 Meta 广告素材：GIF、速度与产品一致性",
+      "topics": [
+        "monetization",
+        "ad_export",
+        "failure"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "报告原GIF在Meta不稳定、默认设置遭Google拒绝；提示词手册未公开"
+    },
+    {
+      "id": "2118264180239184369",
+      "url": "https://x.com/AXIS95277/status/2118264180239184369",
+      "author": "AXIS95277",
+      "title": "不传参考图生成橘猫挥手 GIF 的对照原词",
+      "topics": [
+        "提示词原文",
+        "文生GIF",
+        "手部与面部检查"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "独立回复提供有别于参考图路线的文生 GIF 原词和逐帧缺陷观察。"
     },
     {
       "id": "2118264156885221681",
@@ -91,6 +899,445 @@
       "note": "具体操作、对照记录与错误观察。1024 像素报错发生在作者文生 GIF 测试，未证实其他尺寸和入口；未试微信导入。"
     },
     {
+      "id": "2118258491043483978",
+      "url": "https://x.com/xedrik7/status/2118258491043483978",
+      "author": "xedrik7",
+      "title": "迷幻跳舞猫GIF短提示",
+      "topics": [
+        "gif-prompt",
+        "cat",
+        "short-prompt"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开完整英文迷幻猫跳舞GIF提示；只标ChatGPT，2.6版本未由正文独立证实。"
+    },
+    {
+      "id": "2118252486360498485",
+      "url": "https://x.com/rem_rev/status/2118252486360498485",
+      "author": "rem_rev",
+      "title": "象征平成时代的社交GIF短提示",
+      "topics": [
+        "gif-prompt",
+        "social-use"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖明确ChatGPT Images2.6并公开SNS向GIF完整短提示。"
+    },
+    {
+      "id": "2118252052556255364",
+      "url": "https://x.com/ZHENGJUNTING92/status/2118252052556255364",
+      "author": "ZHENGJUNTING92",
+      "title": "烧杯漩涡与发光颜色的GIF场景提示",
+      "topics": [
+        "gif-prompt",
+        "scene-animation"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开完整GIF场景指令及作者的颜色说明；只收提示文本，不把化学式、反应过程和结果解释当已核科学结论。"
+    },
+    {
+      "id": "2118248165396848968",
+      "url": "https://x.com/eeseverlasting/status/2118248165396848968",
+      "author": "eeseverlasting",
+      "title": "上传猫图制作晚安喵GIF",
+      "topics": [
+        "reference-to-gif",
+        "gif-prompt",
+        "chat-sticker",
+        "cat"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开一张参考图加一句话的完整日文提示，明确晚安喵聊天表达。"
+    },
+    {
+      "id": "2118245102409908571",
+      "url": "https://x.com/rei_aitech/status/2118245102409908571",
+      "author": "rei_aitech",
+      "title": "苹果下落 GIF 的三组帧数与帧时长对比",
+      "topics": [
+        "原词",
+        "帧数",
+        "帧时长",
+        "作者实测"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者给出 ChatGPT Instant 测试用的三组请求和观察，适合比较观感。所述帧数上限、内部拼版及清晰度解释均为作者说明或推测，不能据此当作 API 规范。"
+    },
+    {
+      "id": "2118243060064964703",
+      "url": "https://x.com/Gimi_min/status/2118243060064964703",
+      "author": "Gimi_min",
+      "title": "同一IP的砸电脑与大肥鱼两张GIF",
+      "topics": [
+        "reference-to-gif",
+        "gif-prompt",
+        "chat-sticker",
+        "character-consistency"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开双参考图约束及两种表情动作完整指令，贴近成套聊天表情包场景；角色授权不由本次来源读取保证。"
+    },
+    {
+      "id": "2118241781074862569",
+      "url": "https://x.com/Mayz1169/status/2118241781074862569",
+      "author": "Mayz1169",
+      "title": "Codex心跳舞动作的低中高档对照",
+      "topics": [
+        "Codex",
+        "角色动作",
+        "低中高档对照"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出自己的角色做心跳舞这一具体动作请求，以及低、中、高三档并排比较的设计。正文没有档位对应的API参数或底层GIF路线。"
+    },
+    {
+      "id": "2118239397766484445",
+      "url": "https://x.com/iskunzhenbai/status/2118239397766484445",
+      "author": "iskunzhenbai",
+      "title": "Isk 真白：只让发梢、耳朵与眼睛动起来",
+      "topics": [
+        "参考图",
+        "微动作",
+        "原词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "独立试做回复给出三个局部动作，带两段作者动画预览。"
+    },
+    {
+      "id": "2118238946412953985",
+      "url": "https://x.com/ozansihay/status/2118238946412953985",
+      "author": "ozansihay",
+      "title": "家庭猫照片生成眨眼戴帽GIF",
+      "topics": [],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118238496221511865",
+      "url": "https://x.com/zhongying14/status/2118238496221511865",
+      "author": "zhongying14",
+      "title": "九张工作群猫咪表情包的策划需求",
+      "topics": [
+        "表情包策划",
+        "工作沟通",
+        "九主题动图"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "完整策划指令可直接参考，明确角色、数量、受众、场景和表现要求。生成耗时是作者自述，底层GIF实现未在正文说明。"
+    },
+    {
+      "id": "2118235687686140253",
+      "url": "https://x.com/ai_artworkgen/status/2118235687686140253",
+      "author": "ai_artworkgen",
+      "title": "咖啡馆人物的局部运动循环提示词",
+      "topics": [],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118235551631610085",
+      "url": "https://x.com/0xluffy_eth/status/2118235551631610085",
+      "author": "0xluffy_eth",
+      "title": "微信表情投稿的官方入口与规范导航",
+      "topics": [
+        "微信表情平台",
+        "制作规范",
+        "审核标准"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "四个官方域名入口可从URL实体核对。服务协议地址在原始正文末尾本身截短，审核时长与赞赏条件为作者转述。"
+    },
+    {
+      "id": "2118235549609955443",
+      "url": "https://x.com/0xluffy_eth/status/2118235549609955443",
+      "author": "0xluffy_eth",
+      "title": "固定角色母图、批量换题、提交微信的三步建议",
+      "topics": [
+        "角色母图",
+        "批量主题",
+        "微信投稿"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "可独立定位的回复给出母图、批量制作和投稿的顺序。8～16是作者的制作建议，回复未报告过审或收入结果。"
+    },
+    {
+      "id": "2118235547454083357",
+      "url": "https://x.com/0xluffy_eth/status/2118235547454083357",
+      "author": "0xluffy_eth",
+      "title": "角色参考图→动态GIF的原始提示词",
+      "topics": [],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118233730146050398",
+      "url": "https://x.com/omni1896837/status/2118233730146050398",
+      "author": "omni1896837",
+      "title": "ChatGPT 内测 Images 2.6 GIF：自行车不动、噪点未修",
+      "topics": [
+        "gif-failure",
+        "motion-fidelity"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "明确指出自行车看似动画却没有实际运动，并记录噪点未修；是可用的具体失败观察。"
+    },
+    {
+      "id": "2118232213741277212",
+      "url": "https://x.com/zhongying14/status/2118232213741277212",
+      "author": "zhongying14",
+      "title": "对话中调整GIF动作与速度，保存命名参考图",
+      "topics": [
+        "GIF调速",
+        "命名参考图",
+        "对话迭代"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "六点更新中包含可复用的调速、动作修改和命名参考图步骤。摘取这些操作线索，模型速度和接口能力仍属于作者对发布信息的转述。"
+    },
+    {
+      "id": "2118232059571544139",
+      "url": "https://x.com/ai_ai_ailover/status/2118232059571544139",
+      "author": "ai_ai_ailover",
+      "title": "Higgsfield中的白龙GIF与图像创作记录",
+      "topics": [],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118225428976705908",
+      "url": "https://x.com/shinshin86/status/2118225428976705908",
+      "author": "shinshin86",
+      "title": "角色参考图变Q版可爱动作GIF",
+      "topics": [
+        "reference-to-gif",
+        "gif-prompt",
+        "chibi"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开上传参考图再输入完整日文提示的两步做法，要求Q版化与可爱动作。"
+    },
+    {
+      "id": "2118224031518454108",
+      "url": "https://x.com/daifuku_ailover/status/2118224031518454108",
+      "author": "daifuku_ailover",
+      "title": "一句话参考图转GIF及六格替代路线线索",
+      "topics": [
+        "reference-to-gif",
+        "gif-prompt",
+        "sprite-sheet"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开“用这张图做GIF动画”的完整短提示，并说明文章另讲3列2行六格sprite-sheet路线；未读取文章，不能确认拼接实现细节。"
+    },
+    {
+      "id": "2118220485150535796",
+      "url": "https://x.com/munou_ac/status/2118220485150535796",
+      "author": "munou_ac",
+      "title": "参考角色图片转跳舞GIF",
+      "topics": [
+        "reference-to-gif",
+        "gif-prompt"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖明确ChatGPT Images2.6并公开让参考图角色跳舞的完整短指令。"
+    },
+    {
+      "id": "2118218668408746367",
+      "url": "https://x.com/iidaatcnt/status/2118218668408746367",
+      "author": "iidaatcnt",
+      "title": "两行文字的聊天活动标题GIF",
+      "topics": [
+        "gif-prompt",
+        "text-rendering"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖有实际日文GIF提示；README代码块与原文有引号/句号差异，故不作逐字相同声明，以HTTP正文为原词。"
+    },
+    {
+      "id": "2118217749680025722",
+      "url": "https://x.com/MrGafish/status/2118217749680025722",
+      "author": "MrGafish",
+      "title": "勤劳小蜜蜂签到GIF提示",
+      "topics": [
+        "gif-prompt",
+        "social-use"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开用于X每日签到的GIF完整指令，包含用途与蜜蜂角色寓意。"
+    },
+    {
+      "id": "2118215257399148922",
+      "url": "https://x.com/zrqgood9068/status/2118215257399148922",
+      "author": "zrqgood9068",
+      "title": "zrqgood9068：三段式动作、短循环速度和干净参考图",
+      "topics": [
+        "循环",
+        "动作顺序",
+        "排错"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "提供动作描述、参考图与倍速的具体建议；帧数和速度为作者建议，未做独立复现。"
+    },
+    {
+      "id": "2118213855100997785",
+      "url": "https://x.com/mirai_ai2050/status/2118213855100997785",
+      "author": "mirai_ai2050",
+      "title": "mirai_ai2050：固定镜头、眨眼与帧时长原词",
+      "topics": [
+        "原词",
+        "角色保持",
+        "日文"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "单独回复给出完整规范和回位约束，参数是请求值。"
+    },
+    {
+      "id": "2118213713761292432",
+      "url": "https://x.com/mirai_ai2050/status/2118213713761292432",
+      "author": "mirai_ai2050",
+      "title": "mirai_ai2050：四组尺寸与帧数试验",
+      "topics": [
+        "原生GIF",
+        "尺寸偏差",
+        "帧数"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者报告 ChatGPT 四组测试，包含期望尺寸未实现与实际循环时长。"
+    },
+    {
+      "id": "2118210705585537226",
+      "url": "https://x.com/sousoccer6/status/2118210705585537226",
+      "author": "sousoccer6",
+      "title": "机器人泡咖啡GIF实测短提示",
+      "topics": [
+        "gif-prompt",
+        "short-prompt"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖明确Image2.6实测并公开请求机器人泡咖啡的日文指令，结果仅属作者陈述。"
+    },
+    {
+      "id": "2118203950306410729",
+      "url": "https://x.com/o_adeeko/status/2118203950306410729",
+      "author": "o_adeeko",
+      "title": "文字生成与上传照片生成GIF的双入口教程",
+      "topics": [
+        "workflow",
+        "gif-prompt",
+        "reference-to-gif",
+        "loop-checks"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖给出两组分步操作与完整示例提示，并自述测试拉各斯街头机器人；未替作者补写或独立复现实测。"
+    },
+    {
+      "id": "2118201578406772887",
+      "url": "https://x.com/okan_aitool/status/2118201578406772887",
+      "author": "okan_aitool",
+      "title": "单张角色图转挥手微笑GIF",
+      "topics": [
+        "reference-to-gif",
+        "gif-prompt",
+        "chat-sticker"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖明确上传一张角色图并给出挥手微笑的完整短提示，可用于角色表情动作。"
+    },
+    {
+      "id": "2118199125707547102",
+      "url": "https://x.com/CalosLaw/status/2118199125707547102",
+      "author": "CalosLaw",
+      "title": "白底线条小狗摇尾巴循环表情包",
+      "topics": [
+        "gif-prompt",
+        "chat-sticker",
+        "loop-checks",
+        "dog"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开完整表情包提示，包含白底、方形、线条风、摇摆摇尾、爱心和无缝循环，直接关联聊天表情场景；发布规范仍需另核官方来源。"
+    },
+    {
+      "id": "2118197971112366538",
+      "url": "https://x.com/Leviwoyun/status/2118197971112366538",
+      "author": "Leviwoyun",
+      "title": "Levi：pixel-gif-sticker-pack发布与使用",
+      "topics": [],
+      "route": "assembled",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118192179042750503",
+      "url": "https://x.com/Ayu_AI_0912/status/2118192179042750503",
+      "author": "Ayu_AI_0912",
+      "title": "先生成视频再交给Images2.6的GIF流程",
+      "topics": [
+        "workflow",
+        "video-to-gif",
+        "prompt-source-missing"
+      ],
+      "route": "mixed",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开两步实际流程：先用引用源提示生成视频，再把视频和回复指令交给Images2.6；可收流程线索，但引用/回复原词未读，不能当一句话图片转GIF教程。"
+    },
+    {
+      "id": "2118191599872344467",
+      "url": "https://x.com/dreamwieber/status/2118191599872344467",
+      "author": "dreamwieber",
+      "title": "黏土小猫在球池玩耍GIF",
+      "topics": [
+        "gif-prompt",
+        "claymation",
+        "cat"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开黏土风小猫与塑料球池的完整GIF短提示；正文未独立标明2.6模型，未运行验证。"
+    },
+    {
+      "id": "2118190877567037732",
+      "url": "https://x.com/dreamwieber/status/2118190877567037732",
+      "author": "dreamwieber",
+      "title": "纽约雪景球GIF短提示",
+      "topics": [
+        "gif-prompt",
+        "short-prompt"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开完整雪景球GIF短提示；正文未独立标明2.6模型，未运行验证。"
+    },
+    {
       "id": "2118190621886165099",
       "url": "https://x.com/karanwithai/status/2118190621886165099",
       "author": "karanwithai",
@@ -99,6 +1346,141 @@
       "route": "native",
       "source_scope": "original body read; media, platform approval and earnings not independently verified",
       "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118188187193634981",
+      "url": "https://x.com/abc123953468547/status/2118188187193634981",
+      "author": "abc123953468547",
+      "title": "候选来源：GPT Image 2.6 Sticker Tutorial: Native GIFs, Prompt Templates & WeChat/Telegram Specs | Tab Story Blog",
+      "topics": [
+        "图生GIF",
+        "原词",
+        "微动作",
+        "循环"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者公开保持原画构图和原字、加入眨眼或摆动并要求首尾衔接的 GIF 提示词。"
+    },
+    {
+      "id": "2118187063241777311",
+      "url": "https://x.com/shitunote/status/2118187063241777311",
+      "author": "shitunote",
+      "title": "着火房间喝茶小狗的表情变化循环",
+      "topics": [
+        "gif-prompt",
+        "meme",
+        "loop-checks"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开动作顺序、表情变化和6至8帧循环要求；仅收录GIF指令，新闻数字和全平台/API范围不作已核事实。"
+    },
+    {
+      "id": "2118187059102027921",
+      "url": "https://x.com/moltikuji/status/2118187059102027921",
+      "author": "moltikuji",
+      "title": "moltikuji：角色眨眼时眉毛漂移的试验记录",
+      "topics": [
+        "角色一致性",
+        "局部缺陷",
+        "日文"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者报告眉毛与上眼睑相连及帧间变化，提供具体失败现象。"
+    },
+    {
+      "id": "2118186890352607550",
+      "url": "https://x.com/0xlangeai/status/2118186890352607550",
+      "author": "0xlangeai",
+      "title": "GPT Images 2.6 生成健身推胸 GIF 动作细节",
+      "topics": [
+        "GIF",
+        "运动提示词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "明确提出健身推胸GIF请求并评价动作细节，可作短原词线索"
+    },
+    {
+      "id": "2118186300339892472",
+      "url": "https://x.com/crayon1267/status/2118186300339892472",
+      "author": "crayon1267",
+      "title": "以动作顺序图为参考生成投篮GIF",
+      "topics": [],
+      "route": "see_original",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118184315507118272",
+      "url": "https://x.com/op7418/status/2118184315507118272",
+      "author": "op7418",
+      "title": "歸藏确认大肥鱼样例使用精灵图合成 GIF",
+      "topics": [
+        "大肥鱼",
+        "路线更正",
+        "精灵图"
+      ],
+      "route": "assembled",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者直接回答素材到 GIF 的实现路线。Fx 会话链同时含大肥鱼主帖 2118181775688241456 与提问；同一主帖下 2118181972451438662 提供原词。原词要求直接交付 GIF 与此样例自述的合成路线需分别记录。"
+    },
+    {
+      "id": "2118181972451438662",
+      "url": "https://x.com/op7418/status/2118181972451438662",
+      "author": "op7418",
+      "title": "候选来源：GPT Image 2.6 Sticker Tutorial: Native GIFs, Prompt Templates & WeChat/Telegram Specs | Tab Story Blog",
+      "topics": [
+        "角色一致",
+        "原词",
+        "中文短字",
+        "循环"
+      ],
+      "route": "mixed",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "公开原词请求直接交付 GIF。作者在同一主帖下的独立回复 2118184315507118272 确认该示例实际先做精灵图再合成 GIF。"
+    },
+    {
+      "id": "2118180448840872167",
+      "url": "https://x.com/nixus404/status/2118180448840872167",
+      "author": "nixus404",
+      "title": "意外自拍风格GIF提示",
+      "topics": [
+        "gif-prompt",
+        "selfie"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开完整ChatGPT GIF指令；正文未独立标明2.6版本，版本归属仅来自仓库上下文，未运行复现。"
+    },
+    {
+      "id": "2118177315176001988",
+      "url": "https://x.com/TaikiTaiki04/status/2118177315176001988",
+      "author": "TaikiTaiki04",
+      "title": "角色扭动动作GIF短提示",
+      "topics": [
+        "gif-prompt",
+        "character-motion"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖明确标注Image2.6并给出要求GIF中角色扭动的日文短提示。"
+    },
+    {
+      "id": "2118176591553708072",
+      "url": "https://x.com/senb0n22a/status/2118176591553708072",
+      "author": "senb0n22a",
+      "title": "指定时长与默认请求的 GIF 帧数对照",
+      "topics": [
+        "帧数",
+        "时长",
+        "对照"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者同帖展示指定 5 秒与未指定时长的两段结果，自报分别约 16 与约 8 帧。后续回复提到还可请求更高帧数，本条不将个案写成平台上限或承诺。"
     },
     {
       "id": "2118175241390436830",
@@ -116,6 +1498,77 @@
       "note": "同一作者公开中英原词和可替换动作建议。透明背景是作者请求条件，原帖未独立证实透明 GIF 输出。"
     },
     {
+      "id": "2118169220596772927",
+      "url": "https://x.com/iijima_no6/status/2118169220596772927",
+      "author": "iijima_no6",
+      "title": "草图到成稿 GIF 的作者实测",
+      "topics": [
+        "参考图",
+        "作者实测",
+        "意外添加元素",
+        "循环"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者给出12帧3秒的绘制过程循环、24秒的单次耗时，并指出模型自行补画笔和调色盘的偏差。原帖未提供完整提示词。"
+    },
+    {
+      "id": "2118168013618987298",
+      "url": "https://x.com/MiraMusic_AI/status/2118168013618987298",
+      "author": "MiraMusic_AI",
+      "title": "MiraMusic：伸展动作与简洁质感原词",
+      "topics": [
+        "文本转GIF",
+        "日文",
+        "原词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "公开文生动作请求，带明确纹理限制及作者媒体。"
+    },
+    {
+      "id": "2118167174053597233",
+      "url": "https://x.com/YaReYaRu30Life/status/2118167174053597233",
+      "author": "YaReYaRu30Life",
+      "title": "三视图转像素角色紫色闪电GIF",
+      "topics": [
+        "reference-to-gif",
+        "gif-prompt",
+        "pixel-art"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖明确上传三视图并给出像素化、紫色电光和零件动作的GIF指令。"
+    },
+    {
+      "id": "2118166505603153922",
+      "url": "https://x.com/YaReYaRu30Life/status/2118166505603153922",
+      "author": "YaReYaRu30Life",
+      "title": "像素勇者挥剑特效GIF",
+      "topics": [
+        "gif-prompt",
+        "pixel-art"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开像素勇者挥剑并加特效的完整日文短指令。"
+    },
+    {
+      "id": "2118166234495947044",
+      "url": "https://x.com/thinkszyg/status/2118166234495947044",
+      "author": "thinkszyg",
+      "title": "纸船循环GIF短提示与角色一致性模板",
+      "topics": [
+        "gif-prompt",
+        "loop-checks",
+        "sprite-sheet",
+        "workflow"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖有完整纸船短提示及六格sprite-sheet模板，另讨论参考图、编辑和导出。只采原词与作者做法；其以GIF判断模型版本、API可用性和速度说法未获本次独立验证。"
+    },
+    {
       "id": "2118166046175908016",
       "url": "https://x.com/Gorden_Sun/status/2118166046175908016",
       "author": "Gorden_Sun",
@@ -124,6 +1577,160 @@
       "route": "native",
       "source_scope": "original body read; media, platform approval and earnings not independently verified",
       "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118164732989608405",
+      "url": "https://x.com/798145343h/status/2118164732989608405",
+      "author": "798145343h",
+      "title": "双角色跳舞GIF的直出与逐帧合成对照",
+      "topics": [
+        "原生GIF",
+        "路线对照",
+        "卡顿",
+        "角色一致性"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者用双角色舞蹈测试直出GIF，报告有卡顿且角色一致性优于此前逐帧生成合成。时长上限属于作者猜测。"
+    },
+    {
+      "id": "2118164510372688095",
+      "url": "https://x.com/genel_ai/status/2118164510372688095",
+      "author": "genel_ai",
+      "title": "GPT-Images 2.6 把照片转水彩画再做成 GIF",
+      "topics": [
+        "GIF工作流",
+        "参考图",
+        "风格转换"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "提供照片到水彩再动画化的明确阶段顺序；原文已由主线程切回日语"
+    },
+    {
+      "id": "2118161546845299177",
+      "url": "https://x.com/yur1freedom/status/2118161546845299177",
+      "author": "yur1freedom",
+      "title": "实测 Image 2.6 的 GIF 透明背景毛边控制",
+      "topics": [
+        "gif-transparency",
+        "edge-quality"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "围绕透明背景GIF毛边给出生成卡通形象的自测观察；无文件和参数，不能验证实际生成路线。"
+    },
+    {
+      "id": "2118161453329068369",
+      "url": "https://x.com/leppppp1/status/2118161453329068369",
+      "author": "leppppp1",
+      "title": "用 Images 2.6 把巴哥犬照片做成 3D 手办 GIF",
+      "topics": [
+        "照片转GIF",
+        "提示词",
+        "循环"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出巴哥犬手办探头舔嘴歪头等具体输入和循环观察，内部机制未核"
+    },
+    {
+      "id": "2118160946598408392",
+      "url": "https://x.com/oden_ai_ai/status/2118160946598408392",
+      "author": "oden_ai_ai",
+      "title": "ChatGPT Images 2.6 支持 GIF 动画生成",
+      "topics": [
+        "native_gif",
+        "frame_count"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "描述主动减少帧数做顿挫风，并称已生成多例"
+    },
+    {
+      "id": "2118160560290480519",
+      "url": "https://x.com/GeekCatX/status/2118160560290480519",
+      "author": "GeekCatX",
+      "title": "看图猜成语GIF的网页与Codex速度体验",
+      "topics": [
+        "gif-observation",
+        "cost-latency",
+        "prompt-source-missing"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "根帖包含实际体验：作者主观感觉网页比Codex慢，可作体验线索；没有具体计时，也没有README所列长提示词。"
+    },
+    {
+      "id": "2118159385918681447",
+      "url": "https://x.com/layton_gott/status/2118159385918681447",
+      "author": "layton_gott",
+      "title": "用 Images 2.6 生成动效再交给 Codex 重建 UI",
+      "topics": [
+        "native_gif",
+        "ui_workflow",
+        "export"
+      ],
+      "route": "mixed",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "四步从品牌参考生成动效、Codex重建UI到GIF转MP4或WebP"
+    },
+    {
+      "id": "2118158972385734993",
+      "url": "https://x.com/tao100086/status/2118158972385734993",
+      "author": "tao100086",
+      "title": "用 Pro 赠送额度实测 Image 2.6 Sunburst 三档推理出 GIF",
+      "topics": [
+        "gif-cost-test",
+        "api-reasoning-levels"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "自述Codex经API比较Sunburst三档GIF、合计0.25美元；未给调用或文件证据，保留原生/合成未知。"
+    },
+    {
+      "id": "2118158021394350320",
+      "url": "https://x.com/ohchadol/status/2118158021394350320",
+      "author": "ohchadol",
+      "title": "韩语实测：Image 2.6 仅支持文本输入",
+      "topics": [
+        "失败实测",
+        "GIF",
+        "精灵图"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "报告参考图输入失败、动作不连贯及游戏精灵不足；渠道条件未明"
+    },
+    {
+      "id": "2118156509335163341",
+      "url": "https://x.com/tomo_ok07/status/2118156509335163341",
+      "author": "tomo_ok07",
+      "title": "用 Images 2.6 把设置截图做成操作 GIF",
+      "topics": [
+        "原生GIF",
+        "操作指南",
+        "失败实测",
+        "文字修正"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "具体记录保存前错误显示已保存状态，再按真实界面文案修正，具可复用检查要点"
+    },
+    {
+      "id": "2118156317034693026",
+      "url": "https://x.com/karanwithai/status/2118156317034693026",
+      "author": "karanwithai",
+      "title": "候选来源：GPT Image 2.6 Sticker Tutorial: Native GIFs, Prompt Templates & WeChat/Telegram Specs | Tab Story Blog",
+      "topics": [
+        "角色设计",
+        "表情规划",
+        "静态设计稿",
+        "原词"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者公开系列表情设计稿的原词与12种文案。要求输出3列×4行的静态版式，用于设计准备，动态制作见该作者主帖。"
     },
     {
       "id": "2118156092865994837",
@@ -138,6 +1745,547 @@
       "route": "native",
       "source_scope": "original body read; media, platform approval and earnings not independently verified",
       "note": "直接出12张GIF并明确每次带同一参考图、仅改动作情绪"
+    },
+    {
+      "id": "2118154620744708599",
+      "url": "https://x.com/ama_huangama/status/2118154620744708599",
+      "author": "ama_huangama",
+      "title": "既有AI表情专辑的赞赏经验",
+      "topics": [],
+      "route": "see_original",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118154195023052827",
+      "url": "https://x.com/luxsun_ai/status/2118154195023052827",
+      "author": "luxsun_ai",
+      "title": "GPT Images 2.6 一句话直出 GIF 动画",
+      "topics": [
+        "GIF",
+        "提示词",
+        "风格一致性"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出无参考图、做成GIF、沿用此前画风三段实用指令"
+    },
+    {
+      "id": "2118153765094351279",
+      "url": "https://x.com/koe_ai414/status/2118153765094351279",
+      "author": "koe_ai414",
+      "title": "劈柴老人和转身眨眼：同帖两个短提示",
+      "topics": [
+        "gif-prompt",
+        "short-prompt"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开两个完整日文GIF短提示；README案例32与33同属此ID，只计一帖。"
+    },
+    {
+      "id": "2118153279821787623",
+      "url": "https://x.com/jammaru_lab/status/2118153279821787623",
+      "author": "jammaru_lab",
+      "title": "ChatGPT Images 2.6 支持 GIF：角色图可跨对话 @ 调用",
+      "topics": [
+        "gif-prompt",
+        "reference-image"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "包含将大阪城建造流程做成GIF的实际短提示词，并说明保存角色用@复用的思路。"
+    },
+    {
+      "id": "2118153179141722442",
+      "url": "https://x.com/akiyoshisan/status/2118153179141722442",
+      "author": "akiyoshisan",
+      "title": "单张角色图变 5 种风格动态 GIF 的实测",
+      "topics": [
+        "角色GIF",
+        "风格转换",
+        "画幅"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "披露单张角色转五种风格和正方形画幅修正指令"
+    },
+    {
+      "id": "2118151619212890291",
+      "url": "https://x.com/ihayato/status/2118151619212890291",
+      "author": "ihayato",
+      "title": "GPT Image 2.6 实测：圈选局部重绘与 GIF 动画",
+      "topics": [
+        "gif-prompt",
+        "character-reference",
+        "local-edit"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "有角色图眨眼并轻摇的具体GIF指令，另述圈选改图约20秒且保留服饰；自述效果未独立验证。"
+    },
+    {
+      "id": "2118149562229825569",
+      "url": "https://x.com/renkon40/status/2118149562229825569",
+      "author": "renkon40",
+      "title": "Images 2.6 上线：可生成循环 GIF",
+      "topics": [
+        "gif-prompt",
+        "loop-workflow",
+        "limitations"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "长文给角色参考图转循环GIF的明确短指令及逐帧/速度编辑边界；API帧数和费用说法仍需官方核对。"
+    },
+    {
+      "id": "2118149338295943550",
+      "url": "https://x.com/hisayuki/status/2118149338295943550",
+      "author": "hisayuki",
+      "title": "实测：提高思考量做复杂 GIF 动画",
+      "topics": [
+        "原生GIF",
+        "提示词约束",
+        "服装偏差"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "有明写角色背景的提示词建议及服装被加内衬的具体偏差；复杂能力提升只是作者判断"
+    },
+    {
+      "id": "2118147815008518564",
+      "url": "https://x.com/MrGafish/status/2118147815008518564",
+      "author": "MrGafish",
+      "title": "小说片段转人物GIF",
+      "topics": [
+        "gif-prompt",
+        "text-reference"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原帖公开GIF指令及人物文字参考，可复用输入结构；小说文本和角色权利未由本次研究确认。"
+    },
+    {
+      "id": "2118147670296678858",
+      "url": "https://x.com/radineere10/status/2118147670296678858",
+      "author": "radineere10",
+      "title": "用 Images 2.6 做营销 GIF 的提示词模板",
+      "topics": [
+        "精灵图",
+        "提示词",
+        "营销"
+      ],
+      "route": "assembled",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "完整六步3列2行循环精灵图结构，明确请求的是静态图集"
+    },
+    {
+      "id": "2118147326351159730",
+      "url": "https://x.com/gantrols/status/2118147326351159730",
+      "author": "gantrols",
+      "title": "实测 GPT Image 2.6 生成鲸鱼娘干饭动图",
+      "topics": [
+        "gif-prompt",
+        "reference-contamination"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出参考图鲸鱼娘吃饭的实际GIF原词及两分钟结果，并报告自行搜人物被网站logo污染。"
+    },
+    {
+      "id": "2118146601378263236",
+      "url": "https://x.com/gen_techcamp/status/2118146601378263236",
+      "author": "gen_techcamp",
+      "title": "ChatGPT Images 2.6 发布：GIF 生成与参考图保存",
+      "topics": [
+        "GIF",
+        "精灵图",
+        "分镜"
+      ],
+      "route": "assembled",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "具体归纳官方六格3×2情绪变化示例，需回溯官方原词且非本人实测"
+    },
+    {
+      "id": "2118145563900444930",
+      "url": "https://x.com/yuyang1588177/status/2118145563900444930",
+      "author": "yuyang1588177",
+      "title": "Images 2.6 重点不是快 50%，而是直接出 GIF 和 SVG",
+      "topics": [
+        "native_gif",
+        "avatar_workflow"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出头像先转SVG再做挥手GIF的具体建议，但无实测且输入路线待核"
+    },
+    {
+      "id": "2118144429848748108",
+      "url": "https://x.com/ssss_cryptoman/status/2118144429848748108",
+      "author": "ssss_cryptoman",
+      "title": "GPT Image 2.6 已上线 ChatGPT 应用并支持 GIF",
+      "topics": [
+        "原生GIF",
+        "动作提示词",
+        "表情包"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "除发布消息外公开了墨镜猫跳舞的具体GIF原词和应用端尝试"
+    },
+    {
+      "id": "2118144172284895442",
+      "url": "https://x.com/riddi0908/status/2118144172284895442",
+      "author": "riddi0908",
+      "title": "GPT Image 2.6 生成 4:3 循环翻页动画",
+      "topics": [
+        "循环提示词",
+        "画幅",
+        "风格"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "有4:3画幅、翻页风、角色场景和循环约束；未说明底层生成路线"
+    },
+    {
+      "id": "2118144125354877152",
+      "url": "https://x.com/princess414141/status/2118144125354877152",
+      "author": "princess414141",
+      "title": "ChatGPT Images 2.6 GIF 一次成功：跳舞青蛙提示词",
+      "topics": [
+        "gif-prompt",
+        "text-rendering"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出戴礼帽跳舞青蛙和顶部文字的原始短提示词，并自述首次生成成功。"
+    },
+    {
+      "id": "2118144025886921043",
+      "url": "https://x.com/kogugamedev/status/2118144025886921043",
+      "author": "kogugamedev",
+      "title": "实测：Images 2.6 的 GIF 生成在游戏场景不够通用",
+      "topics": [
+        "GIF",
+        "失败实测",
+        "游戏应用"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "报告多次改变提示仍无法满足游戏用途，保留负面实测且不推泛结论"
+    },
+    {
+      "id": "2118143703667843417",
+      "url": "https://x.com/brentlynch/status/2118143703667843417",
+      "author": "brentlynch",
+      "title": "GPT Images 2.6 的 GIF 生成实测与提示词",
+      "topics": [
+        "gif_prompt",
+        "motion_prompt"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "公开完整片场人物动作提示词，但混有2x2照片和10秒视频指令，路线不明"
+    },
+    {
+      "id": "2118143245549293913",
+      "url": "https://x.com/aiphotorealgirl/status/2118143245549293913",
+      "author": "aiphotorealgirl",
+      "title": "ChatGPT Images 2.6 的 GIF 功能实测",
+      "topics": [
+        "gif_speed",
+        "comparison"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "明确展示同一GIF等速和两倍速两个版本，可作播放速度实测"
+    },
+    {
+      "id": "2118143241119740039",
+      "url": "https://x.com/wolfriccardo/status/2118143241119740039",
+      "author": "wolfriccardo",
+      "title": "实测 Images 2.6：写实提升，GIF 仍不稳",
+      "topics": [
+        "GIF",
+        "失败实测",
+        "一致性"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者称数周测试后GIF一致性仍未改善，须注明无原始实验参数"
+    },
+    {
+      "id": "2118143217434800219",
+      "url": "https://x.com/am09_21/status/2118143217434800219",
+      "author": "am09_21",
+      "title": "GPT Images 2.6 GIF 追加实测：动静混合易崩",
+      "topics": [
+        "gif-failure",
+        "static-dynamic-separation"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "追加实测指出动静元素混合时崩坏，提出按sprite分别生成的调整；未将该建议当已验证修复。"
+    },
+    {
+      "id": "2118143100082381230",
+      "url": "https://x.com/sunruichao/status/2118143100082381230",
+      "author": "sunruichao",
+      "title": "GPT Images 2.6 发布参考链接合集",
+      "topics": [
+        "reference-to-gif",
+        "loop-checks",
+        "character-consistency"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出草图/角色图→指定挥手等动作的两步做法，并列首尾循环和外形走样的具体检查点。"
+    },
+    {
+      "id": "2118142838198169750",
+      "url": "https://x.com/seosoyoung_ai/status/2118142838198169750",
+      "author": "seosoyoung_ai",
+      "title": "gpt-image-2.6-flare 参考图生成 6 帧 GIF 实测",
+      "topics": [
+        "原生GIF",
+        "参考图",
+        "帧数",
+        "耗时"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "报告参考图单次调用14秒得到6帧；文档编辑限制与该调用路径的关系未验证"
+    },
+    {
+      "id": "2118138025024839939",
+      "url": "https://x.com/ayu_ai_0912/status/2118138025024839939",
+      "author": "ayu_ai_0912",
+      "title": "ChatGPT Images 2.6 一分钟做出 MV 风 GIF 动画",
+      "topics": [
+        "gif-prompt",
+        "reference-image"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "提供附图做成酷炫MV风GIF的实际日文指令，记录约一分钟生成；媒体和耗时未独立核验。"
+    },
+    {
+      "id": "2118137928006472166",
+      "url": "https://x.com/cgnot996/status/2118137928006472166",
+      "author": "cgnot996",
+      "title": "用 Images 2.6 做动态表情包：GIF 参考生 GIF",
+      "topics": [
+        "native_gif",
+        "gif_reference",
+        "sticker"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "描述GIF作参考再生GIF，并用击掌图实际尝试"
+    },
+    {
+      "id": "2118136496607916208",
+      "url": "https://x.com/codestudiopjbk/status/2118136496607916208",
+      "author": "codestudiopjbk",
+      "title": "Codex 接入 GPT-Image-2.6：Flare/Sunburst 与循环 GIF",
+      "topics": [
+        "codex",
+        "imagegen_skill",
+        "api",
+        "editing"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出CLI调用imagegen、画面选择修改和API密钥切换的具体步骤"
+    },
+    {
+      "id": "2118136100896022561",
+      "url": "https://x.com/bosezi666/status/2118136100896022561",
+      "author": "bosezi666",
+      "title": "ChatGPT 可直接出 GIF：Images 2.6 分批推送与上手方式",
+      "topics": [
+        "native_gif",
+        "prompt",
+        "availability"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出跳舞猫GIF短提示词及上传照片路径，并注明分批开放"
+    },
+    {
+      "id": "2118135723446681708",
+      "url": "https://x.com/2020_hira/status/2118135723446681708",
+      "author": "2020_hira",
+      "title": "ChatGPT Images 2.6 上线：GIF、参考图复用与 Flare/Sunburst",
+      "topics": [
+        "native_gif",
+        "api",
+        "frame_count",
+        "frame_duration"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "明确output_format=gif、2到64帧及单帧时长控制"
+    },
+    {
+      "id": "2118135703527698645",
+      "url": "https://x.com/lniosytest/status/2118135703527698645",
+      "author": "lniosytest",
+      "title": "GPT Images 2.6 上线：ChatGPT 可直接生成 GIF 动图",
+      "topics": [
+        "GIF",
+        "API",
+        "参数"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "具体给出generations与GIF/帧数/帧时长参数；范围和编辑限制可能过时需复核"
+    },
+    {
+      "id": "2118135343354720648",
+      "url": "https://x.com/gabrielchua/status/2118135343354720648",
+      "author": "gabrielchua",
+      "title": "GPT Image 2.6 API 复杂度档位实测：低中高三档 GIF 对比",
+      "topics": [
+        "GIF",
+        "复杂度比较",
+        "API"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "明确Flare站立后空翻并对比低中高complexity，视频结果未独立核验"
+    },
+    {
+      "id": "2118133186211254660",
+      "url": "https://x.com/0xbardia/status/2118133186211254660",
+      "author": "0xbardia",
+      "title": "ChatGPT Images 2.6 波斯语速览：GIF 生成与调速",
+      "topics": [
+        "native_gif",
+        "prompt",
+        "editing"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "提供跳舞猫文本例子、照片入口及生成后调速和逐帧修改流程"
+    },
+    {
+      "id": "2118132531971404231",
+      "url": "https://x.com/veknqaq/status/2118132531971404231",
+      "author": "veknqaq",
+      "title": "Images 2.6 一句话生成表情包 GIF 实测",
+      "topics": [
+        "native_gif",
+        "motion_prompt",
+        "iteration"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给小蓝鸟戴墨镜跳舞和追加粉色激光的具体迭代指令"
+    },
+    {
+      "id": "2118129879418126504",
+      "url": "https://x.com/zandemha/status/2118129879418126504",
+      "author": "zandemha",
+      "title": "Images 2.6 让品牌 GIF 制作门槛归零",
+      "topics": [
+        "monetization",
+        "distribution"
+      ],
+      "route": "unknown",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "提出将小动效制作预算转向自有名单、创作者与社群分发，属经营策略非收益实证"
+    },
+    {
+      "id": "2118129204449697985",
+      "url": "https://x.com/tetumemo/status/2118129204449697985",
+      "author": "tetumemo",
+      "title": "ChatGPT Images 2.6 全プラン开放：GIF 与 API 双模型",
+      "topics": [
+        "角色GIF",
+        "提示词",
+        "LINE"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "有静态角色图加喜怒哀乐GIF的实际原词和本人生成报告"
+    },
+    {
+      "id": "2118128123070013723",
+      "url": "https://x.com/lucky_note_lab/status/2118128123070013723",
+      "author": "lucky_note_lab",
+      "title": "ChatGPT 可生成 GIF：Images 2.6 功能速览",
+      "topics": [
+        "GIF",
+        "入门提示词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出猫跳舞GIF的具体请求示例及操作顺序，作者明确尚未亲测"
+    },
+    {
+      "id": "2118127375481504100",
+      "url": "https://x.com/sshcodes/status/2118127375481504100",
+      "author": "sshcodes",
+      "title": "GPT Image 2.6 生成骑自行车鹈鹕 GIF",
+      "topics": [
+        "原生GIF",
+        "动作提示词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出模型名、GIF输出和骑车动作的可复用原词，并非只有作品展示"
+    },
+    {
+      "id": "2118124755442151684",
+      "url": "https://x.com/OpenAIDevs/status/2118124755442151684",
+      "author": "OpenAIDevs",
+      "title": "OpenAI 开发者示范角色动作回起始姿势",
+      "topics": [
+        "官方示范",
+        "角色参考",
+        "循环"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "官方分帖含参考图动画示例，并给出从静态角色、精灵或吉祥物开始，描述挥手等动作并回起始姿势的具体循环建议。此帖独立于发布公告。"
+    },
+    {
+      "id": "2118115972737634635",
+      "url": "https://x.com/bottopia_studio/status/2118115972737634635",
+      "author": "bottopia_studio",
+      "title": "韩语帖介绍 ChatGPT 内直接做 GIF 的 Images 2.6 功能",
+      "topics": [
+        "GIF",
+        "入门提示词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "包含跳舞猫GIF的韩文原请求及照片转动图入门说明，非实测"
+    },
+    {
+      "id": "2118089641484054982",
+      "url": "https://x.com/tavaanatech/status/2118089641484054982",
+      "author": "tavaanatech",
+      "title": "ChatGPT 新增 GIF 生成与逐帧编辑",
+      "topics": [
+        "GIF",
+        "图转动画",
+        "修改说明"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "给出猫跳舞及自然照片云叶运动例子和单帧修正流程，属介绍非实测"
+    },
+    {
+      "id": "2117923653019136368",
+      "url": "https://x.com/AdrianPunk115/status/2117923653019136368",
+      "author": "AdrianPunk115",
+      "title": "Punk-IP：角色一致性与静态文章配图（背景）",
+      "topics": [],
+      "route": "see_original",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
     }
   ]
 }
