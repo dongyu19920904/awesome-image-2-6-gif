@@ -1,5 +1,5 @@
 {
-  "count": 25,
+  "count": 27,
   "records": [
     {
       "id": "bunny-reaction-set",
@@ -331,9 +331,9 @@
       "checked_on": "2026-11-07",
       "primary_source": "https://x.com/Superboy4949/status/2118785150368743814",
       "related_sources": [],
-      "route": "native_request",
+      "route": "unknown",
       "inputs": "已知帧数与每帧时长的 GIF 请求",
-      "output_evidence": "作者报告同为 120 ms 每帧，8 帧为 0.96 秒、16 帧为 1.92 秒。文字实测记录",
+      "output_evidence": "作者报告两组帧时长与循环时长数据，生成路线未说明",
       "prompt_status": "method_only",
       "prompt_source": "https://x.com/Superboy4949/status/2118785150368743814",
       "prompt_location": "正文的两组实测数字与结束回位建议，未给完整提示词",
@@ -571,6 +571,56 @@
       "preview": "https://x.com/0xluffy_eth/status/2118274913337552992",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#submit",
+      "wechat_evidence": "no_independent_platform_result"
+    },
+    {
+      "id": "licensed-pixel-campfire",
+      "page": "prompts/licensed-pixel-campfire.md",
+      "category": "loop_technique",
+      "title_zh": "像素篝火只动火焰和火星",
+      "title_en": "Make a pixel campfire loop with local motion",
+      "author": "ailingqu",
+      "checked_on": "2026-11-07",
+      "primary_source": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#83-pixel-art-campfire",
+      "related_sources": [
+        "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#how-these-gifs-are-made",
+        "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license"
+      ],
+      "route": "native_request",
+      "inputs": "像素森林夜景与篝火的英文文字描述",
+      "output_evidence": "上游公开的 16 帧像素篝火 GIF",
+      "prompt_status": "complete_at_source",
+      "prompt_source": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#83-pixel-art-campfire",
+      "prompt_location": "上游第 83 条 Prompt 段与统一附加的循环句",
+      "prompt_language": "en",
+      "preview": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-campfire.gif",
+      "rights": "CC-BY-4.0; unmodified creator GIFs",
+      "next_step": "guides/wechat.md#prepare",
+      "wechat_evidence": "no_independent_platform_result"
+    },
+    {
+      "id": "licensed-doodle-monster",
+      "page": "prompts/licensed-doodle-monster.md",
+      "category": "loop_technique",
+      "title_zh": "蜡笔小怪兽保留线条与纸纹",
+      "title_en": "Keep the crayon lines in a doodle monster loop",
+      "author": "ailingqu",
+      "checked_on": "2026-11-07",
+      "primary_source": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#64-doodle-monster-comes-alive",
+      "related_sources": [
+        "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#how-these-gifs-are-made",
+        "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license"
+      ],
+      "route": "native_request",
+      "inputs": "带横线纸背景的蜡笔怪兽英文文字描述",
+      "output_evidence": "上游公开的 9 帧蜡笔怪兽 GIF",
+      "prompt_status": "complete_at_source",
+      "prompt_source": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#64-doodle-monster-comes-alive",
+      "prompt_location": "上游第 64 条 Prompt 段与统一附加的循环句",
+      "prompt_language": "en",
+      "preview": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/doodle-monster.gif",
+      "rights": "CC-BY-4.0; unmodified creator GIFs",
+      "next_step": "guides/wechat.md#prepare",
       "wechat_evidence": "no_independent_platform_result"
     }
   ]

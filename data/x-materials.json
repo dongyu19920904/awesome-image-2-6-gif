@@ -1,6 +1,6 @@
 {
   "checked_on": "2026-11-07",
-  "count": 213,
+  "count": 218,
   "records": [
     {
       "id": "2118886060042420504",
@@ -71,7 +71,7 @@
         "帧时长",
         "循环提示词"
       ],
-      "route": "native",
+      "route": "unknown",
       "source_scope": "original body read; media, platform approval and earnings not independently verified",
       "note": "提供8/16帧各120ms的时长实测，并给循环动作回起点建议"
     },
@@ -433,9 +433,9 @@
       "id": "2118633386445066345",
       "url": "https://x.com/bywind_art/status/2118633386445066345",
       "author": "bywind_art",
-      "title": "ray-sticker-shop使用报告与文档上传方式",
+      "title": "往事随风：网页预览与 ray-sticker-shop 入口，网页生成路线未说明",
       "topics": [],
-      "route": "assembled",
+      "route": "see_original",
       "source_scope": "original body read; media, platform approval and earnings not independently verified",
       "note": "Source selected during original-post research."
     },
@@ -488,10 +488,24 @@
       "note": "作者说明将已有视频脚本直接作为 Sunburst GIF 提示并展示结果。没有公开原脚本、文件规格或成本。"
     },
     {
+      "id": "2118590733192241184",
+      "url": "https://x.com/MrDasCreates/status/2118590733192241184",
+      "author": "MrDasCreates",
+      "title": "MrDasCreates：两角色追逐场景的分段动作原词",
+      "topics": [
+        "动作分段",
+        "双角色",
+        "原词"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "独立回复给出完整英文 GIF 原词与分段时间。8 秒与 1080 方形为请求条件，输出规格及第三方角色权利须另核。"
+    },
+    {
       "id": "2118589683819262346",
       "url": "https://x.com/gbroai/status/2118589683819262346",
       "author": "gbroai",
-      "title": "Codex原生GIF拼贴B-roll的完整四步教程",
+      "title": "Codex 循环 GIF 转 MP4 用于 B-roll",
       "topics": [],
       "route": "native",
       "source_scope": "original body read; media, platform approval and earnings not independently verified",
@@ -585,7 +599,7 @@
       "id": "2118568297243558160",
       "url": "https://x.com/jev_chat/status/2118568297243558160",
       "author": "jev_chat",
-      "title": "杰哥回复：现在表情包已经上架",
+      "title": "杰哥自述表情包已上架，未附可独立核对的商店页",
       "topics": [],
       "route": "see_original",
       "source_scope": "original body read; media, platform approval and earnings not independently verified",
@@ -1203,6 +1217,20 @@
       "note": "Source selected during original-post research."
     },
     {
+      "id": "2118274032227471705",
+      "url": "https://x.com/xiaomovps/status/2118274032227471705",
+      "author": "xiaomovps",
+      "title": "用同一16位街机场景角色生成出拳和蓄力循环",
+      "topics": [
+        "像素风",
+        "角色循环",
+        "作者工作流"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者先制游戏场景与角色，再用对话生成角色短动作，记录连续动作可能漂移及后续逐帧调整。背景去除为后续处理，未独立核实透明输出。"
+    },
+    {
       "id": "2118269061952143731",
       "url": "https://x.com/Adam38363368936/status/2118269061952143731",
       "author": "Adam38363368936",
@@ -1368,6 +1396,20 @@
       "route": "native",
       "source_scope": "original body read; media, platform approval and earnings not independently verified",
       "note": "原帖公开完整GIF场景指令及作者的颜色说明；只收提示文本，不把化学式、反应过程和结果解释当已核科学结论。"
+    },
+    {
+      "id": "2118249456487277046",
+      "url": "https://x.com/coldmountainlab/status/2118249456487277046",
+      "author": "coldmountainlab",
+      "title": "Sunburst 原生 16 帧 GIF 与动作帧合成的作者对照",
+      "topics": [
+        "作者实测",
+        "角色一致",
+        "原生与合成对照"
+      ],
+      "route": "mixed",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者报告原生 API 样本为512×512、16帧、1.92秒，另用内置工具生成动作帧后合成。参考图限制属于作者当时的接口或调用路径，不能外推为官方所有端点限制。"
     },
     {
       "id": "2118248165396848968",
@@ -1564,6 +1606,20 @@
       "route": "native",
       "source_scope": "original body read; media, platform approval and earnings not independently verified",
       "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118231871381471707",
+      "url": "https://x.com/luowj_wxy/status/2118231871381471707",
+      "author": "luowj_wxy",
+      "title": "让花园橘猫肖像出现轻抚动作",
+      "topics": [
+        "图生GIF",
+        "保留构图",
+        "微动作"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者示例明确保留既有人物和构图，只新增轻抚猫头的一个动作，提供清楚的图生动图变化范围。附网站推广入口。"
     },
     {
       "id": "2118228042413940769",
@@ -2339,6 +2395,20 @@
       "route": "native",
       "source_scope": "original body read; media, platform approval and earnings not independently verified",
       "note": "有角色图眨眼并轻摇的具体GIF指令，另述圈选改图约20秒且保留服饰；自述效果未独立验证。"
+    },
+    {
+      "id": "2118150229811920912",
+      "url": "https://x.com/nima2qisi2/status/2118150229811920912",
+      "author": "nima2qisi2",
+      "title": "把夏日青春 MV 的动作分镜指令用于 GIF",
+      "topics": [
+        "参考图",
+        "原词",
+        "动作分镜"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者在示例下公开完整原词。包含原视频时长、帧率与音乐指令，相关内容是请求写法，不能作为 GIF 输出规格或音频实测。"
     },
     {
       "id": "2118149562229825569",

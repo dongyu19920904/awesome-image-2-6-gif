@@ -2,13 +2,19 @@
 
 **See an effect, find the creator's prompt, and make a WeChat GIF from your own image.**
 
-[中文](README.md) · [WeChat guide](guides/wechat.md) · [Existing skills](skills/README.md) · [Monetization sources](guides/monetization.md) · [OpenAI GIF guide](https://developers.openai.com/api/docs/guides/image-prompting#generate-a-looping-gif)
+[中文](README.md) · [Browse X sources by use](SOURCES.md) · [WeChat guide](guides/wechat.md) · [Existing skills](skills/README.md) · [Monetization sources](guides/monetization.md) · [OpenAI GIF guide](https://developers.openai.com/api/docs/guides/image-prompting#generate-a-looping-gif)
 
-<img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-thumbs-up.gif" width="145" alt="Bunny thumbs-up">
-<img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-laughing.gif" width="145" alt="Bunny laughing to tears">
-<img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-sleepy.gif" width="145" alt="Sleepy bunny">
+<a href="prompts/bunny-reaction-set.md"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-thumbs-up.gif" width="145" alt="Bunny thumbs-up, open the prompt"></a>
+<a href="prompts/licensed-pixel-campfire.md"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-campfire.gif" width="145" alt="Pixel campfire, open the prompt"></a>
+<a href="prompts/licensed-doodle-monster.md"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/doodle-monster.gif" width="145" alt="Crayon monster, open the prompt"></a>
 
-**Three reactions from one bunny** is an unchanged set of CC BY 4.0 GIFs by ailingqu. [Open the case and prompts](prompts/bunny-reaction-set.md) · [Credits and rights](LICENSES.md)
+Open a GIF to find its prompt. [Keep one character across reactions](prompts/bunny-reaction-set.md) · [Animate only the fire](prompts/licensed-pixel-campfire.md) · [Preserve crayon lines and paper texture](prompts/licensed-doodle-monster.md). GIFs by ailingqu, CC BY 4.0. [Credits and rights](LICENSES.md)
+
+## Start with what you have
+
+- **One character image**. See a [one-line prompt with a creator example](prompts/rice-reaction.md).
+- **An existing GIF**. Test one file for [looping, compression and dark-background edges](guides/wechat.md#prepare).
+- **A pack ready to submit**. Check [official entry points and assets](guides/wechat.md#submit), then browse [creator reports and rework examples](SOURCES.md#wechat).
 
 ## Start with six cases
 
@@ -20,7 +26,7 @@
 </tr>
 <tr>
 <td width="33%" valign="top"><b>Animate existing stickers</b><br>Native GIF request<br><a href="prompts/animate-existing-stickers.md">Case and prompt</a> · <a href="https://x.com/AXIS95277/status/2118264145824944558">Creator source</a></td>
-<td width="33%" valign="top"><b>Ginger cat and capybara packs</b><br>Submission workflow<br><a href="prompts/ginger-cat-and-capybara.md">Case and prompt</a> · <a href="https://x.com/karanwithai/status/2118156092865994837">Creator source</a></td>
+<td width="33%" valign="top"><b>Ginger cat and capybara packs</b><br>Submission workflow<br><a href="prompts/ginger-cat-and-capybara.md">Submission-assets prompt</a> · <a href="https://x.com/karanwithai/status/2118156092865994837">Creator source</a></td>
 <td width="33%" valign="top"><b>Tibetan fox on dark backgrounds</b><br>Native request + finishing<br><a href="prompts/tibetan-fox-dark-mode.md">Case and prompt</a> · <a href="https://x.com/vastxie/status/2118265895613346263">Creator source</a></td>
 </tr>
 </table>
@@ -45,7 +51,7 @@
 <table>
 <tr>
 <td width="33%" valign="top"><b>Watch a narrated 16-frame loop test</b><br>Native GIF request<br><a href="prompts/loop-r360-narrated-test.md">Case and method</a> · <a href="https://x.com/r360studio/status/2118843579712123227">Creator source</a></td>
-<td width="33%" valign="top"><b>Calculate loop duration from frame timing</b><br>Native GIF request<br><a href="prompts/loop-duration-math.md">Case and method</a> · <a href="https://x.com/Superboy4949/status/2118785150368743814">Creator source</a></td>
+<td width="33%" valign="top"><b>Calculate loop duration from frame timing</b><br>Timing test, generation route unspecified<br><a href="prompts/loop-duration-math.md">Case and method</a> · <a href="https://x.com/Superboy4949/status/2118785150368743814">Creator source</a></td>
 <td width="33%" valign="top"><b>Compare three falling-apple frame timings</b><br>Native GIF request<br><a href="prompts/loop-apple-frame-comparison.md">Case and prompt</a> · <a href="https://x.com/rei_aitech/status/2118245102409908571">Creator source</a></td>
 </tr>
 <tr>
@@ -78,6 +84,4 @@
 
 ## Data and contributions
 
-This update adds 41 reviewed X sources, including a fix for jumpy framing, reference-based loop prompts, controlled model comparisons and WeChat preparation notes. [Reference image and prompts](https://x.com/alessia_orbit/status/2118539788022337718) · [WeChat preparation and rework](guides/wechat.md#review)
-
-The gallery includes **25 selected cases**. Case totals and X source totals are tracked separately. Each case identifies its prompt, creator demonstration or listing evidence. [Case data](data/cases.json) · [213 reviewed X sources](SOURCES.md) · [Machine-readable index](data/x-materials.json) · [Suggest a source](CONTRIBUTING.md)
+Browse **27 selected cases** and **218 X posts reviewed in full**. The source index groups posts by native GIF, WeChat submission, frame assembly and related methods. Case pages point to prompts, creator demonstrations and listing evidence where available. [Case data](data/cases.json) · [X source index](SOURCES.md) · [Machine-readable index](data/x-materials.json) · [Suggest a source](CONTRIBUTING.md)

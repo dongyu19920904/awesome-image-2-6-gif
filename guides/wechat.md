@@ -20,7 +20,15 @@ Save a GIF you have permission to use, then follow the custom-sticker workflow i
 
 还有两种值得对照的处理。马年表情作者用视频转 GIF 比较了帧率、时长和体积，原帖参数属于当时试验。卧云记录了缩小人物图后再做 GIF 容易发糊的问题，并附更新版本和预览。 [帧率与体积试验](https://x.com/aikangarooking/status/2014252294825816305) · [人物导出清晰度修复](https://x.com/Leviwoyun/status/2118261544329138457)
 
-Review the loop, caption, and edges at chat size. For store submissions, check current platform requirements before preparing the album files. [Official guidelines](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/readtemplate?t=guide/index.html#/makingSpecifications#specifications_stickers)
+For store submissions, the public guide checked from assets dated July 1, 2026 lists 240×240 GIFs, at most 500 KB per main image, and 8–24 stickers per pack. Keep the pack consistently animated or static and verify the current dashboard requirements before filing. For a compression example, Digital9527 reports reducing one GIF from 945 KB to 483 KB. [Official guidelines](https://sticker.weixin.qq.com/cgi-bin/mmemoticon-bin/readtemplate?t=guide/index.html#/makingSpecifications#specifications_stickers) · [Creator's compression example](https://www.cnblogs.com/digital9527/articles/19498223)
+
+先处理一张样片，再做整套。已有 GIF 可用 Ezgif 查看优化选项，或用 docsmall 尝试批量压缩。核对下载文件实际是可播放的 GIF，再在聊天尺寸检查字幕和深色边缘。 [Ezgif](https://ezgif.com/optimize) · [docsmall](https://docsmall.com/gif-compress)
+
+Start with one sample before optimizing a whole pack. Confirm the exported file plays as a GIF, then check the caption and edges at chat size. [Ezgif](https://ezgif.com/optimize) · [docsmall](https://docsmall.com/gif-compress)
+
+排查首尾跳动时，可对照 AgentCraft 的 43 个动图样本。它记录了动作回位、字幕和时长，但 X 样本经过平台转码，不能据此推定原文件的逐帧时序。 [样本、测量方法与限制](https://agentcraft.dev/en/blog/gpt-image-2-6-gif-prompts-2026-11/)
+
+For visible jumps at the loop seam, AgentCraft compares 43 examples. Its creator samples use X's transcoded copies, so check timing on your original export. [Measurements and limitations](https://agentcraft.dev/en/blog/gpt-image-2-6-gif-prompts-2026-11/)
 
 <a id="submit"></a>
 
@@ -30,7 +38,7 @@ Review the loop, caption, and edges at chat size. For store submissions, check c
 
 以表情商店发行为目标时，先看服务协议第 2.1.1 条的账号和展示范围。协议区分电子邮箱体系和微信视频号体系。通过视频号体系发表的表情不在表情商店展示。专辑、艺术家资料、赞赏配置分别核对。 [服务协议](https://sticker.weixin.qq.com/cgi-bin/mmemoticonwebnode-bin/pages/ver/bulletin/notice?id=KsQx1RAxh1xaoi0j) · [零点 Drift 物料对照](https://x.com/karanwithai/status/2118635187714343181)
 
-Read the official guidelines and then use Drift's follow-up for a creator's example of matching GIFs, labels and album assets to submission fields. [Creator's submission example](../prompts/ginger-cat-and-capybara.md)
+For a WeChat Sticker Store listing, check section 2.1.1 of the platform agreement. The email account system and WeChat Channels account system are separate. Stickers published through the Channels system are outside the Sticker Store. Drift's follow-up shows how one creator organized GIFs, labels and album assets for review. [Platform agreement](https://sticker.weixin.qq.com/cgi-bin/mmemoticonwebnode-bin/pages/ver/bulletin/notice?id=KsQx1RAxh1xaoi0j) · [Creator's submission example](../prompts/ginger-cat-and-capybara.md)
 
 <a id="review"></a>
 

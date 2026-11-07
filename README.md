@@ -2,13 +2,19 @@
 
 **看一个效果，找作者原词，把自己的图做成微信动图。**
 
-[English](README.en.md) · [微信使用与投稿](guides/wechat.md) · [现成 Skills](skills/README.md) · [变现资料](guides/monetization.md) · [OpenAI GIF 指南](https://developers.openai.com/api/docs/guides/image-prompting#generate-a-looping-gif)
+[English](README.en.md) · [按用途查 X 原帖](SOURCES.md) · [微信使用与投稿](guides/wechat.md) · [现成 Skills](skills/README.md) · [变现资料](guides/monetization.md) · [OpenAI GIF 指南](https://developers.openai.com/api/docs/guides/image-prompting#generate-a-looping-gif)
 
-<img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-thumbs-up.gif" width="145" alt="兔兔点赞">
-<img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-laughing.gif" width="145" alt="兔兔笑出眼泪">
-<img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-sleepy.gif" width="145" alt="兔兔犯困">
+<a href="prompts/bunny-reaction-set.md"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-thumbs-up.gif" width="145" alt="兔兔点赞，点击看原词"></a>
+<a href="prompts/licensed-pixel-campfire.md"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-campfire.gif" width="145" alt="像素营火，点击看原词"></a>
+<a href="prompts/licensed-doodle-monster.md"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/doodle-monster.gif" width="145" alt="蜡笔怪兽，点击看原词"></a>
 
-**同一只兔子的三种反应**由 ailingqu 发布，三个 GIF 按 CC BY 4.0 原样引用。 [看原词和案例](prompts/bunny-reaction-set.md) · [署名与许可](LICENSES.md)
+点动图看作者原词。[同角色换反应](prompts/bunny-reaction-set.md) · [固定画面，只动火焰](prompts/licensed-pixel-campfire.md) · [保留手绘线条和纸纹](prompts/licensed-doodle-monster.md)。GIF 由 ailingqu 发布，采用 CC BY 4.0。 [署名与许可](LICENSES.md)
+
+## 按你手头的素材开始
+
+- **只有一张角色图**。先看带真实效果的[一句话参考图原词](prompts/rice-reaction.md)。
+- **已经生成 GIF**。先试一张，检查[循环、压缩与深色边缘](guides/wechat.md#prepare)。
+- **准备做一套并投稿**。从[官方入口和提审材料](guides/wechat.md#submit)开始，再查[作者投稿与返工资料](SOURCES.md#wechat)。
 
 ## 从这六个案例开始
 
@@ -20,7 +26,7 @@
 </tr>
 <tr>
 <td width="33%" valign="top"><b>让已有表情图动起来</b><br>原生 GIF 请求<br><a href="prompts/animate-existing-stickers.md">案例与原词</a> · <a href="https://x.com/AXIS95277/status/2118264145824944558">看作者来源</a></td>
-<td width="33%" valign="top"><b>橘猫与水豚专辑</b><br>投稿物料流程<br><a href="prompts/ginger-cat-and-capybara.md">案例与原词</a> · <a href="https://x.com/karanwithai/status/2118156092865994837">看作者来源</a></td>
+<td width="33%" valign="top"><b>橘猫与水豚专辑</b><br>投稿物料流程<br><a href="prompts/ginger-cat-and-capybara.md">提审物料原词</a> · <a href="https://x.com/karanwithai/status/2118156092865994837">看作者来源</a></td>
 <td width="33%" valign="top"><b>藏狐的深色底白边</b><br>原生请求＋后处理<br><a href="prompts/tibetan-fox-dark-mode.md">案例与原词</a> · <a href="https://x.com/vastxie/status/2118265895613346263">看作者来源</a></td>
 </tr>
 </table>
@@ -45,7 +51,7 @@
 <table>
 <tr>
 <td width="33%" valign="top"><b>看 16 帧循环的完整试做</b><br>原生 GIF 请求<br><a href="prompts/loop-r360-narrated-test.md">案例与方法</a> · <a href="https://x.com/r360studio/status/2118843579712123227">看作者来源</a></td>
-<td width="33%" valign="top"><b>用帧数和帧时长算循环</b><br>原生 GIF 请求<br><a href="prompts/loop-duration-math.md">案例与方法</a> · <a href="https://x.com/Superboy4949/status/2118785150368743814">看作者来源</a></td>
+<td width="33%" valign="top"><b>用帧数和帧时长算循环</b><br>帧时长经验，生成路线未说明<br><a href="prompts/loop-duration-math.md">案例与方法</a> · <a href="https://x.com/Superboy4949/status/2118785150368743814">看作者来源</a></td>
 <td width="33%" valign="top"><b>苹果下落的三档帧时长</b><br>原生 GIF 请求<br><a href="prompts/loop-apple-frame-comparison.md">案例与原词</a> · <a href="https://x.com/rei_aitech/status/2118245102409908571">看作者来源</a></td>
 </tr>
 <tr>
@@ -78,6 +84,4 @@
 
 ## 数据与贡献
 
-本轮新增 41 条已核 X 来源，包含横图背景跳动的修正、固定参考角色的循环原词、同条件的模型对照，以及微信表情的清晰度与试产检查。 [参考图与原词](https://x.com/alessia_orbit/status/2118539788022337718) · [微信适配与返工](guides/wechat.md#review)
-
-精选 **25 个案例**。作品案例和 X 帖子分别计数。原词位置、作者演示和上架证据在各页标明。 [案例数据](data/cases.json) · [213 条已核 X 来源](SOURCES.md) · [机器可读索引](data/x-materials.json) · [提交来源](CONTRIBUTING.md)
+精选 **27 个案例**，另有 **218 条已核正文的 X 来源**。按原生 GIF、微信投稿、帧合成和其他方法浏览，或通过案例页定位原词、作者演示和上架证据。 [案例数据](data/cases.json) · [X 来源索引](SOURCES.md) · [机器可读索引](data/x-materials.json) · [提交来源](CONTRIBUTING.md)
