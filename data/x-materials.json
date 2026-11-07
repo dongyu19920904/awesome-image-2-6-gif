@@ -1,0 +1,143 @@
+{
+  "checked_on": "2026-11-07",
+  "count": 10,
+  "scope": "Stage 03 case references",
+  "baseline_count": 157,
+  "records": [
+    {
+      "id": "2118636908175859897",
+      "url": "https://x.com/crayon1267/status/2118636908175859897",
+      "author": "crayon1267",
+      "title": "crayon1267：下班啦的透明背景 GIF 原词",
+      "topics": [
+        "角色GIF",
+        "微信聊天",
+        "透明背景"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者发布自己的主题、透明底和可下载 GIF 请求，并随帖附带媒体。与主题模板有关，保留具体变体，不移植为投稿规范。"
+    },
+    {
+      "id": "2118635187714343181",
+      "url": "https://x.com/karanwithai/status/2118635187714343181",
+      "author": "karanwithai",
+      "title": "零点 Drift：两套已上架自述、提审物料清单及原词",
+      "topics": [
+        "微信投稿",
+        "作者上架自述",
+        "物料提示词"
+      ],
+      "route": "see_original",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "原作者续篇，已读文章全部正文与嵌入 Markdown；列出两套专辑名称、提交前核对和物料原词。上架为自述，文中赞赏人数属于其他作者。"
+    },
+    {
+      "id": "2118586752915095805",
+      "url": "https://x.com/vastxie/status/2118586752915095805",
+      "author": "vastxie",
+      "title": "弎弎水：藏狐参考图原词与深色模式去白边代码",
+      "topics": [
+        "参考图",
+        "透明GIF",
+        "Pillow",
+        "微信适配"
+      ],
+      "route": "mixed",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "作者独立回复给出参考图动作原词与透明调色板示例代码。属于模型出图后处理，未执行作者代码。"
+    },
+    {
+      "id": "2118265895613346263",
+      "url": "https://x.com/vastxie/status/2118265895613346263",
+      "author": "vastxie",
+      "title": "vastxie：角色锚点、两套微信GIF、深色背景白边与配套图流程",
+      "topics": [
+        "原生GIF",
+        "参考图",
+        "微信适配",
+        "深色背景"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "完整四步制作与微信显示适配，API请求为作者自述；赠金额消耗不当作盈利或过审证明"
+    },
+    {
+      "id": "2118264156885221681",
+      "url": "https://x.com/AXIS95277/status/2118264156885221681",
+      "author": "AXIS95277",
+      "title": "保留原图中文字的循环动画模板和九句动作",
+      "topics": [
+        "提示词原文",
+        "动作次数",
+        "保持原图文字"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "独立回复补充了父帖没有逐条给出的原词，512×512 与 Sunburst 是作者当次参数。"
+    },
+    {
+      "id": "2118264145824944558",
+      "url": "https://x.com/AXIS95277/status/2118264145824944558",
+      "author": "AXIS95277",
+      "title": "九张已有表情图批量转 GIF 的 API 试验",
+      "topics": [
+        "静态表情转动图",
+        "图像编辑API",
+        "文字稳定"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "具体操作、对照记录与错误观察。1024 像素报错发生在作者文生 GIF 测试，未证实其他尺寸和入口；未试微信导入。"
+    },
+    {
+      "id": "2118190621886165099",
+      "url": "https://x.com/karanwithai/status/2118190621886165099",
+      "author": "karanwithai",
+      "title": "橘猫打工的一天：12张动态表情提交微信待审核",
+      "topics": [],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118175241390436830",
+      "url": "https://x.com/derek_wall90176/status/2118175241390436830",
+      "author": "derek_wall90176",
+      "title": "候选来源：GPT Image 2.6 Sticker Tutorial: Native GIFs, Prompt Templates & WeChat/Telegram Specs | Tab Story Blog",
+      "topics": [
+        "双语原词",
+        "聊天表情",
+        "固定字幕",
+        "角色一致"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "同一作者公开中英原词和可替换动作建议。透明背景是作者请求条件，原帖未独立证实透明 GIF 输出。"
+    },
+    {
+      "id": "2118166046175908016",
+      "url": "https://x.com/Gorden_Sun/status/2118166046175908016",
+      "author": "Gorden_Sun",
+      "title": "",
+      "topics": [],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "Source selected during original-post research."
+    },
+    {
+      "id": "2118156092865994837",
+      "url": "https://x.com/karanwithai/status/2118156092865994837",
+      "author": "karanwithai",
+      "title": "Images 2.6 直出 12 张橘猫动态表情包",
+      "topics": [
+        "native_gif",
+        "character_consistency",
+        "sticker"
+      ],
+      "route": "native",
+      "source_scope": "original body read; media, platform approval and earnings not independently verified",
+      "note": "直接出12张GIF并明确每次带同一参考图、仅改动作情绪"
+    }
+  ]
+}
