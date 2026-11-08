@@ -50,7 +50,20 @@
   position: absolute;
   bottom: 12px;
   left: 12px;
+}
+
+.filterPill.gifPlayback {
+  color: #eef5ff;
   background: #111b2d;
+}
+
+.filterPill.gifPlayback:hover,
+.filterPill.gifPlayback:focus-visible {
+  background: #263c62;
+}
+
+.gifTitleLine {
+  display: block;
 }
 
 .gifNotice {

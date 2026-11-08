@@ -12,7 +12,7 @@ export const wechatUrl = docsUrl + 'guides/wechat.md';
 export const labels = {
   zh: {
     brand: 'Image 2.6 GIF', eyebrow: '真实作品 · 作者原词',
-    title: '把一张图，变成会动的表情',
+    title: ['把一张图，', '变成会动的表情'],
     subtitle: '先看真实动图，再找作者提示词。用 GPT Image 2.6 做反应动图，沿着案例找到微信聊天和投稿方法。',
     explore: '逛动图画廊', githubProject: 'GitHub 仓库', wechat: '微信指南',
     cases: '可播放动图', categories: '案例分类', sources: '已核 X 原帖', featured: '精选动图',

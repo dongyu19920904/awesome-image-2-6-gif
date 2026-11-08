@@ -43,7 +43,9 @@ export function Hero({ latestCases, language, repoUrl, totalCases, categoryCount
           <Sparkles size={16} />
           {t.eyebrow}
         </div>
-        <h1>{t.title}</h1>
+        <h1>{Array.isArray(t.title) ? t.title.map((line) => (
+          <span className="gifTitleLine" key={line}>{line}</span>
+        )) : t.title}</h1>
         <p>{t.subtitle}</p>
         <div className="heroActions">
           <a className="primaryAction" href="#gallery">
