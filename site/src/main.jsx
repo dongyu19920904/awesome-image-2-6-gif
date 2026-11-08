@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { ArrowUpRight, Copy, Link, Search, WandSparkles, X } from 'lucide-react';
+import '@fontsource-variable/noto-sans-sc';
 import { FilterPill, Hero, LanguageSwitch, PromptCard, copyToClipboard } from './upstream-gallery.jsx';
 import { cases, DetailMedia, docsUrl, labels, localizeCase, Media, repoUrl, sourceData, wechatUrl } from './gallery-data.jsx';
 import SourceIndex from './SourceIndex.jsx';

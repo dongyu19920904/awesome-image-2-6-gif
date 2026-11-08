@@ -13,3 +13,5 @@ From this directory, run `npm ci` and `npm run dev`. To test the static build, r
 - [X source index](../data/x-materials.json) supplies the searchable source list. Its reviewed X posts and the playable GIFs are counted separately.
 
 The build uses relative asset paths and a `?case=` query link for shareable details. Media links stay pinned to their source revision.
+
+The site serves Noto Sans SC as a font fallback for Chinese text. [Font license](public/OFL-Noto-Sans-SC.txt)

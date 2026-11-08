@@ -43,6 +43,12 @@ async function verifyGallery(browser, { name, width, height }) {
     const cards = gallery.locator('.caseCard');
     const caseSearch = gallery.locator('#case-search');
     await hero.getByRole('heading', { level: 1 }).waitFor();
+    const chineseFonts = await page.evaluate(async () => {
+      const faces = await document.fonts.load('700 24px "Noto Sans SC Variable"', '把一张图变成动图');
+      await document.fonts.ready;
+      return faces.length;
+    });
+    assert.ok(chineseFonts > 0, `${name} did not load the Chinese font`);
     await cards.first().waitFor();
     const initialCards = await cards.count();
     assert.ok(initialCards >= 6, `${name} shows only ${initialCards} gallery cards`);

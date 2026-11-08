@@ -66,3 +66,18 @@
   margin: 2rem 0;
   flex-wrap: wrap;
 }
+:root {
+  font-family: Inter, "Noto Sans SC Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+.topbar nav a {
+  white-space: nowrap;
+}
+
+
+@media (max-width: 640px) {
+  .topbar nav a {
+    font-size: 0.8125rem;
+    padding-inline: 7px;
+  }
+}
