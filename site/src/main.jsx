@@ -181,7 +181,7 @@ function App() {
         {featured.map((item) => {
           const localizedItem = localizeCase(item, language);
           return <button type="button" key={item.id} aria-label={localizedItem.title} onClick={() => openCase(item)}>
-            <Media item={localizedItem} language={language} /><span>{localizedItem.title}</span>
+            <Media item={localizedItem} language={language} eager /><span>{localizedItem.title}</span>
           </button>;
         })}
       </section>

@@ -44,7 +44,7 @@ async function verifyGallery(browser, { name, width, height }) {
     const caseSearch = gallery.locator('#case-search');
     await hero.getByRole('heading', { level: 1 }).waitFor();
     const chineseFonts = await page.evaluate(async () => {
-      const faces = await document.fonts.load('700 24px "Noto Sans SC Variable"', '把一张图变成动图');
+      const faces = await document.fonts.load('700 24px "Noto Sans SC Variable"', '把一张图做成动态表情');
       await document.fonts.ready;
       return faces.length;
     });
@@ -52,9 +52,10 @@ async function verifyGallery(browser, { name, width, height }) {
     await cards.first().waitFor();
     const initialCards = await cards.count();
     assert.ok(initialCards >= 6, `${name} shows only ${initialCards} gallery cards`);
-    await page.waitForFunction(() => Array.from(document.querySelectorAll('.hero img')).some(
-      (image) => image.complete && image.naturalWidth > 0,
-    ));
+    await page.waitForFunction(() => {
+      const images = Array.from(document.querySelectorAll('.hotStrip img'));
+      return images.length === 6 && images.every((image) => image.complete && image.naturalWidth > 0);
+    });
     await assertNoHorizontalOverflow(page, `${name} homepage`);
     await page.screenshot({ path: join(screenshots, `${name}-gallery.png`), animations: 'disabled' });
 
