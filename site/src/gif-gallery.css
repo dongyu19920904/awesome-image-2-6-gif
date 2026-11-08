@@ -1,0 +1,68 @@
+.gifFallback {
+  min-height: 12rem;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 0.7rem;
+  color: #aebed7;
+}
+
+.caseImage img {
+  object-fit: contain;
+}
+
+.gifDialog {
+  padding: 0;
+  border: 0;
+  max-width: none;
+  max-height: none;
+  background: transparent;
+  color: inherit;
+  overflow: visible;
+}
+
+.gifDialog::backdrop {
+  background: rgb(1 8 18 / 80%);
+}
+
+.gifDialog .previewDialog {
+  width: min(1120px, calc(100vw - 24px));
+}
+
+.gifDetailMedia {
+  position: relative;
+  width: 100%;
+}
+
+.gifDetailMedia canvas {
+  display: block;
+  width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+}
+
+.gifDetailMedia [hidden] {
+  display: none;
+}
+
+.gifPlayback {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: #111b2d;
+}
+
+.gifNotice {
+  font-size: 0.875rem;
+  color: #aebed7;
+}
+
+.gifNotice:empty {
+  display: none;
+}
+
+.gifFooter {
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}

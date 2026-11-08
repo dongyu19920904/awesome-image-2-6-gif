@@ -1,0 +1,95 @@
+name: GIF gallery
+
+on:
+  push:
+    branches: ['**']
+    paths:
+      - 'site/**'
+      - 'data/**'
+      - '.github/workflows/gallery-pages.yml'
+  pull_request:
+    paths:
+      - 'site/**'
+      - 'data/**'
+      - '.github/workflows/gallery-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  GALLERY_BASE_PATH: /awesome-image-2-6-gif/
+
+jobs:
+  build:
+    name: Build and verify desktop and mobile
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    permissions:
+      contents: read
+      pages: read
+    defaults:
+      run:
+        working-directory: site
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Install and build
+        run: |
+          npm ci
+          npm run build
+      - name: Verify in hosted Chrome
+        env:
+          PLAYWRIGHT_DIR: ${{ runner.temp }}/gallery-playwright
+          GALLERY_SCREENSHOTS: ${{ runner.temp }}/gallery-screenshots
+          GALLERY_URL: http://127.0.0.1:4173/awesome-image-2-6-gif/
+        run: |
+          npm install --prefix "$PLAYWRIGHT_DIR" --no-package-lock --no-save --ignore-scripts playwright@1.65.0
+          ./node_modules/.bin/vite preview --host 127.0.0.1 --port 4173 --strictPort --base "$GALLERY_BASE_PATH" > "$RUNNER_TEMP/gallery-vite.log" 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          curl --retry 10 --retry-connrefused --retry-delay 1 --silent --show-error --fail "$GALLERY_URL" > /dev/null
+          node scripts/gallery-smoke.mjs
+      - name: Upload desktop and mobile evidence
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: gallery-browser-evidence
+          path: |
+            ${{ runner.temp }}/gallery-screenshots
+            ${{ runner.temp }}/gallery-vite.log
+          if-no-files-found: ignore
+          retention-days: 14
+      - name: Configure Pages
+        if: github.repository == 'dongyu19920904/awesome-image-2-6-gif' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6
+      - name: Upload Pages artifact
+        if: github.repository == 'dongyu19920904/awesome-image-2-6-gif' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5
+        with:
+          path: site/dist
+
+  deploy:
+    name: Publish to GitHub Pages
+    if: github.repository == 'dongyu19920904/awesome-image-2-6-gif' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    concurrency:
+      group: gallery-pages
+      cancel-in-progress: false
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5

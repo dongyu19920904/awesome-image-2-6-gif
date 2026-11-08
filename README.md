@@ -2,6 +2,8 @@
 
 **看一个效果，找作者原词，把自己的图做成微信动图。**
 
+**[▶ 打开在线动图画廊](https://dongyu19920904.github.io/awesome-image-2-6-gif/)** · 12 张可播放的授权 GIF，支持按用途和路线筛选、复制作者原词、分享单个案例。已有角色图的案例可直接查看作者演示。
+
 [English](README.en.md) · [按用途查 X 原帖](SOURCES.md) · [微信使用与投稿](guides/wechat.md) · [现成 Skills](skills/README.md) · [变现资料](guides/monetization.md) · [OpenAI GIF 指南](https://developers.openai.com/api/docs/guides/image-prompting#generate-a-looping-gif)
 
 <a href="prompts/bunny-reaction-set.md"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-thumbs-up.gif" width="145" alt="兔兔点赞，点击看原词"></a>

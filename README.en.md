@@ -1,5 +1,7 @@
 # Image 2.6 GIF Sticker Gallery
 
+**[▶ Open the interactive GIF gallery](https://dongyu19920904.github.io/awesome-image-2-6-gif/)** · Play 12 licensed GIFs, filter by use or route, copy creator prompts, and share individual cases. Reference-image cases link to their creator demonstrations.
+
 **See an effect, find the creator's prompt, and make a WeChat GIF from your own image.**
 
 [中文](README.md) · [Browse X sources by use](SOURCES.md) · [WeChat guide](guides/wechat.md) · [Existing skills](skills/README.md) · [Monetization sources](guides/monetization.md) · [OpenAI GIF guide](https://developers.openai.com/api/docs/guides/image-prompting#generate-a-looping-gif)
