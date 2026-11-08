@@ -1,89 +1,211 @@
-# Image 2.6 GIF Sticker Gallery
+<p align="center"><img src="assets/readme/banner.svg" alt="GPT Image 2.6 GIF and WeChat Sticker Gallery" width="800" /></p>
 
-**[▶ Open the interactive GIF gallery](https://dongyu19920904.github.io/awesome-image-2-6-gif/)** · Play 12 licensed GIFs, filter by use or route, copy creator prompts, and share individual cases. Reference-image cases link to their creator demonstrations.
+<h1 align="center">Awesome GPT Image 2.6 GIF Stickers</h1>
 
-**See an effect, find the creator's prompt, and make a WeChat GIF from your own image.**
+<p align="center"><strong>Watch real GIFs, find the creator’s prompt, and bring the effect into WeChat.</strong></p>
 
-[中文](README.md) · [Browse X sources by use](SOURCES.md) · [WeChat guide](guides/wechat.md) · [Existing skills](skills/README.md) · [Monetization sources](guides/monetization.md) · [OpenAI GIF guide](https://developers.openai.com/api/docs/guides/image-prompting#generate-a-looping-gif)
+<p align="center">
+  <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/"><img src="https://img.shields.io/badge/GIFs-12-087f8c?style=flat-square" alt="12 playable GIFs"></a>
+  <a href="#case-album"><img src="https://img.shields.io/badge/Cases-36-5b4bbb?style=flat-square" alt="36 searchable cases"></a>
+  <a href="SOURCES.md"><img src="https://img.shields.io/badge/X_sources-218-1a79ff?style=flat-square" alt="218 reviewed X sources"></a>
+  <a href="skills/README.md"><img src="https://img.shields.io/badge/Skills-13-2f855a?style=flat-square" alt="13 existing skills"></a>
+</p>
 
-<a href="prompts/bunny-reaction-set.md"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-thumbs-up.gif" width="145" alt="Bunny thumbs-up, open the prompt"></a>
-<a href="prompts/licensed-pixel-campfire.md"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-campfire.gif" width="145" alt="Pixel campfire, open the prompt"></a>
-<a href="prompts/licensed-doodle-monster.md"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/doodle-monster.gif" width="145" alt="Crayon monster, open the prompt"></a>
+<p align="center"><a href="README.md">简体中文</a> · <strong>English</strong><br><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/">Live gallery</a> · <a href="#case-album">Case album</a> · <a href="#wechat-path">WeChat guide</a> · <a href="SOURCES.md">X source index</a> · <a href="#ready-skills">Skills</a></p>
 
-Open a GIF to find its prompt. [Keep one character across reactions](prompts/bunny-reaction-set.md) · [Animate only the fire](prompts/licensed-pixel-campfire.md) · [Preserve crayon lines and paper texture](prompts/licensed-doodle-monster.md). GIFs by ailingqu, CC BY 4.0. [Credits and rights](LICENSES.md)
+## Spotlight · Three reactions from one bunny
 
-## Start with what you have
-
-- **One character image**. See a [one-line prompt with a creator example](prompts/rice-reaction.md).
-- **An existing GIF**. Test one file for [looping, compression and dark-background edges](guides/wechat.md#prepare).
-- **A pack ready to submit**. Check [official entry points and assets](guides/wechat.md#submit), then browse [creator reports and rework examples](SOURCES.md#wechat).
-
-## Start with six cases
+Thumbs-up, laughing to tears, and nodding off. Ailingqu uses the same text-described character across three actions. Open any GIF to play it, copy the creator prompt, or switch to another reaction.
 
 <table>
-<tr>
-<td width="33%" valign="top"><b>Rice reaction</b><br>Native GIF request<br><a href="prompts/rice-reaction.md">Case and prompt</a> · <a href="https://x.com/Gorden_Sun/status/2118166046175908016">Creator source</a></td>
-<td width="33%" valign="top"><b>Off work</b><br>Native GIF request<br><a href="prompts/off-work.md">Case and prompt</a> · <a href="https://x.com/crayon1267/status/2118636908175859897">Creator source</a></td>
-<td width="33%" valign="top"><b>Bilingual salute loop</b><br>Native GIF request<br><a href="prompts/salute-loop.md">Case and prompt</a> · <a href="https://x.com/derek_wall90176/status/2118175241390436830">Creator source</a></td>
-</tr>
-<tr>
-<td width="33%" valign="top"><b>Animate existing stickers</b><br>Native GIF request<br><a href="prompts/animate-existing-stickers.md">Case and prompt</a> · <a href="https://x.com/AXIS95277/status/2118264145824944558">Creator source</a></td>
-<td width="33%" valign="top"><b>Ginger cat and capybara packs</b><br>Submission workflow<br><a href="prompts/ginger-cat-and-capybara.md">Submission-assets prompt</a> · <a href="https://x.com/karanwithai/status/2118156092865994837">Creator source</a></td>
-<td width="33%" valign="top"><b>Tibetan fox on dark backgrounds</b><br>Native request + finishing<br><a href="prompts/tibetan-fox-dark-mode.md">Case and prompt</a> · <a href="https://x.com/vastxie/status/2118265895613346263">Creator source</a></td>
-</tr>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <p><strong>Bunny thumbs-up</strong><br><sub>Native GIF example</sub></p>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=bunny-reaction-set"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-thumbs-up.gif" alt="Bunny thumbs-up GIF" width="220"></a><br>
+      <sub>Text-generated · Same series</sub><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=bunny-reaction-set"><strong>Play GIF and see prompt</strong></a>
+      <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#2-bunny-thumbs-up">Creator prompt</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <p><strong>Bunny laughing to tears</strong><br><sub>Native GIF example</sub></p>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-bunny-laugh"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-laughing.gif" alt="Bunny laughing to tears GIF" width="220"></a><br>
+      <sub>Text-generated · Same series</sub><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-bunny-laugh"><strong>Play GIF and see prompt</strong></a>
+      <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#3-bunny-laughing-to-tears">Creator prompt</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <p><strong>Sleepy bunny</strong><br><sub>Native GIF example</sub></p>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-bunny-sleepy"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-sleepy.gif" alt="Sleepy bunny GIF" width="220"></a><br>
+      <sub>Text-generated · Same series</sub><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-bunny-sleepy"><strong>Play GIF and see prompt</strong></a>
+      <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#4-sleepy-bunny">Creator prompt</a>
+    </td>
+  </tr>
 </table>
 
-## One character, different reactions
+[Open the series](https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=bunny-reaction-set) · [Three prompts and their sources](prompts/bunny-reaction-set.md)
+
+## Live gallery
+
+Search by effect, creator, or prompt, and filter by use or generation route. Pause a GIF, copy the creator prompt when available, or share a case. Reference-image cases link to their creator demonstrations.
+
+<p align="center"><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/"><img src="assets/readme/gallery-preview.webp" width="900" alt="Actual desktop screenshot of the Image 2.6 GIF gallery"></a></p>
+
+## Quick links
+
+| Start with | Open |
+| --- | --- |
+| A character image | [Blinking and tail movement](prompts/loop-original-sticker-micro-motion.md) · [Waving from a reference](prompts/character-wave-and-smile.md) |
+| A finished GIF | [Check looping, legibility, and compression](guides/wechat.md#prepare) · [Dark backgrounds and white edges](prompts/tibetan-fox-dark-mode.md) |
+| A sticker pack to submit | [Pack assets and the official portal](guides/wechat.md#submit) · [Ginger cat and capybara creator notes](prompts/ginger-cat-and-capybara.md) |
+| A ready-made tool | [Compare requirements for native GIF, finishing, and submission skills](skills/README.md) |
+
+<a id="case-album"></a>
+
+## Case album by category
+
+The 36 gallery cases include 12 playable, licensed GIFs and 24 entries linking to creator sources. Expand the categories for all 27 GitHub case guides. Route labels follow the creator post or source code.
+
+<details>
+<summary><strong>Animate an existing image</strong> · 5 cases</summary>
+
+- [Animate existing stickers](prompts/animate-existing-stickers.md) · Native GIF request · [@AXIS95277](https://x.com/AXIS95277/status/2118264145824944558)
+- [Wave and smile from one image](prompts/character-wave-and-smile.md) · Native GIF request · [@okan_aitool](https://x.com/okan_aitool/status/2118201578406772887)
+- [Two references for two reactions](prompts/character-two-reference-reactions.md) · Native GIF request · [@Gimi_min](https://x.com/Gimi_min/status/2118243060064964703)
+- [Staff loop and three quality settings](prompts/character-staff-return-loop.md) · Native GIF request · [@Voxyz_ai](https://x.com/Voxyz_ai/status/2118750260549796019)
+- [Make a reference character dance](prompts/character-reference-dance.md) · Native GIF request · [@munou_ac](https://x.com/munou_ac/status/2118220485150535796)
+
+</details>
+
+<details>
+<summary><strong>Everyday reactions</strong> · 6 cases</summary>
+
+- [Three reactions from one bunny](prompts/bunny-reaction-set.md) · Native GIF request · [@ailingqu](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#2-bunny-thumbs-up)
+- [Rice reaction](prompts/rice-reaction.md) · Native GIF request · [@Gorden_Sun](https://x.com/Gorden_Sun/status/2118166046175908016)
+- [Off work](prompts/off-work.md) · Native GIF request · [@crayon1267](https://x.com/crayon1267/status/2118636908175859897)
+- [Bilingual salute loop](prompts/salute-loop.md) · Native GIF request · [@derek_wall90176](https://x.com/derek_wall90176/status/2118175241390436830)
+- [Tail-wagging line-art dog](prompts/character-line-dog.md) · Native GIF request · [@CalosLaw](https://x.com/CalosLaw/status/2118199125707547102)
+- [Coffee cat and another spec change](prompts/character-coffee-cat-reaction.md) · Native GIF request · [@wolfqing1](https://x.com/wolfqing1/status/2118294955236208942)
+
+</details>
+
+<details>
+<summary><strong>Loops, micro-motion and timing</strong> · 8 cases</summary>
+
+- [Watch a narrated 16-frame loop test](prompts/loop-r360-narrated-test.md) · Native GIF request · [@r360studio](https://x.com/r360studio/status/2118843579712123227)
+- [Calculate loop duration from frame timing](prompts/loop-duration-math.md) · Route unspecified · [@Superboy4949](https://x.com/Superboy4949/status/2118785150368743814)
+- [Compare three falling-apple frame timings](prompts/loop-apple-frame-comparison.md) · Native GIF request · [@rei_aitech](https://x.com/rei_aitech/status/2118245102409908571)
+- [A three-second sketch-to-color loop](prompts/loop-sketch-to-color.md) · Native GIF request · [@iijima_no6](https://x.com/iijima_no6/status/2118169220596772927)
+- [Keep the lettering in an animated cover](prompts/loop-cover-keeps-lettering.md) · Native GIF request · [@ai_edisonZ](https://x.com/ai_edisonZ/status/2118677271880073230)
+- [Add blinks and tail movement to a sticker](prompts/loop-original-sticker-micro-motion.md) · Native GIF request · [@abc123953468547](https://x.com/abc123953468547/status/2118188187193634981)
+- [Make a pixel campfire loop with local motion](prompts/licensed-pixel-campfire.md) · Native GIF request · [@ailingqu](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#83-pixel-art-campfire)
+- [Keep the crayon lines in a doodle monster loop](prompts/licensed-doodle-monster.md) · Native GIF request · [@ailingqu](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#64-doodle-monster-comes-alive)
+
+</details>
+
+<details>
+<summary><strong>GIF finishing</strong> · 1 cases</summary>
+
+- [Tibetan fox on dark backgrounds](prompts/tibetan-fox-dark-mode.md) · Native GIF and editing · [@vastxie](https://x.com/vastxie/status/2118265895613346263)
+
+</details>
+
+<details>
+<summary><strong>WeChat packs and submission</strong> · 7 cases</summary>
+
+- [Ginger cat and capybara packs](prompts/ginger-cat-and-capybara.md) · Pack preparation · [@karanwithai](https://x.com/karanwithai/status/2118190621886165099)
+- [Compress and submit a four-frame pack](prompts/wechat-jev-four-frame.md) · Frame assembly · [@jev_chat](https://x.com/jev_chat/status/2118511250275704964)
+- [Prepare GIFs and assets for a cat pack](prompts/wechat-zhongying-submission-materials.md) · Pack preparation · [@zhongying14](https://x.com/zhongying14/status/2118326311030591942)
+- [Assemble a transparent pack from a 16-cell atlas](prompts/wechat-vane-layered-pack.md) · Frame assembly · [@VaneAILab](https://x.com/VaneAILab/status/2118584425009344644)
+- [Preview eight stickers in a ChatGPT project](prompts/wechat-bywind-project-preview.md) · Frame assembly · [@bywind_art](https://x.com/bywind_art/status/2118633386445066345)
+- [Go from a direct GIF to a pack deliverable](prompts/wechat-fred-single-to-pack.md) · Mixed workflow · [@Frederickkk07](https://x.com/Frederickkk07/status/2118546394797728093)
+- [Use a fixed reference and change the reaction theme](prompts/wechat-luffy-theme-to-submission.md) · Mixed workflow · [@0xluffy_eth](https://x.com/0xluffy_eth/status/2118235549609955443)
+
+</details>
+
+
+## Featured GIFs and prompts
+
+The creator generated these GIFs from text. The first row shows chat reactions, while the second illustrates hand-drawn texture, pixel art, and motion timing.
 
 <table>
-<tr>
-<td width="33%" valign="top"><b>Tail-wagging line-art dog</b><br>Native GIF request<br><a href="prompts/character-line-dog.md">Case and prompt</a> · <a href="https://x.com/CalosLaw/status/2118199125707547102">Creator source</a></td>
-<td width="33%" valign="top"><b>Wave and smile from one image</b><br>Native GIF request<br><a href="prompts/character-wave-and-smile.md">Case and prompt</a> · <a href="https://x.com/okan_aitool/status/2118201578406772887">Creator source</a></td>
-<td width="33%" valign="top"><b>Two references for two reactions</b><br>Native GIF request<br><a href="prompts/character-two-reference-reactions.md">Case and prompt</a> · <a href="https://x.com/Gimi_min/status/2118243060064964703">Creator source</a></td>
-</tr>
-<tr>
-<td width="33%" valign="top"><b>Staff loop and three quality settings</b><br>Native GIF request<br><a href="prompts/character-staff-return-loop.md">Case and prompt</a> · <a href="https://x.com/Voxyz_ai/status/2118750260549796019">Creator source</a></td>
-<td width="33%" valign="top"><b>Make a reference character dance</b><br>Native GIF request<br><a href="prompts/character-reference-dance.md">Case and prompt</a> · <a href="https://x.com/munou_ac/status/2118220485150535796">Creator source</a></td>
-<td width="33%" valign="top"><b>Coffee cat and another spec change</b><br>Native GIF request<br><a href="prompts/character-coffee-cat-reaction.md">Case and prompt</a> · <a href="https://x.com/wolfqing1/status/2118294955236208942">Creator source</a></td>
-</tr>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <p><strong>Confused shiba head tilt</strong><br><sub>Native GIF example</sub></p>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-shiba-confused"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/shiba-head-tilt.gif" alt="Confused shiba head tilt GIF" width="220"></a><br>
+      <sub>A single head tilt reads as confusion. Check whether the expression still reads at chat size.</sub><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-shiba-confused"><strong>Play GIF and see prompt</strong></a>
+      <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#6-confused-shiba-head-tilt">Creator prompt</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <p><strong>Frog blows a heart</strong><br><sub>Native GIF example</sub></p>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-frog-heart"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/frog-heart-bubble.gif" alt="Frog blows a heart GIF" width="220"></a><br>
+      <sub>A heart and a small gesture make a thank-you or reaction sticker.</sub><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-frog-heart"><strong>Play GIF and see prompt</strong></a>
+      <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#8-frog-blowing-a-heart">Creator prompt</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <p><strong>Cat typing furiously</strong><br><sub>Native GIF example</sub></p>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-cat-typing"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/cat-typing-laptop.gif" alt="Cat typing furiously GIF" width="220"></a><br>
+      <sub>Exaggerated repeated typing makes a busy or replying reaction.</sub><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-cat-typing"><strong>Play GIF and see prompt</strong></a>
+      <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#7-cat-typing-furiously">Creator prompt</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <p><strong>Doodle monster comes alive</strong><br><sub>Native GIF example</sub></p>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-doodle-monster"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/doodle-monster.gif" alt="Doodle monster comes alive GIF" width="220"></a><br>
+      <sub>The monster blinks, waves and hops while the ruled paper and drawn lines stay recognizable.</sub><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-doodle-monster"><strong>Play GIF and see prompt</strong></a>
+      <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#64-doodle-monster-comes-alive">Creator prompt</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <p><strong>Pixel campfire and sparks</strong><br><sub>Native GIF example</sub></p>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-pixel-campfire"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-campfire.gif" alt="Pixel campfire and sparks GIF" width="220"></a><br>
+      <sub>Firelight and rising sparks provide localized motion around a stable pixel-art forest.</sub><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-pixel-campfire"><strong>Play GIF and see prompt</strong></a>
+      <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#83-pixel-art-campfire">Creator prompt</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <p><strong>16-bit fighter punch combo</strong><br><sub>Native GIF example</sub></p>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-pixel-punch"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/arcade-fighter-punch.gif" alt="16-bit fighter punch combo GIF" width="220"></a><br>
+      <sub>A side-view punch combo and hit sparks show how a short gesture is timed.</sub><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-pixel-punch"><strong>Play GIF and see prompt</strong></a>
+      <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#96-16-bit-fighter-punch-combo">Creator prompt</a>
+    </td>
+  </tr>
 </table>
 
-## Loops, micro-motion and timing
+[Browse all 12 playable GIFs](https://dongyu19920904.github.io/awesome-image-2-6-gif/#gallery) · [GIF and prompt data](site/data/gallery-media.json)
 
-<table>
-<tr>
-<td width="33%" valign="top"><b>Watch a narrated 16-frame loop test</b><br>Native GIF request<br><a href="prompts/loop-r360-narrated-test.md">Case and method</a> · <a href="https://x.com/r360studio/status/2118843579712123227">Creator source</a></td>
-<td width="33%" valign="top"><b>Calculate loop duration from frame timing</b><br>Timing test, generation route unspecified<br><a href="prompts/loop-duration-math.md">Case and method</a> · <a href="https://x.com/Superboy4949/status/2118785150368743814">Creator source</a></td>
-<td width="33%" valign="top"><b>Compare three falling-apple frame timings</b><br>Native GIF request<br><a href="prompts/loop-apple-frame-comparison.md">Case and prompt</a> · <a href="https://x.com/rei_aitech/status/2118245102409908571">Creator source</a></td>
-</tr>
-<tr>
-<td width="33%" valign="top"><b>A three-second sketch-to-color loop</b><br>Native GIF request<br><a href="prompts/loop-sketch-to-color.md">Case and method</a> · <a href="https://x.com/iijima_no6/status/2118169220596772927">Creator source</a></td>
-<td width="33%" valign="top"><b>Keep the lettering in an animated cover</b><br>Native GIF request<br><a href="prompts/loop-cover-keeps-lettering.md">Case and prompt</a> · <a href="https://x.com/ai_edisonZ/status/2118677271880073230">Creator source</a></td>
-<td width="33%" valign="top"><b>Add blinks and tail movement to a sticker</b><br>Native GIF request<br><a href="prompts/loop-original-sticker-micro-motion.md">Case and prompt</a> · <a href="https://x.com/abc123953468547/status/2118188187193634981">Creator source</a></td>
-</tr>
-</table>
+<a id="wechat-path"></a>
 
-## WeChat preparation, packs and submission
+## From GIF to WeChat sticker
 
-<table>
-<tr>
-<td width="33%" valign="top"><b>Compress and submit a four-frame pack</b><br>Frame assembly<br><a href="prompts/wechat-jev-four-frame.md">Case and prompt</a> · <a href="https://x.com/jev_chat/status/2118511250275704964">Creator source</a></td>
-<td width="33%" valign="top"><b>Prepare GIFs and assets for a cat pack</b><br>Submission workflow<br><a href="prompts/wechat-zhongying-submission-materials.md">Case and workflow</a> · <a href="https://x.com/zhongying14/status/2118326311030591942">Creator source</a></td>
-<td width="33%" valign="top"><b>Assemble a transparent pack from a 16-cell atlas</b><br>Frame assembly<br><a href="prompts/wechat-vane-layered-pack.md">Case and prompt</a> · <a href="https://x.com/VaneAILab/status/2118584425009344644">Creator source</a></td>
-</tr>
-<tr>
-<td width="33%" valign="top"><b>Preview eight stickers in a ChatGPT project</b><br>Linked tool assembles frames<br><a href="prompts/wechat-bywind-project-preview.md">Case and workflow</a> · <a href="https://x.com/bywind_art/status/2118633386445066345">Creator source</a></td>
-<td width="33%" valign="top"><b>Go from a direct GIF to a pack deliverable</b><br>Native and assembled routes<br><a href="prompts/wechat-fred-single-to-pack.md">Case and prompt</a> · <a href="https://x.com/Frederickkk07/status/2118546394797728093">Creator source</a></td>
-<td width="33%" valign="top"><b>Use a fixed reference and change the reaction theme</b><br>Native and assembled routes<br><a href="prompts/wechat-luffy-theme-to-submission.md">Case and prompt</a> · <a href="https://x.com/0xluffy_eth/status/2118274913337552992">Creator source</a></td>
-</tr>
-</table>
+1. **Make one reaction.** Choose a similar effect and check the input and generation route before opening the creator prompt. [Reference-image case](prompts/animate-existing-stickers.md) · [OpenAI looping GIF guide](https://developers.openai.com/api/docs/guides/image-prompting#generate-a-looping-gif)
+2. **View it at chat size.** Check the loop seam, caption, and edges on a dark background. [Add for chat](guides/wechat.md#chat) · [Check and prepare](guides/wechat.md#prepare)
+3. **Prepare a pack.** Check the current official requirements, supporting assets, and creator rework examples. [Official submission](guides/wechat.md#submit) · [Review and rework](guides/wechat.md#review)
+4. **Check monetization eligibility.** Compare tips, paid packs, and commissioned work by their rules and evidence. [Monetization sources](guides/monetization.md)
 
-## Use the result
+<a id="ready-skills"></a>
 
-- [Add to a WeChat chat](guides/wechat.md#chat) and check captions, looping and dark-background edges.
-- [Prepare a pack](guides/wechat.md#submit) and review [common rework issues](guides/wechat.md#review).
-- [Find an existing skill](skills/README.md) or read about [tips, paid packs and commissions](guides/monetization.md).
+## Ready-made skills
 
-## Data and contributions
+| Task | Workflow |
+| --- | --- |
+| Request one GIF | [varg gpt-image-gif](https://github.com/vargHQ/skills/blob/72e8109188e3366ba8d365902a84d6b237dec1d7/gpt-image-gif/README.md) |
+| Make a set one GIF at a time | [varg gpt-image-sticker-pack](https://github.com/vargHQ/skills/blob/72e8109188e3366ba8d365902a84d6b237dec1d7/gpt-image-sticker-pack/README.md) |
+| Finish frames or organize pack assets | [ray-sticker-shop](https://github.com/imraywang/ray-sticker-shop/tree/d274a8831b73a9f41504c66d330ca90119582119) · [ban-ge wechat-sticker-pack](https://github.com/ban-ge/wechat-sticker-pack/tree/29656dae1d8024312a5f26bbbe3c8b8d1472613f) |
 
-Browse **27 selected cases** and **218 X posts reviewed in full**. The source index groups posts by native GIF, WeChat submission, frame assembly and related methods. Case pages point to prompts, creator demonstrations and listing evidence where available. [Case data](data/cases.json) · [X source index](SOURCES.md) · [Machine-readable index](data/x-materials.json) · [Suggest a source](CONTRIBUTING.md)
+[Compare all 13 skills, pinned versions, requirements, and outputs](skills/README.md)
+
+## Sources, releases, and contributions
+
+- [218 reviewed X posts](SOURCES.md) are grouped by native GIF, WeChat, frame assembly, and related methods. [Machine-readable index](data/x-materials.json)
+- [Case data](data/cases.json) identifies available prompts, documented methods, and the evidence behind listing claims. [Releases](https://github.com/dongyu19920904/awesome-image-2-6-gif/releases)
+- Submit a real case with a source, prompt, or media permission, or report a correction. [Contributing](CONTRIBUTING.md) · [GitHub Issues](https://github.com/dongyu19920904/awesome-image-2-6-gif/issues)
+
+## Credits and rights
+
+Homepage GIFs are by ailingqu under CC BY 4.0. The banner and README structure are adapted from freestylefly’s open-source project, and the media case format draws on yihui-dev’s Opus collection. See each source for reuse terms. [Credits and rights](LICENSES.md) · [Upstream MIT license](site/LICENSE)
