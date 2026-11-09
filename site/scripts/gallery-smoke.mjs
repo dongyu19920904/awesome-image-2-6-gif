@@ -27,6 +27,18 @@ async function assertNoHorizontalOverflow(page, name) {
   assert.ok(width <= page.viewportSize().width + 1, name + ' overflows at ' + width + 'px');
 }
 
+async function assertNavigationFits(page, name) {
+  const nav = page.locator('.topbar nav');
+  const fits = await nav.evaluate((element) => {
+    const bounds = element.getBoundingClientRect();
+    return [...element.querySelectorAll('a')].every((link) => {
+      const rect = link.getBoundingClientRect();
+      return rect.left >= bounds.left && rect.right <= bounds.right + 1;
+    });
+  });
+  assert.ok(fits, name + ' clips a top navigation link');
+}
+
 async function openCase(page, id) {
   await page.goto(new URL('?case=' + id + '&lang=zh', galleryUrl).href, { waitUntil: 'domcontentloaded' });
   const detail = page.locator('.previewDialog, [role="dialog"]').first();
@@ -86,6 +98,7 @@ async function verifyGallery(browser, { name, width, height }) {
       await document.fonts.ready;
       return faces.length;
     }), name + ' did not load the Chinese font');
+    if (name === 'mobile') await assertNavigationFits(page, 'Chinese mobile homepage');
     await cards.first().waitFor();
     const initialCards = await cards.count();
     assert.equal(initialCards, new Set([...catalog, ...media].map((item) => item.id)).size);
@@ -175,6 +188,7 @@ async function verifyGallery(browser, { name, width, height }) {
 
     await page.getByRole('button', { name: 'Language', exact: true }).click();
     await page.getByRole('menuitemradio', { name: /English/ }).click();
+    if (name === 'mobile') await assertNavigationFits(page, 'English mobile homepage');
     await hero.getByRole('heading', { name: 'Turn an image into a reaction GIF' }).waitFor();
     await sources.getByRole('heading', { name: 'Browse original X posts' }).waitFor();
     assert.deepEqual(pageErrors, [], name + ' page errors');

@@ -123,6 +123,23 @@
 
 
 @media (max-width: 640px) {
+  .topbar {
+    height: auto;
+    padding-block: 10px;
+  }
+
+  .topbar nav {
+    grid-column: 1 / -1;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: visible;
+    padding-inline: 4px;
+  }
+
+  .topbar .languageSwitch {
+    grid-row: 1;
+  }
+
   .topbar nav a {
     font-size: 0.8125rem;
     padding-inline: 7px;
