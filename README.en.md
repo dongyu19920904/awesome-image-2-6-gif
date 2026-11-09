@@ -15,7 +15,7 @@
 
 **Start with what you have.** [A character image](https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=image_to_gif&lang=en#gallery) · [A GIF to check](guides/wechat.md#prepare) · [A pack to submit](guides/wechat.md#submit)
 
-[See two creator-published reference images and their native GIFs](guides/reference-gif.md)
+[See creator-published reference images and native GIFs](guides/reference-gif.md) · [See ten capybara GIFs and the submission materials](guides/wechat.md#submit)
 
 **2026-11-09 update.** Added sourced parameters for 12 GIFs and restored case result and guide links. Start with [the bunny series, its prompts, and the WeChat steps](https://dongyu19920904.github.io/awesome-image-2-6-gif/case/bunny-reaction-set/?lang=en).
 

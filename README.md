@@ -15,7 +15,7 @@
 
 **从手头的素材开始。** [已有一张角色图](https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=image_to_gif#gallery) · [已有 GIF，要检查适配](guides/wechat.md#prepare) · [准备一套，要看投稿材料](guides/wechat.md#submit)
 
-[看两组作者公开的参考图与原生 GIF](guides/reference-gif.md)
+[看作者公开的参考图与原生 GIF](guides/reference-gif.md) · [看十张卡皮巴拉动图和投稿材料](guides/wechat.md#submit)
 
 **2026-11-09 更新。** 补齐 12 张 GIF 的参数和来源，恢复案例效果与导读链接。可以先对照[兔兔系列的动图、原词和微信下一步](https://dongyu19920904.github.io/awesome-image-2-6-gif/case/bunny-reaction-set/)。
 

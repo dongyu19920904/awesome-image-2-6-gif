@@ -40,6 +40,10 @@ For visible jumps at the loop seam, AgentCraft compares 43 examples. Its creator
 
 For a WeChat Sticker Store listing, check section 2.1.1 of the platform agreement. The email account system and WeChat Channels account system are separate. Stickers published through the Channels system are outside the Sticker Store. Drift's follow-up shows how one creator organized GIFs, labels and album assets for review. [Platform agreement](https://sticker.weixin.qq.com/cgi-bin/mmemoticonwebnode-bin/pages/ver/bulletin/notice?id=KsQx1RAxh1xaoi0j) · [Creator's submission example](../prompts/ginger-cat-and-capybara.md)
 
+**卡皮巴拉专辑操作实录。** Ace Data Cloud 公开了选稿图、十张 Image 2.6 动图、横幅及开放平台填报示意，可用来核对每一步需要的材料。文章未提供同一 GIF 的适配前后文件、可核对的审核回执、上架或收益记录。 [作者原文](https://platform.acedata.cloud/blog/create-wechat-stickers-with-gpt-image-2-6?lang=zh-cn)
+
+**Capybara pack walkthrough.** Ace Data Cloud shows the character sheet, ten Image 2.6 GIFs, the banner and the WeChat submission form. The post supplies no paired adaptation files, verifiable review receipt, listing or earnings record. [Provider walkthrough](https://platform.acedata.cloud/blog/create-wechat-stickers-with-gpt-image-2-6?lang=zh-cn)
+
 <a id="review"></a>
 
 ## 审核与返工 / Review and rework
