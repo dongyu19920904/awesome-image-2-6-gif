@@ -52,6 +52,26 @@ jobs:
         run: |
           npm ci
           npm run build
+      - name: Check out fixed gallery baseline
+        if: github.ref == 'refs/heads/wechat-evidence'
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: 72de44bf9ee1354de5ed52d777c85954b55e1fa4
+          path: .evidence/baseline
+          persist-credentials: false
+      - name: Check out fixed upstream gallery
+        if: github.ref == 'refs/heads/wechat-evidence'
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          repository: freestylefly/awesome-gpt-image-2
+          ref: 53d3927ee3c45f6c54a12d86aabcf5c921670e11
+          path: .evidence/upstream
+          persist-credentials: false
+      - name: Build fixed comparison snapshots
+        if: github.ref == 'refs/heads/wechat-evidence'
+        run: |
+          (cd ../.evidence/baseline/site && npm ci --ignore-scripts && npm run build)
+          (cd ../.evidence/upstream && npm ci --ignore-scripts && npm run build)
       - name: Verify in hosted Chrome
         env:
           PLAYWRIGHT_DIR: ${{ runner.temp }}/gallery-playwright
@@ -65,6 +85,16 @@ jobs:
           curl --retry 10 --retry-connrefused --retry-delay 1 --silent --show-error --fail "$GALLERY_URL" > /dev/null
           node scripts/gallery-smoke.mjs
           if [ "$GITHUB_REF_NAME" = "wechat-evidence" ]; then
+            (cd ../.evidence/baseline/site && exec ./node_modules/.bin/vite preview --host 127.0.0.1 --port 4174 --strictPort --base "$GALLERY_BASE_PATH") > "$RUNNER_TEMP/gallery-baseline.log" 2>&1 &
+            baseline_pid=$!
+            (cd ../.evidence/upstream && exec ./node_modules/.bin/vite preview --host 127.0.0.1 --port 4175 --strictPort) > "$RUNNER_TEMP/gallery-upstream.log" 2>&1 &
+            upstream_pid=$!
+            trap 'kill "$server_pid" "$baseline_pid" "$upstream_pid" 2>/dev/null || true' EXIT
+            export GALLERY_BASELINE_URL="http://127.0.0.1:4174$GALLERY_BASE_PATH"
+            export GALLERY_UPSTREAM_URL='http://127.0.0.1:4175/'
+            for url in "$GALLERY_BASELINE_URL" "$GALLERY_UPSTREAM_URL"; do
+              curl --retry 10 --retry-connrefused --retry-delay 1 --silent --show-error --fail "$url" > /dev/null
+            done
             node scripts/gallery-benchmark.mjs
           fi
       - name: Upload desktop and mobile evidence
@@ -75,6 +105,8 @@ jobs:
           path: |
             ${{ runner.temp }}/gallery-screenshots
             ${{ runner.temp }}/gallery-vite.log
+            ${{ runner.temp }}/gallery-baseline.log
+            ${{ runner.temp }}/gallery-upstream.log
           if-no-files-found: ignore
           retention-days: 14
       - name: Configure Pages
