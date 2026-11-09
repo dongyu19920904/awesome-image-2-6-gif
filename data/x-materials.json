@@ -1,6 +1,6 @@
 {
-  "checked_on": "2026-11-07",
-  "count": 218,
+  "checked_on": "2026-11-09",
+  "count": 222,
   "records": [
     {
       "id": "2118886060042420504",
@@ -1664,6 +1664,22 @@
       "note": "原帖公开“用这张图做GIF动画”的完整短提示，并说明文章另讲3列2行六格sprite-sheet路线；未读取文章，不能确认拼接实现细节。"
     },
     {
+      "id": "2118220705879986682",
+      "url": "https://x.com/gigabit_million/status/2118220705879986682",
+      "author": "gigabit_million",
+      "title": "ChatGPT Images 2.6 一次生成 LINE 风格表情",
+      "topics": [
+        "聊天表情",
+        "ChatGPT",
+        "一键 GIF"
+      ],
+      "route": "native",
+      "source_scope": "original body and public media type read; native route author-reported; no independent media, rights or WeChat verification",
+      "note": "作者称一次获得类似 LINE 动态贴纸的 GIF，原帖附 GIF 和图片。正文没有说明图片是否作为输入，没有公开原词，也未核对两份媒体权利。",
+      "title_en": "One-shot LINE-style sticker GIF in ChatGPT Images 2.6",
+      "note_en": "The creator reports producing a LINE-style animated sticker in one shot. The post attaches a GIF and a photo, but does not establish the photo as the input or publish the prompt or reuse rights."
+    },
+    {
       "id": "2118220485150535796",
       "url": "https://x.com/munou_ac/status/2118220485150535796",
       "author": "munou_ac",
@@ -1701,6 +1717,22 @@
       "route": "native",
       "source_scope": "original body read; media, platform approval and earnings not independently verified",
       "note": "原帖公开用于X每日签到的GIF完整指令，包含用途与蜜蜂角色寓意。"
+    },
+    {
+      "id": "2118215424102052149",
+      "url": "https://x.com/piyoroppi/status/2118215424102052149",
+      "author": "piyoroppi",
+      "title": "实测 GPT Image 2.6 GIF 背景闪动",
+      "topics": [
+        "失败案例",
+        "背景闪动",
+        "循环质量"
+      ],
+      "route": "unknown",
+      "source_scope": "original body and public media type read; no independent media, rights or WeChat verification",
+      "note": "作者称自己的 GIF 背景闪动，适合做固定背景的验收反例。原帖未公布完整提示词、输入或具体实现路线。",
+      "title_en": "Background flicker in a GPT Image 2.6 GIF trial",
+      "note_en": "The creator reports flicker in the background of their GIF, a concrete failure to look for in stable-background loops. They did not identify the exact route, input or full prompt."
     },
     {
       "id": "2118215257399148922",
@@ -1891,6 +1923,22 @@
       "note": "Source selected during original-post research."
     },
     {
+      "id": "2118189330741231653",
+      "url": "https://x.com/ai_note_lab_jp/status/2118189330741231653",
+      "author": "ai_note_lab_jp",
+      "title": "ChatGPT GIF 试作的画质与手指细节观察",
+      "topics": [
+        "失败案例",
+        "手指一致性",
+        "ChatGPT"
+      ],
+      "route": "unknown",
+      "source_scope": "original body and public media type read; no independent media, rights or WeChat verification",
+      "note": "作者展示 ChatGPT GIF 试作并称画质和手指表现仍欠佳。帖子开头转述的官方速度信息没有作为作者实测记录，正文也未公开输入、提示词或具体实现。",
+      "title_en": "Image quality and finger-detail observations from a ChatGPT GIF trial",
+      "note_en": "The creator shares a ChatGPT GIF trial and reports weaknesses in image quality and finger detail. The quoted speed claim is not their own measurement, and the exact input, prompt and implementation are unspecified."
+    },
+    {
       "id": "2118188822752317443",
       "url": "https://x.com/freeman1266/status/2118188822752317443",
       "author": "freeman1266",
@@ -1983,6 +2031,23 @@
       "route": "assembled",
       "source_scope": "original body read; media, platform approval and earnings not independently verified",
       "note": "作者直接回答素材到 GIF 的实现路线。Fx 会话链同时含大肥鱼主帖 2118181775688241456 与提问；同一主帖下 2118181972451438662 提供原词。原词要求直接交付 GIF 与此样例自述的合成路线需分别记录。"
+    },
+    {
+      "id": "2118183717512306775",
+      "url": "https://x.com/KakiponzuX/status/2118183717512306775",
+      "author": "KakiponzuX",
+      "title": "Flare API 原生 GIF 的尺寸、帧数和耗时实测",
+      "topics": [
+        "原生 GIF",
+        "Flare",
+        "API 参数",
+        "尺寸失败"
+      ],
+      "route": "native",
+      "source_scope": "original body and public media type read; no independent raw GIF, rights, WeChat or earnings verification",
+      "note": "作者报告 Flare API 返回 GIF89a，512×512、9 帧、每帧 200ms、约 15 秒，并记录两次尺寸失败。作者说不能调帧数属于当时接口观察，与现行官方可选帧数不同。",
+      "title_en": "Flare API native GIF size, timing and latency test",
+      "note_en": "The creator reports a GIF89a response from the Flare API at 512×512, 9 frames, 200 ms per frame and about 15 seconds, plus two sizing failures. Their no-frame-count-control observation is not the current official API rule."
     },
     {
       "id": "2118181972451438662",

@@ -5,13 +5,19 @@
 <p align="center"><strong>Watch real GIFs, find the creator’s prompt, and bring the effect into WeChat.</strong></p>
 
 <p align="center">
-  <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/"><img src="https://img.shields.io/badge/GIFs-12-087f8c?style=flat-square" alt="12 playable GIFs"></a>
+  <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?lang=en"><img src="https://img.shields.io/badge/GIFs-12-087f8c?style=flat-square" alt="12 playable GIFs"></a>
   <a href="#case-album"><img src="https://img.shields.io/badge/Cases-36-5b4bbb?style=flat-square" alt="36 searchable cases"></a>
-  <a href="SOURCES.md"><img src="https://img.shields.io/badge/X_sources-218-1a79ff?style=flat-square" alt="218 reviewed X sources"></a>
+  <a href="SOURCES.md"><img src="https://img.shields.io/badge/X_sources-222-1a79ff?style=flat-square" alt="222 reviewed X sources"></a>
   <a href="skills/README.md"><img src="https://img.shields.io/badge/Skills-13-2f855a?style=flat-square" alt="13 existing skills"></a>
 </p>
 
-<p align="center"><a href="README.md">简体中文</a> · <strong>English</strong><br><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/">Live gallery</a> · <a href="#case-album">Case album</a> · <a href="#wechat-path">WeChat guide</a> · <a href="SOURCES.md">X source index</a> · <a href="#ready-skills">Skills</a></p>
+<p align="center"><a href="README.md">简体中文</a> · <strong>English</strong><br><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?lang=en">Live gallery</a> · <a href="#case-album">Case album</a> · <a href="#wechat-path">WeChat guide</a> · <a href="SOURCES.md">X source index</a> · <a href="#ready-skills">Skills</a></p>
+
+**Start with what you have.** [A character image](https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=image_to_gif&lang=en#gallery) · [A GIF to check](guides/wechat.md#prepare) · [A pack to submit](guides/wechat.md#submit)
+
+[See two creator-published reference images and their native GIFs](guides/reference-gif.md)
+
+**2026-11-09 update.** Added sourced parameters for 12 GIFs and restored case result and guide links. Start with [the bunny series, its prompts, and the WeChat steps](https://dongyu19920904.github.io/awesome-image-2-6-gif/case/bunny-reaction-set/?lang=en).
 
 ## Spotlight · Three reactions from one bunny
 
@@ -21,35 +27,35 @@ Thumbs-up, laughing to tears, and nodding off. Ailingqu uses the same text-descr
   <tr>
     <td width="33%" valign="top" align="center">
       <p><strong>Bunny thumbs-up</strong><br><sub>Native GIF example</sub></p>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=bunny-reaction-set"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-thumbs-up.gif" alt="Bunny thumbs-up GIF" width="220"></a><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=bunny-reaction-set&amp;lang=en"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-thumbs-up.gif" alt="Bunny thumbs-up GIF" width="220"></a><br>
       <sub>Text-generated · Same series</sub><br>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=bunny-reaction-set"><strong>Play GIF and see prompt</strong></a>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=bunny-reaction-set&amp;lang=en"><strong>Play GIF and see prompt</strong></a>
       <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#2-bunny-thumbs-up">Creator prompt</a>
     </td>
     <td width="33%" valign="top" align="center">
       <p><strong>Bunny laughing to tears</strong><br><sub>Native GIF example</sub></p>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-bunny-laugh"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-laughing.gif" alt="Bunny laughing to tears GIF" width="220"></a><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-bunny-laugh&amp;lang=en"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-laughing.gif" alt="Bunny laughing to tears GIF" width="220"></a><br>
       <sub>Text-generated · Same series</sub><br>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-bunny-laugh"><strong>Play GIF and see prompt</strong></a>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-bunny-laugh&amp;lang=en"><strong>Play GIF and see prompt</strong></a>
       <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#3-bunny-laughing-to-tears">Creator prompt</a>
     </td>
     <td width="33%" valign="top" align="center">
       <p><strong>Sleepy bunny</strong><br><sub>Native GIF example</sub></p>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-bunny-sleepy"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-sleepy.gif" alt="Sleepy bunny GIF" width="220"></a><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-bunny-sleepy&amp;lang=en"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-sleepy.gif" alt="Sleepy bunny GIF" width="220"></a><br>
       <sub>Text-generated · Same series</sub><br>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-bunny-sleepy"><strong>Play GIF and see prompt</strong></a>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-bunny-sleepy&amp;lang=en"><strong>Play GIF and see prompt</strong></a>
       <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#4-sleepy-bunny">Creator prompt</a>
     </td>
   </tr>
 </table>
 
-[Open the series](https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=bunny-reaction-set) · [Three prompts and their sources](prompts/bunny-reaction-set.md)
+[Open the series](https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=bunny-reaction-set&lang=en) · [Three prompts and their sources](prompts/bunny-reaction-set.md)
 
 ## Live gallery
 
 Search by effect, creator, or prompt, and filter by use or generation route. Pause a GIF, copy the creator prompt when available, or share a case. Reference-image cases link to their creator demonstrations.
 
-<p align="center"><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/"><img src="assets/readme/gallery-preview.webp" width="900" alt="Actual desktop screenshot of the Image 2.6 GIF gallery"></a></p>
+<p align="center"><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?lang=en"><img src="assets/readme/gallery-preview.webp" width="900" alt="Actual desktop screenshot of the Image 2.6 GIF gallery"></a></p>
 
 ## Quick links
 
@@ -65,6 +71,21 @@ Search by effect, creator, or prompt, and filter by use or generation route. Pau
 ## Case album by category
 
 The 36 gallery cases include 12 playable, licensed GIFs and 24 entries linking to creator sources. Expand the categories for all 27 GitHub case guides. Route labels follow the creator post or source code.
+
+<table>
+  <tr>
+    <td width="33%" align="center"><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=image_to_gif&amp;lang=en#gallery"><img src="site/public/poster/licensed-shiba-confused.webp" alt="Illustrative cover for character motion" width="160"><br><strong>Reference and character</strong></a><br><sub>Find inputs, prompts, and creator demonstrations</sub></td>
+    <td width="33%" align="center"><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=reaction&amp;lang=en#gallery"><img src="site/public/poster/bunny-reaction-set.webp" alt="Bunny giving a thumbs-up" width="160"><br><strong>Everyday reactions</strong></a><br><sub>Pick a gesture that reads at chat size</sub></td>
+    <td width="33%" align="center"><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=loop_technique&amp;lang=en#gallery"><img src="site/public/poster/licensed-pixel-campfire.webp" alt="Pixel campfire loop" width="160"><br><strong>Loops and micro-motion</strong></a><br><sub>See local motion, rhythm, and loop seams</sub></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=gif_postprocessing&amp;lang=en#gallery"><img src="site/public/poster/licensed-doodle-monster.webp" alt="Illustrative cover for GIF finishing" width="160"><br><strong>GIF finishing</strong></a><br><sub>Check compression, edges, and chat-size legibility</sub></td>
+    <td width="33%" align="center"><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=wechat_pack&amp;lang=en#gallery"><img src="site/public/poster/licensed-frog-heart.webp" alt="Illustrative cover for WeChat sticker packs" width="160"><br><strong>WeChat packs and submission</strong></a><br><sub>Find pack assets and creator submission records</sub></td>
+    <td width="33%" align="center"><a href="SOURCES.md"><strong>Find original posts</strong></a><br><sub>Browse native GIF, WeChat, and assembly sources</sub></td>
+  </tr>
+</table>
+
+Category covers come from licensed examples. Open each category to see the evidence for its reference images, finishing steps, or submission outcomes.
 
 <details>
 <summary><strong>Animate an existing image</strong> · 5 cases</summary>
@@ -132,52 +153,52 @@ The creator generated these GIFs from text. The first row shows chat reactions, 
   <tr>
     <td width="33%" valign="top" align="center">
       <p><strong>Confused shiba head tilt</strong><br><sub>Native GIF example</sub></p>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-shiba-confused"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/shiba-head-tilt.gif" alt="Confused shiba head tilt GIF" width="220"></a><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-shiba-confused&amp;lang=en"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/shiba-head-tilt.gif" alt="Confused shiba head tilt GIF" width="220"></a><br>
       <sub>A single head tilt reads as confusion. Check whether the expression still reads at chat size.</sub><br>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-shiba-confused"><strong>Play GIF and see prompt</strong></a>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-shiba-confused&amp;lang=en"><strong>Play GIF and see prompt</strong></a>
       <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#6-confused-shiba-head-tilt">Creator prompt</a>
     </td>
     <td width="33%" valign="top" align="center">
       <p><strong>Frog blows a heart</strong><br><sub>Native GIF example</sub></p>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-frog-heart"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/frog-heart-bubble.gif" alt="Frog blows a heart GIF" width="220"></a><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-frog-heart&amp;lang=en"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/frog-heart-bubble.gif" alt="Frog blows a heart GIF" width="220"></a><br>
       <sub>A heart and a small gesture make a thank-you or reaction sticker.</sub><br>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-frog-heart"><strong>Play GIF and see prompt</strong></a>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-frog-heart&amp;lang=en"><strong>Play GIF and see prompt</strong></a>
       <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#8-frog-blowing-a-heart">Creator prompt</a>
     </td>
     <td width="33%" valign="top" align="center">
       <p><strong>Cat typing furiously</strong><br><sub>Native GIF example</sub></p>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-cat-typing"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/cat-typing-laptop.gif" alt="Cat typing furiously GIF" width="220"></a><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-cat-typing&amp;lang=en"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/cat-typing-laptop.gif" alt="Cat typing furiously GIF" width="220"></a><br>
       <sub>Exaggerated repeated typing makes a busy or replying reaction.</sub><br>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-cat-typing"><strong>Play GIF and see prompt</strong></a>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-cat-typing&amp;lang=en"><strong>Play GIF and see prompt</strong></a>
       <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#7-cat-typing-furiously">Creator prompt</a>
     </td>
   </tr>
   <tr>
     <td width="33%" valign="top" align="center">
       <p><strong>Doodle monster comes alive</strong><br><sub>Native GIF example</sub></p>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-doodle-monster"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/doodle-monster.gif" alt="Doodle monster comes alive GIF" width="220"></a><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-doodle-monster&amp;lang=en"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/doodle-monster.gif" alt="Doodle monster comes alive GIF" width="220"></a><br>
       <sub>The monster blinks, waves and hops while the ruled paper and drawn lines stay recognizable.</sub><br>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-doodle-monster"><strong>Play GIF and see prompt</strong></a>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-doodle-monster&amp;lang=en"><strong>Play GIF and see prompt</strong></a>
       <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#64-doodle-monster-comes-alive">Creator prompt</a>
     </td>
     <td width="33%" valign="top" align="center">
       <p><strong>Pixel campfire and sparks</strong><br><sub>Native GIF example</sub></p>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-pixel-campfire"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-campfire.gif" alt="Pixel campfire and sparks GIF" width="220"></a><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-pixel-campfire&amp;lang=en"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-campfire.gif" alt="Pixel campfire and sparks GIF" width="220"></a><br>
       <sub>Firelight and rising sparks provide localized motion around a stable pixel-art forest.</sub><br>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-pixel-campfire"><strong>Play GIF and see prompt</strong></a>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-pixel-campfire&amp;lang=en"><strong>Play GIF and see prompt</strong></a>
       <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#83-pixel-art-campfire">Creator prompt</a>
     </td>
     <td width="33%" valign="top" align="center">
       <p><strong>16-bit fighter punch combo</strong><br><sub>Native GIF example</sub></p>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-pixel-punch"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/arcade-fighter-punch.gif" alt="16-bit fighter punch combo GIF" width="220"></a><br>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-pixel-punch&amp;lang=en"><img src="https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/arcade-fighter-punch.gif" alt="16-bit fighter punch combo GIF" width="220"></a><br>
       <sub>A side-view punch combo and hit sparks show how a short gesture is timed.</sub><br>
-      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-pixel-punch"><strong>Play GIF and see prompt</strong></a>
+      <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?case=licensed-pixel-punch&amp;lang=en"><strong>Play GIF and see prompt</strong></a>
       <br><a href="https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#96-16-bit-fighter-punch-combo">Creator prompt</a>
     </td>
   </tr>
 </table>
 
-[Browse all 12 playable GIFs](https://dongyu19920904.github.io/awesome-image-2-6-gif/#gallery) · [GIF and prompt data](site/data/gallery-media.json)
+[Browse all 12 playable GIFs](https://dongyu19920904.github.io/awesome-image-2-6-gif/?lang=en#gallery) · [GIF and prompt data](site/data/gallery-media.json)
 
 <a id="wechat-path"></a>
 
@@ -202,7 +223,7 @@ The creator generated these GIFs from text. The first row shows chat reactions, 
 
 ## Sources, releases, and contributions
 
-- [218 reviewed X posts](SOURCES.md) are grouped by native GIF, WeChat, frame assembly, and related methods. [Machine-readable index](data/x-materials.json)
+- [222 reviewed X posts](SOURCES.md) are grouped by native GIF, WeChat, frame assembly, and related methods. [Machine-readable index](data/x-materials.json)
 - [Case data](data/cases.json) identifies available prompts, documented methods, and the evidence behind listing claims. [Releases](https://github.com/dongyu19920904/awesome-image-2-6-gif/releases)
 - Submit a real case with a source, prompt, or media permission, or report a correction. [Contributing](CONTRIBUTING.md) · [GitHub Issues](https://github.com/dongyu19920904/awesome-image-2-6-gif/issues)
 

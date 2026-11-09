@@ -20,6 +20,7 @@ const USES = {
 };
 
 const INITIAL_FILTERS = { query: '', route: '', use: '', limit: PAGE_SIZE };
+const REVIEWED_BODY_SCOPE = 'original body read; media, platform approval and earnings not independently verified';
 
 export default function SourceIndex({ language = 'zh', records = [] }) {
   const [filters, setFilters] = useState(INITIAL_FILTERS);
@@ -29,7 +30,7 @@ export default function SourceIndex({ language = 'zh', records = [] }) {
     .map((term) => term.replace(/^@/, '')).filter(Boolean);
 
   const matches = records.filter((record) => {
-    const topicText = [record.title, ...(record.topics ?? []), record.note].join(' ');
+    const topicText = [record.title, record.title_en, ...(record.topics ?? []), record.note, record.note_en].join(' ');
     const relatedUses = Object.values(USES).filter(({ match }) => match.test(topicText));
     const searchText = [
       topicText,
@@ -60,8 +61,8 @@ export default function SourceIndex({ language = 'zh', records = [] }) {
         <h2 id="gif-source-heading">{label(['查 X 原帖', 'Browse original X posts'])}</h2>
         <p>
           {label([
-            '已核读原帖正文，保留中文整理摘要。生成路线按作者描述记录。',
-            'Original post text was reviewed. Summaries are in Chinese, and workflow labels reflect what authors reported.',
+            '标题与摘要为编辑导读。生成路线按作者描述记录，核验范围见各条。',
+            'Titles and summaries are editorial notes. Workflow labels reflect what authors reported. See each entry for its evidence scope.',
           ])}
         </p>
       </header>
@@ -103,11 +104,23 @@ export default function SourceIndex({ language = 'zh', records = [] }) {
         <ul className="gifSourceIndex__list">
           {matches.slice(0, shown).map((record) => (
             <li key={record.id}>
-              <a href={record.url} lang="zh-Hans">{record.title}</a>
+              <a href={record.url} lang={english && record.title_en ? 'en' : 'zh-Hans'}>
+                {(english && record.title_en) || record.title}
+              </a>
               <span className="gifSourceIndex__meta">
                 <span>@{record.author}</span>
                 <span>{label(ROUTES[record.route] ?? ROUTES.see_original)}</span>
               </span>
+              {record.note && <p className="gifSourceIndex__note" lang={english && record.note_en ? 'en' : 'zh-Hans'}>
+                {(english && record.note_en) || record.note}
+              </p>}
+              {record.source_scope && <small className="gifSourceIndex__scope"
+                lang={english || record.source_scope !== REVIEWED_BODY_SCOPE ? 'en' : 'zh-Hans'}>
+                {record.source_scope === REVIEWED_BODY_SCOPE
+                  ? label(['已读原帖正文，媒体、平台审核和收益未经独立核验。',
+                    'Original post read. Media, platform approval, and earnings remain unverified.'])
+                  : record.source_scope}
+              </small>}
             </li>
           ))}
         </ul>

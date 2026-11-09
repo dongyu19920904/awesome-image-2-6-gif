@@ -189,9 +189,9 @@ export function PromptCard({ caseItem, copied, language, onCopy, onOpen }) {
           <a href={caseItem.source_url} target="_blank" rel="noreferrer">@{caseItem.author}</a>
         </div>
         <h3>{caseItem.title}</h3>
-        <p>{caseItem.description}</p>
+        <p lang={caseItem.descriptionLanguage}>{caseItem.description}</p>
         <div className="tagRow">
-          <span>{caseItem.input}</span>
+          <span lang={caseItem.inputLanguage}>{caseItem.input}</span>
           <span>{caseItem.preview_url ? t.playable : t.sourceOnly}</span>
         </div>
         <div className="cardActions caseActions">

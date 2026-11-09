@@ -91,6 +91,18 @@
   font-size: 0.8125rem;
 }
 
+.gifSourceIndex__note {
+  margin: 8px 0 4px;
+  color: #d2dded;
+  line-height: 1.55;
+}
+
+.gifSourceIndex__scope {
+  display: block;
+  color: #aebcd0;
+  font-size: 0.78rem;
+}
+
 .gifSourceIndex__more {
   margin-top: 14px;
 }

@@ -24,7 +24,10 @@
       "preview": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-thumbs-up.gif",
       "rights": "CC-BY-4.0; unmodified creator GIFs",
       "next_step": "guides/wechat.md#chat",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "One bunny described in English and three action descriptions.",
+      "output_evidence_en": "The creator publishes all three GIFs.",
+      "prompt_location_en": "The three bunny prompts in the upstream README."
     },
     {
       "id": "rice-reaction",
@@ -46,7 +49,10 @@
       "preview": "https://x.com/Gorden_Sun/status/2118166046175908016",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#chat",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "One character reference image.",
+      "output_evidence_en": "The creator's X post shows an animated preview.",
+      "prompt_location_en": "The ChatGPT request at the end of the post."
     },
     {
       "id": "off-work",
@@ -68,7 +74,10 @@
       "preview": "https://x.com/crayon1267/status/2118636908175859897",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "A character reference and one action theme.",
+      "output_evidence_en": "The author shows an animated preview. Transparency and duration are requested settings.",
+      "prompt_location_en": "The text after the tags in the post."
     },
     {
       "id": "salute-loop",
@@ -90,7 +99,10 @@
       "preview": "https://x.com/derek_wall90176/status/2118175241390436830",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#chat",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "One character reference image.",
+      "output_evidence_en": "The creator shows an animated preview. Transparency has not been verified.",
+      "prompt_location_en": "The Chinese and English prompt sections in the post."
     },
     {
       "id": "animate-existing-stickers",
@@ -114,7 +126,10 @@
       "preview": "https://x.com/AXIS95277/status/2118264145824944558",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "Existing static sticker artwork.",
+      "output_evidence_en": "The creator reports a native API GIF test and shares a video overview on X.",
+      "prompt_location_en": "The template and nine actions in the creator's separate reply."
     },
     {
       "id": "ginger-cat-and-capybara",
@@ -139,7 +154,10 @@
       "preview": "https://x.com/karanwithai/status/2118156092865994837",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#submit",
-      "wechat_evidence": "creator_reports_listed; earnings_not_disclosed"
+      "wechat_evidence": "creator_reports_listed; earnings_not_disclosed",
+      "inputs_en": "Character references, existing GIFs, motion frames, or an overview.",
+      "output_evidence_en": "A separate post shows three ginger-cat previews. The follow-up shows pack materials. The creator reports 12 items in each pack.",
+      "prompt_location_en": "Section 9 of the submission follow-up covers pack preparation. The individual generation prompts were not verified."
     },
     {
       "id": "tibetan-fox-dark-mode",
@@ -163,7 +181,10 @@
       "preview": "https://x.com/vastxie/status/2118265895613346263",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "A character anchor image and existing animation frames.",
+      "output_evidence_en": "The creator reports two sets of results and posts an animated preview.",
+      "prompt_location_en": "Part 1 of the author's reply has the English prompt. Part 2 has the Pillow example."
     },
     {
       "id": "character-line-dog",
@@ -185,7 +206,10 @@
       "preview": "https://x.com/CalosLaw/status/2118199125707547102",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#chat",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "A written description.",
+      "output_evidence_en": "The author shows an animation. The original file was not independently tested.",
+      "prompt_location_en": "The Chinese block identified as the complete prompt in the original post."
     },
     {
       "id": "character-wave-and-smile",
@@ -207,7 +231,10 @@
       "preview": "https://x.com/okan_aitool/status/2118201578406772887",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#chat",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "One character reference image.",
+      "output_evidence_en": "The creator shows both the reference and a wave-and-smile preview.",
+      "prompt_location_en": "The short Japanese prompt after the author introduces it in the post."
     },
     {
       "id": "character-two-reference-reactions",
@@ -229,7 +256,10 @@
       "preview": "https://x.com/Gimi_min/status/2118243060064964703",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "One style reference and one character reference.",
+      "output_evidence_en": "The creator shows several previews. The prompt requests smashing a computer and holding a fish.",
+      "prompt_location_en": "The complete Chinese request introduced as the prompt at the end of the post."
     },
     {
       "id": "character-staff-return-loop",
@@ -251,7 +281,10 @@
       "preview": "https://x.com/Voxyz_ai/status/2118750260549796019",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "One character reference image.",
+      "output_evidence_en": "The creator compares three outputs for the same character. Quality and time are reported from a single test.",
+      "prompt_location_en": "The English prompt starting with “Attach your character image” at the end of the post."
     },
     {
       "id": "character-reference-dance",
@@ -273,7 +306,10 @@
       "preview": "https://x.com/munou_ac/status/2118220485150535796",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "One character reference image.",
+      "output_evidence_en": "The creator's post shows the reference character dancing.",
+      "prompt_location_en": "The short Japanese prompt below the model name."
     },
     {
       "id": "character-coffee-cat-reaction",
@@ -297,7 +333,10 @@
       "preview": "https://x.com/wolfqing1/status/2118294955236208942",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#chat",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "An original character description. A fixed character image can follow the creator's approach.",
+      "output_evidence_en": "The main post shows an MP4 preview. A reply has the complete prompt.",
+      "prompt_location_en": "The creator's first reply, with the character, gag, caption, and loop."
     },
     {
       "id": "loop-r360-narrated-test",
@@ -319,7 +358,10 @@
       "preview": "https://x.com/r360studio/status/2118843579712123227",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "A character image and a loopable action.",
+      "output_evidence_en": "The creator reports 307 × 307, 16 frames, and about 8.3 fps. The original GIF was not verified.",
+      "prompt_location_en": "The Japanese narrated walkthrough and results in the post. The exact prompt was not verified."
     },
     {
       "id": "loop-duration-math",
@@ -341,7 +383,10 @@
       "preview": "https://x.com/Superboy4949/status/2118785150368743814",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "A GIF request with known frame count and frame duration.",
+      "output_evidence_en": "The creator reports two frame-timing and loop-duration measurements. The generation route is unspecified.",
+      "prompt_location_en": "Two sets of measured figures and the return-to-start advice in the post. The complete prompt was not shared."
     },
     {
       "id": "loop-apple-frame-comparison",
@@ -363,7 +408,10 @@
       "preview": "https://x.com/rei_aitech/status/2118245102409908571",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "A 3:4 text description of an apple falling from a tree.",
+      "output_evidence_en": "The author compares three requests in ChatGPT Pro Instant. The original GIF parameters were not independently verified.",
+      "prompt_location_en": "The Japanese request in section ①. The later two examples change frame count and frame duration."
     },
     {
       "id": "loop-sketch-to-color",
@@ -385,7 +433,10 @@
       "preview": "https://x.com/iijima_no6/status/2118169220596772927",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "One sketch.",
+      "output_evidence_en": "The creator reports a 12-frame API output of about three seconds. The preview shows an added paintbrush and palette.",
+      "prompt_location_en": "The post describes the sketch-to-color process. It does not share a full prompt."
     },
     {
       "id": "loop-cover-keeps-lettering",
@@ -407,7 +458,10 @@
       "preview": "https://x.com/ai_edisonZ/status/2118677271880073230",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "A static cover that already contains lettering.",
+      "output_evidence_en": "The creator shares an animated preview and the prompt in a separate reply. The original GIF was not verified.",
+      "prompt_location_en": "The author's separate reply, in the sections about consistency and looping."
     },
     {
       "id": "loop-original-sticker-micro-motion",
@@ -429,7 +483,10 @@
       "preview": "https://x.com/abc123953468547/status/2118188187193634981",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "A static sticker with an existing composition and caption.",
+      "output_evidence_en": "The creator shows the reference and an animated preview, with a complete prompt in a reply. The original GIF was not verified.",
+      "prompt_location_en": "The quoted prompt in the separate author reply."
     },
     {
       "id": "wechat-jev-four-frame",
@@ -453,7 +510,10 @@
       "preview": "https://x.com/jev_chat/status/2118511250275704964",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#review",
-      "wechat_evidence": "creator_reports_listed; earnings_not_disclosed"
+      "wechat_evidence": "creator_reports_listed; earnings_not_disclosed",
+      "inputs_en": "A character you own, four consecutive action images, and artwork such as a cover and icon.",
+      "output_evidence_en": "The tutorial shows export and submission. The creator reports a listing separately.",
+      "prompt_location_en": "Section 02 has a direct GIF example, followed by the four-panel assembly workflow."
     },
     {
       "id": "wechat-zhongying-submission-materials",
@@ -475,7 +535,10 @@
       "preview": "https://x.com/zhongying14/status/2118326311030591942",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#submit",
-      "wechat_evidence": "creator_reports_submitted_pending"
+      "wechat_evidence": "creator_reports_submitted_pending",
+      "inputs_en": "Existing GIFs, cover, banner, chat icon, and accompanying text.",
+      "output_evidence_en": "The author shows pack materials and dashboard screenshots, and reports pending review.",
+      "prompt_location_en": "Sections 02–07 cover submission. The full pack-generation prompt was not shared."
     },
     {
       "id": "wechat-vane-layered-pack",
@@ -499,7 +562,10 @@
       "preview": "https://x.com/VaneAILab/status/2118584425009344644",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "creator_reports_submitted_pending"
+      "wechat_evidence": "creator_reports_submitted_pending",
+      "inputs_en": "A character reference, a 16-cell motion sheet, captions, and pack artwork.",
+      "output_evidence_en": "The creator shows the workflow, checks and supporting artwork, and reports pending review.",
+      "prompt_location_en": "The action-design and transparent-loop instructions after the character reference."
     },
     {
       "id": "wechat-bywind-project-preview",
@@ -523,7 +589,10 @@
       "preview": "https://x.com/bywind_art/status/2118633386445066345",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "A character reference plus the ray-sticker-shop skill and reference files.",
+      "output_evidence_en": "The main post shows a 9:16 animated collection. A reply explains the project workflow.",
+      "prompt_location_en": "A separate reply lists project setup, file upload, character approval, and collection generation."
     },
     {
       "id": "wechat-fred-single-to-pack",
@@ -545,7 +614,10 @@
       "preview": "https://x.com/Frederickkk07/status/2118546394797728093",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#submit",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "One demonstration photo and a sticker reference. A pack also needs a character, actions, and artwork.",
+      "output_evidence_en": "The author shows one direct GIF workflow and separate instructions for each route.",
+      "prompt_location_en": "The prompt at the start, the pack skill in section 1, and WeChat materials in section 3."
     },
     {
       "id": "wechat-luffy-theme-to-submission",
@@ -571,7 +643,10 @@
       "preview": "https://x.com/0xluffy_eth/status/2118274913337552992",
       "rights": "creator_source_link_only",
       "next_step": "guides/wechat.md#submit",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "A character master image you can use and one theme per sticker.",
+      "output_evidence_en": "Batching and submission are author advice. The otter example in a separate article uses six assembled frames.",
+      "prompt_location_en": "The separate post gives the reference and theme variable. The follow-up contrasts a direct request with six-frame assembly."
     },
     {
       "id": "licensed-pixel-campfire",
@@ -596,7 +671,10 @@
       "preview": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-campfire.gif",
       "rights": "CC-BY-4.0; unmodified creator GIFs",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "English text describing a pixel-art forest at night and a campfire.",
+      "output_evidence_en": "The creator publishes a 16-frame pixel-art campfire GIF.",
+      "prompt_location_en": "Upstream prompt 83 and the shared looping instruction."
     },
     {
       "id": "licensed-doodle-monster",
@@ -621,7 +699,10 @@
       "preview": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/doodle-monster.gif",
       "rights": "CC-BY-4.0; unmodified creator GIFs",
       "next_step": "guides/wechat.md#prepare",
-      "wechat_evidence": "no_independent_platform_result"
+      "wechat_evidence": "no_independent_platform_result",
+      "inputs_en": "English text describing a crayon monster on ruled paper.",
+      "output_evidence_en": "The creator publishes a nine-frame crayon monster GIF.",
+      "prompt_location_en": "Upstream prompt 64 and the shared looping instruction."
     }
   ]
 }

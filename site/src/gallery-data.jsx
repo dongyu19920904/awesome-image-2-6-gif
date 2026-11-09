@@ -1,5 +1,5 @@
-import React, { useRef, useState } from 'react';
-import { ExternalLink } from 'lucide-react';
+import React, { useState } from 'react';
+import { ExternalLink, Play } from 'lucide-react';
 import sourceData from '../../data/x-materials.json';
 import catalog from '../../data/cases.json';
 import media from '../data/gallery-media.json';
@@ -8,6 +8,7 @@ export { sourceData };
 export const repoUrl = 'https://github.com/dongyu19920904/awesome-image-2-6-gif';
 export const docsUrl = repoUrl + '/blob/main/';
 export const wechatUrl = docsUrl + 'guides/wechat.md';
+export const galleryRoot = new URL(import.meta.env.BASE_URL, window.location.href);
 
 export const labels = {
   zh: {
@@ -20,11 +21,19 @@ export const labels = {
     sectionEyebrow: '作品与原词', sectionTitle: '动图案例画廊', search: '按效果、作者或提示词搜索',
     category: '用途', route: '生成路线', all: '全部', onlyPlayable: '只看可播放', clear: '清除筛选',
     matching: '个匹配案例', empty: '没有符合当前筛选的案例。', viewDetails: '查看案例',
-    playable: '可播放 GIF', sourceOnly: '去原帖看效果', copyPrompt: '复制原词', copied: '已复制',
+    playable: '可播放 GIF', sourceOnly: '效果见作者来源', copyPrompt: '复制原词', copied: '已复制',
     copyError: '复制失败，可在详情选中原词。', authorPrompt: '作者原词', closePreview: '关闭案例',
     nextStep: '微信下一步', share: '分享案例', openGif: '打开 GIF', mediaError: '动图加载失败',
     original: '作者来源', license: '素材许可', reference: '参考图', output: 'GIF 结果',
-    authorMethod: '作者方法', authorWorkflow: '作者流程', pause: '暂停动图', resume: '播放动图'
+    authorMethod: '作者方法', authorWorkflow: '作者流程', pause: '显示静态预览', resume: '播放动图',
+    retryGif: '重试动图', resultAtSource: '查看作者发布的效果', inputLabel: '输入', guide: 'GitHub 案例导读',
+    mediaInfo: '动图参数', size: '尺寸', frames: '帧数', duration: '时长', fileSize: '文件大小',
+    evidence: '微信证据', noPlatformResult: '暂无独立的平台结果', reportedListed: '作者自述已上架，未公开收益',
+    reportedPending: '作者自述已提交，待审核', rightsLinkOnly: '仅链接作者公开来源',
+    sourceDetails: '其他来源', model: '模型或宿主', measurement: '参数来源', promptLocation: '原词位置',
+    dataNotRecorded: '未记录', parameterRead: '读取公开 GIF 文件', parameterReported: '作者报告',
+    pinnedPrompt: '固定版本中对应作品的提示词段落',
+    shareError: '复制失败，可以从地址栏复制当前案例链接。'
   },
   en: {
     brand: 'Image 2.6 GIF', eyebrow: 'REAL GIFS · CREATOR PROMPTS',
@@ -41,7 +50,16 @@ export const labels = {
     closePreview: 'Close case', nextStep: 'WeChat next step', share: 'Share case', openGif: 'Open GIF',
     mediaError: 'GIF could not load', original: 'Creator source', license: 'Media license',
     reference: 'Reference image', output: 'GIF result', authorMethod: 'Creator method',
-    authorWorkflow: 'Creator workflow', pause: 'Pause GIF', resume: 'Play GIF'
+    authorWorkflow: 'Creator workflow', pause: 'Show still', resume: 'Play GIF',
+    retryGif: 'Retry GIF', resultAtSource: 'See the result at source', inputLabel: 'Input', guide: 'GitHub case guide',
+    mediaInfo: 'GIF specifications', size: 'Dimensions', frames: 'Frames', duration: 'Duration', fileSize: 'File size',
+    evidence: 'WeChat evidence', noPlatformResult: 'No independent platform result documented',
+    reportedListed: 'Creator reports listing. Earnings undisclosed.',
+    reportedPending: 'Creator reports submission pending review', rightsLinkOnly: 'Links to the creator’s public source',
+    sourceDetails: 'Related sources', model: 'Model or host', measurement: 'Specification source',
+    promptLocation: 'Prompt location', dataNotRecorded: 'Unrecorded', parameterRead: 'Read from the public GIF file',
+    parameterReported: 'Creator-reported', pinnedPrompt: 'The prompt section for this work in the pinned source',
+    shareError: 'Copy failed. Use the case link in the address bar.'
   }
 };
 
@@ -62,25 +80,45 @@ const routes = {
   unknown: ['路线未说明', 'Route unspecified']
 };
 
+const catalogById = new Map(catalog.records.map((record) => [record.id, record]));
+const mediaIds = new Set(media.map((item) => item.id));
 export const cases = [
-  ...media,
-  ...catalog.records.filter((record) => !media.some((item) => item.id === record.id)).map((record) => ({
+  ...media.map((item) => {
+    const record = catalogById.get(item.id);
+    return {
+      ...record,
+      ...item,
+      next_step: record?.next_step ?? item.next_step,
+      poster_url: item.featured ? new URL(`poster/${item.id}.webp`, galleryRoot).href : item.poster_url,
+    };
+  }),
+  ...catalog.records.filter((record) => !mediaIds.has(record.id)).map((record) => ({
     ...record,
     source_url: record.primary_source,
     description_zh: record.output_evidence,
-    description_en: 'See the creator source, generation route, and WeChat next step.',
-    input_zh: record.inputs, input_en: 'See case for input',
-    preview_url: null
-  }))
+    description_en: record.output_evidence_en,
+    input_zh: record.inputs,
+    input_en: record.inputs_en,
+  })),
 ];
 
 export function localizeCase(item, language) {
   const index = Number(language === 'en');
+  const t = labels[language];
   return {
     ...item,
     title: item['title_' + language],
-    description: item['description_' + language],
-    input: item['input_' + language],
+    description: item['description_' + language] || item.description_zh,
+    descriptionLanguage: item['description_' + language] ? language : 'zh',
+    input: item['input_' + language] || item.input_zh,
+    inputLanguage: item['input_' + language] ? language : 'zh',
+    promptLocation: (index && item.prompt_location_en) || item.prompt_location || (item.prompt && t.pinnedPrompt),
+    promptLocationLanguage: index && item.prompt_location && !item.prompt_location_en ? 'zh' : language,
+    wechatEvidence: {
+      no_independent_platform_result: t.noPlatformResult,
+      'creator_reports_listed; earnings_not_disclosed': t.reportedListed,
+      creator_reports_submitted_pending: t.reportedPending,
+    }[item.wechat_evidence] || t.dataNotRecorded,
     categoryLabel: categories[item.category]?.[index] || item.category,
     routeLabel: routes[item.route]?.[index] || routes.unknown[index],
     promptLabel: {
@@ -91,43 +129,33 @@ export function localizeCase(item, language) {
 }
 
 export function Media({ item, language, eager = false }) {
-  const [failedUrl, setFailedUrl] = useState(null);
+  const [failed, setFailed] = useState(false);
   const t = labels[language];
-  if (!item.preview_url || failedUrl === item.preview_url) {
-    return <span className="gifFallback"><ExternalLink size={24} />{item.preview_url ? t.mediaError : t.sourceOnly}</span>;
+  if (!item.poster_url || failed) {
+    return <span className="gifFallback">
+      {item.preview_url ? <Play size={24} /> : <ExternalLink size={24} />}
+      {item.preview_url ? t.resume : t.sourceOnly}
+    </span>;
   }
-  return <img src={item.preview_url} alt={item.title} loading={eager ? 'eager' : 'lazy'} decoding="async"
-    onError={() => setFailedUrl(item.preview_url)} />;
+  return <img src={item.poster_url} alt={item.title} data-poster="" loading={eager ? 'eager' : 'lazy'} decoding="async"
+    onError={() => setFailed(true)} />;
 }
 
 export function DetailMedia({ item, language }) {
-  const image = useRef(null);
-  const still = useRef(null);
-  const [loaded, setLoaded] = useState(false);
-  const [paused, setPaused] = useState(false);
+  const [playing, setPlaying] = useState(() => !window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   const [failed, setFailed] = useState(false);
   const t = labels[language];
 
-  if (!item.preview_url || failed) {
-    return <Media item={{ ...item, preview_url: failed ? null : item.preview_url }} language={language} />;
-  }
-
-  function togglePlayback() {
-    if (!paused) {
-      const canvas = still.current;
-      canvas.width = image.current.naturalWidth;
-      canvas.height = image.current.naturalHeight;
-      canvas.getContext('2d').drawImage(image.current, 0, 0);
-    }
-    setPaused(!paused);
-  }
-
   return <div className="gifDetailMedia">
-    <img ref={image} src={item.preview_url} alt={item.title} hidden={paused}
-      onLoad={() => setLoaded(true)} onError={() => setFailed(true)} />
-    <canvas ref={still} hidden={!paused} aria-label={item.title} role="img" />
-    <button className="filterPill gifPlayback" type="button" onClick={togglePlayback} disabled={!loaded}>
-      {paused ? t.resume : t.pause}
-    </button>
+    <div className="gifPlaybackStage">
+      {playing && item.preview_url ? (
+        <img src={item.preview_url} alt={item.title} data-gif="" onError={() => { setPlaying(false); setFailed(true); }} />
+      ) : <Media item={item} language={language} eager />}
+      {item.preview_url && <button className="filterPill gifPlayback" type="button"
+        onClick={() => { setFailed(false); setPlaying(!playing); }}>
+        {playing ? t.pause : failed ? t.retryGif : t.resume}
+      </button>}
+    </div>
+    {failed && <p className="gifNotice" role="status">{t.mediaError}</p>}
   </div>;
 }

@@ -7,11 +7,17 @@
 <p align="center">
   <a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/"><img src="https://img.shields.io/badge/GIFs-12-087f8c?style=flat-square" alt="12 playable GIFs"></a>
   <a href="#case-album"><img src="https://img.shields.io/badge/Cases-36-5b4bbb?style=flat-square" alt="36 searchable cases"></a>
-  <a href="SOURCES.md"><img src="https://img.shields.io/badge/X_sources-218-1a79ff?style=flat-square" alt="218 reviewed X sources"></a>
+  <a href="SOURCES.md"><img src="https://img.shields.io/badge/X_sources-222-1a79ff?style=flat-square" alt="222 reviewed X sources"></a>
   <a href="skills/README.md"><img src="https://img.shields.io/badge/Skills-13-2f855a?style=flat-square" alt="13 existing skills"></a>
 </p>
 
 <p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a><br><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/">在线画廊</a> · <a href="#case-album">分类案例</a> · <a href="#wechat-path">微信路线</a> · <a href="SOURCES.md">来源索引</a> · <a href="#ready-skills">现成 Skills</a></p>
+
+**从手头的素材开始。** [已有一张角色图](https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=image_to_gif#gallery) · [已有 GIF，要检查适配](guides/wechat.md#prepare) · [准备一套，要看投稿材料](guides/wechat.md#submit)
+
+[看两组作者公开的参考图与原生 GIF](guides/reference-gif.md)
+
+**2026-11-09 更新。** 补齐 12 张 GIF 的参数和来源，恢复案例效果与导读链接。可以先对照[兔兔系列的动图、原词和微信下一步](https://dongyu19920904.github.io/awesome-image-2-6-gif/case/bunny-reaction-set/)。
 
 ## 专题 · 同一只兔子的三种反应
 
@@ -65,6 +71,21 @@
 ## 案例分类总览
 
 36 个画廊案例包括 12 个可直接播放的授权 GIF 和 24 个原帖入口。下方按用途展开 27 个 GitHub 导读，路线标签以作者原文或源码为据。
+
+<table>
+  <tr>
+    <td width="33%" align="center"><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=image_to_gif#gallery"><img src="site/public/poster/licensed-shiba-confused.webp" alt="角色动作封面示意" width="160"><br><strong>参考图与角色</strong></a><br><sub>查输入图、原词和作者演示</sub></td>
+    <td width="33%" align="center"><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=reaction#gallery"><img src="site/public/poster/bunny-reaction-set.webp" alt="兔兔点赞" width="160"><br><strong>日常表情与反应</strong></a><br><sub>先看能直接理解的聊天动作</sub></td>
+    <td width="33%" align="center"><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=loop_technique#gallery"><img src="site/public/poster/licensed-pixel-campfire.webp" alt="像素篝火循环" width="160"><br><strong>循环与微动作</strong></a><br><sub>看局部动作、节奏和首尾衔接</sub></td>
+  </tr>
+  <tr>
+    <td width="33%" align="center"><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=gif_postprocessing#gallery"><img src="site/public/poster/licensed-doodle-monster.webp" alt="动图适配封面示意" width="160"><br><strong>动图适配与后处理</strong></a><br><sub>查压缩、边缘与聊天尺寸</sub></td>
+    <td width="33%" align="center"><a href="https://dongyu19920904.github.io/awesome-image-2-6-gif/?category=wechat_pack#gallery"><img src="site/public/poster/licensed-frog-heart.webp" alt="微信表情专题封面示意" width="160"><br><strong>微信专辑与投稿</strong></a><br><sub>查整套物料与作者投稿记录</sub></td>
+    <td width="33%" align="center"><a href="SOURCES.md"><strong>找原帖与作者</strong></a><br><sub>按原生 GIF、微信、帧合成等路线浏览</sub></td>
+  </tr>
+</table>
+
+分类封面选自授权演示。参考图、适配和投稿分类以点开后的真实案例证据为准。
 
 <details>
 <summary><strong>已有图片怎么动起来</strong> · 5 个案例</summary>
@@ -202,7 +223,7 @@
 
 ## 来源、更新与贡献
 
-- [218 条已核 X 原帖](SOURCES.md)按原生 GIF、微信、帧合成及其他方法分组，逐条保留作者和出处。 [机器可读数据](data/x-materials.json)
+- [222 条已核 X 原帖](SOURCES.md)按原生 GIF、微信、帧合成及其他方法分组，逐条保留作者和出处。 [机器可读数据](data/x-materials.json)
 - [案例数据](data/cases.json)标明原帖提供了完整原词、操作方法还是工作流，也记录上架信息的证据来源。 [版本记录](https://github.com/dongyu19920904/awesome-image-2-6-gif/releases)
 - 欢迎提供带原帖、原词或明确展示许可的真实案例，也欢迎更正路线与作者信息。 [贡献说明](CONTRIBUTING.md) · [GitHub Issues](https://github.com/dongyu19920904/awesome-image-2-6-gif/issues)
 

@@ -9,6 +9,23 @@
     "author": "ailingqu",
     "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#2-bunny-thumbs-up",
     "preview_url": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-thumbs-up.gif",
+    "width": 438,
+    "height": 388,
+    "frame_count": 9,
+    "duration_ms": 1260,
+    "bytes": 319815,
+    "metrics_source": {
+      "reported": {
+        "kind": "upstream_reported",
+        "url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/results.json?plain=1#L40",
+        "record": "bunny-thumbs-up"
+      },
+      "bytes": {
+        "kind": "git_blob_size",
+        "url": "https://api.github.com/repos/ailingqu/awesome-ai-gif-prompts/git/trees/15410fcc2e22fc21d80abe860d8046849deed905",
+        "record": "bunny-thumbs-up.gif"
+      }
+    },
     "license": "CC BY 4.0",
     "license_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
     "input_zh": "文字描述",
@@ -31,6 +48,23 @@
     "author": "ailingqu",
     "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#6-confused-shiba-head-tilt",
     "preview_url": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/shiba-head-tilt.gif",
+    "width": 439,
+    "height": 390,
+    "frame_count": 9,
+    "duration_ms": 1620,
+    "bytes": 447418,
+    "metrics_source": {
+      "reported": {
+        "kind": "upstream_reported",
+        "url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/results.json?plain=1#L120",
+        "record": "shiba-head-tilt"
+      },
+      "bytes": {
+        "kind": "git_blob_size",
+        "url": "https://api.github.com/repos/ailingqu/awesome-ai-gif-prompts/git/trees/15410fcc2e22fc21d80abe860d8046849deed905",
+        "record": "shiba-head-tilt.gif"
+      }
+    },
     "license": "CC BY 4.0",
     "license_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
     "input_zh": "文字描述",
@@ -52,6 +86,23 @@
     "author": "ailingqu",
     "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#8-frog-blowing-a-heart",
     "preview_url": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/frog-heart-bubble.gif",
+    "width": 380,
+    "height": 252,
+    "frame_count": 16,
+    "duration_ms": 2240,
+    "bytes": 307101,
+    "metrics_source": {
+      "reported": {
+        "kind": "upstream_reported",
+        "url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/results.json?plain=1#L140",
+        "record": "frog-heart-bubble"
+      },
+      "bytes": {
+        "kind": "git_blob_size",
+        "url": "https://api.github.com/repos/ailingqu/awesome-ai-gif-prompts/git/trees/15410fcc2e22fc21d80abe860d8046849deed905",
+        "record": "frog-heart-bubble.gif"
+      }
+    },
     "license": "CC BY 4.0",
     "license_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
     "input_zh": "文字描述",
@@ -73,6 +124,23 @@
     "author": "ailingqu",
     "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#64-doodle-monster-comes-alive",
     "preview_url": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/doodle-monster.gif",
+    "width": 440,
+    "height": 386,
+    "frame_count": 9,
+    "duration_ms": 1620,
+    "bytes": 543774,
+    "metrics_source": {
+      "reported": {
+        "kind": "upstream_reported",
+        "url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/results.json?plain=1#L371",
+        "record": "doodle-monster"
+      },
+      "bytes": {
+        "kind": "git_blob_size",
+        "url": "https://api.github.com/repos/ailingqu/awesome-ai-gif-prompts/git/trees/15410fcc2e22fc21d80abe860d8046849deed905",
+        "record": "doodle-monster.gif"
+      }
+    },
     "license": "CC BY 4.0",
     "license_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
     "input_zh": "文字描述",
@@ -94,6 +162,23 @@
     "author": "ailingqu",
     "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#83-pixel-art-campfire",
     "preview_url": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/pixel-campfire.gif",
+    "width": 378,
+    "height": 240,
+    "frame_count": 16,
+    "duration_ms": 1920,
+    "bytes": 504252,
+    "metrics_source": {
+      "reported": {
+        "kind": "upstream_reported",
+        "url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/results.json?plain=1#L110",
+        "record": "pixel-campfire"
+      },
+      "bytes": {
+        "kind": "git_blob_size",
+        "url": "https://api.github.com/repos/ailingqu/awesome-ai-gif-prompts/git/trees/15410fcc2e22fc21d80abe860d8046849deed905",
+        "record": "pixel-campfire.gif"
+      }
+    },
     "license": "CC BY 4.0",
     "license_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
     "input_zh": "文字描述",
@@ -115,6 +200,23 @@
     "author": "ailingqu",
     "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#96-16-bit-fighter-punch-combo",
     "preview_url": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/arcade-fighter-punch.gif",
+    "width": 439,
+    "height": 390,
+    "frame_count": 9,
+    "duration_ms": 1260,
+    "bytes": 699677,
+    "metrics_source": {
+      "reported": {
+        "kind": "upstream_reported",
+        "url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/results.json?plain=1#L943",
+        "record": "arcade-fighter-punch"
+      },
+      "bytes": {
+        "kind": "git_blob_size",
+        "url": "https://api.github.com/repos/ailingqu/awesome-ai-gif-prompts/git/trees/15410fcc2e22fc21d80abe860d8046849deed905",
+        "record": "arcade-fighter-punch.gif"
+      }
+    },
     "license": "CC BY 4.0",
     "license_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
     "input_zh": "文字描述",
@@ -136,6 +238,23 @@
     "author": "ailingqu",
     "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#3-bunny-laughing-to-tears",
     "preview_url": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-laughing.gif",
+    "width": 440,
+    "height": 389,
+    "frame_count": 8,
+    "duration_ms": 1120,
+    "bytes": 312191,
+    "metrics_source": {
+      "reported": {
+        "kind": "upstream_reported",
+        "url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/results.json?plain=1#L50",
+        "record": "bunny-laughing"
+      },
+      "bytes": {
+        "kind": "git_blob_size",
+        "url": "https://api.github.com/repos/ailingqu/awesome-ai-gif-prompts/git/trees/15410fcc2e22fc21d80abe860d8046849deed905",
+        "record": "bunny-laughing.gif"
+      }
+    },
     "license": "CC BY 4.0",
     "license_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
     "input_zh": "文字描述",
@@ -158,6 +277,23 @@
     "author": "ailingqu",
     "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#4-sleepy-bunny",
     "preview_url": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-sleepy.gif",
+    "width": 439,
+    "height": 387,
+    "frame_count": 9,
+    "duration_ms": 1620,
+    "bytes": 364752,
+    "metrics_source": {
+      "reported": {
+        "kind": "upstream_reported",
+        "url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/results.json?plain=1#L60",
+        "record": "bunny-sleepy"
+      },
+      "bytes": {
+        "kind": "git_blob_size",
+        "url": "https://api.github.com/repos/ailingqu/awesome-ai-gif-prompts/git/trees/15410fcc2e22fc21d80abe860d8046849deed905",
+        "record": "bunny-sleepy.gif"
+      }
+    },
     "license": "CC BY 4.0",
     "license_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
     "input_zh": "文字描述",
@@ -180,6 +316,23 @@
     "author": "ailingqu",
     "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#7-cat-typing-furiously",
     "preview_url": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/cat-typing-laptop.gif",
+    "width": 380,
+    "height": 242,
+    "frame_count": 16,
+    "duration_ms": 1920,
+    "bytes": 586361,
+    "metrics_source": {
+      "reported": {
+        "kind": "upstream_reported",
+        "url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/results.json?plain=1#L130",
+        "record": "cat-typing-laptop"
+      },
+      "bytes": {
+        "kind": "git_blob_size",
+        "url": "https://api.github.com/repos/ailingqu/awesome-ai-gif-prompts/git/trees/15410fcc2e22fc21d80abe860d8046849deed905",
+        "record": "cat-typing-laptop.gif"
+      }
+    },
     "license": "CC BY 4.0",
     "license_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
     "input_zh": "文字描述",
@@ -201,6 +354,23 @@
     "author": "ailingqu",
     "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#9-penguin-facepalm",
     "preview_url": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/penguin-facepalm.gif",
+    "width": 435,
+    "height": 389,
+    "frame_count": 9,
+    "duration_ms": 1440,
+    "bytes": 350687,
+    "metrics_source": {
+      "reported": {
+        "kind": "upstream_reported",
+        "url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/results.json?plain=1#L150",
+        "record": "penguin-facepalm"
+      },
+      "bytes": {
+        "kind": "git_blob_size",
+        "url": "https://api.github.com/repos/ailingqu/awesome-ai-gif-prompts/git/trees/15410fcc2e22fc21d80abe860d8046849deed905",
+        "record": "penguin-facepalm.gif"
+      }
+    },
     "license": "CC BY 4.0",
     "license_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
     "input_zh": "文字描述",
@@ -222,6 +392,23 @@
     "author": "ailingqu",
     "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#29-otter-in-a-teal-scarf-waving",
     "preview_url": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/otter-scarf-wave.gif",
+    "width": 438,
+    "height": 389,
+    "frame_count": 9,
+    "duration_ms": 1620,
+    "bytes": 782580,
+    "metrics_source": {
+      "reported": {
+        "kind": "upstream_reported",
+        "url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/results.json?plain=1#L558",
+        "record": "otter-scarf-wave"
+      },
+      "bytes": {
+        "kind": "git_blob_size",
+        "url": "https://api.github.com/repos/ailingqu/awesome-ai-gif-prompts/git/trees/15410fcc2e22fc21d80abe860d8046849deed905",
+        "record": "otter-scarf-wave.gif"
+      }
+    },
     "license": "CC BY 4.0",
     "license_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
     "input_zh": "文字描述",
@@ -243,6 +430,23 @@
     "author": "ailingqu",
     "source_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#48-chat-bubbles-popping-in",
     "preview_url": "https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/chat-bubbles-pop.gif",
+    "width": 430,
+    "height": 397,
+    "frame_count": 9,
+    "duration_ms": 3150,
+    "bytes": 118848,
+    "metrics_source": {
+      "reported": {
+        "kind": "upstream_reported",
+        "url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/data/results.json?plain=1#L668",
+        "record": "chat-bubbles-pop"
+      },
+      "bytes": {
+        "kind": "git_blob_size",
+        "url": "https://api.github.com/repos/ailingqu/awesome-ai-gif-prompts/git/trees/15410fcc2e22fc21d80abe860d8046849deed905",
+        "record": "chat-bubbles-pop.gif"
+      }
+    },
     "license": "CC BY 4.0",
     "license_url": "https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#license",
     "input_zh": "文字描述",
