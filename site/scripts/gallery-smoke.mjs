@@ -148,7 +148,7 @@ async function verifyGallery(browser, { name, width, height }) {
     assert.match(html, /property="og:title" content="[^"]+Bunny thumbs-up"/);
     assert.match(html, /property="og:image" content="[^"]+bunny-reaction-set\.webp"/);
     await page.goto(shareUrl.href, { waitUntil: 'domcontentloaded' });
-    await page.getByRole('heading', { name: 'Bunny thumbs-up', exact: true }).waitFor();
+    await page.locator('.previewDialog').getByRole('heading', { name: 'Bunny thumbs-up', exact: true }).waitFor();
     assert.equal(new URL(page.url()).searchParams.get('lang'), 'en');
     assert.equal(new URL(page.url()).searchParams.get('category'), 'reaction');
 
