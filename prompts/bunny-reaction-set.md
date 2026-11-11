@@ -16,6 +16,8 @@
 
 用自己的角色生成相同的反应后，按聊天尺寸看三个动作是否容易分辨。作者示例用于展示，送审时需重新核对文件与物料。 [聊天添加与检查](../guides/wechat.md#chat)
 
+点赞动图已有一组等比缩放前后文件，可以下载并对照尺寸、帧数和字节数。 Compare the original thumbs-up GIF with its downloadable 240×240 adaptation. [适配实测 / Size check](../guides/wechat.md#bunny-size-check)
+
 ## English
 
 Compare three openly licensed examples and their English prompts. The upstream uses the same character description across a thumbs-up, a laugh and a sleepy reaction. The published GIFs show the differences in motion. [Start with the original prompt](https://github.com/ailingqu/awesome-ai-gif-prompts/blob/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/README.md#2-bunny-thumbs-up)

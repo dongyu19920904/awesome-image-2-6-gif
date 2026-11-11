@@ -19,6 +19,8 @@
 
 **2026-11-09 update.** Added sourced parameters for 12 GIFs and restored case result and guide links. Start with [the bunny series, its prompts, and the WeChat steps](https://dongyu19920904.github.io/awesome-image-2-6-gif/case/bunny-reaction-set/?lang=en).
 
+**2026-11-11 update.** [Compare and download the 240×240 bunny thumbs-up GIF](guides/wechat.md#bunny-size-check).
+
 ## Spotlight · Three reactions from one bunny
 
 Thumbs-up, laughing to tears, and nodding off. Ailingqu uses the same text-described character across three actions. Open any GIF to play it, copy the creator prompt, or switch to another reaction.

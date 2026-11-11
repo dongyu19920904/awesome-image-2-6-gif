@@ -30,6 +30,23 @@ Start with one sample before optimizing a whole pack. Confirm the exported file 
 
 For visible jumps at the loop seam, AgentCraft compares 43 examples. Its creator samples use X's transcoded copies, so check timing on your original export. [Measurements and limitations](https://agentcraft.dev/en/blog/gpt-image-2-6-gif-prompts-2026-11/)
 
+<a id="bunny-size-check"></a>
+
+### 兔兔点赞适配实测 / Bunny thumbs-up size check
+
+<img src="../assets/wechat/bunny-thumbs-up-240.gif" width="160" alt="240×240 兔兔点赞 GIF / 240×240 Bunny thumbs-up GIF">
+
+| 文件 / File | 画布 / Canvas | 字节 / Bytes | 帧 / Frames | 单轮 / Loop duration |
+| --- | ---: | ---: | ---: | ---: |
+| [ailingqu 原始 GIF / Creator GIF](https://raw.githubusercontent.com/ailingqu/awesome-ai-gif-prompts/a20f88b18a9abe8cd1531fb8a8e738a5a4701ce2/gifs/bunny-thumbs-up.gif) | 438×388 | 319,815 | 9 | 1.26 s |
+| [下载适配 GIF / Download the adapted GIF](../assets/wechat/bunny-thumbs-up-240.gif?raw=true) | 240×240 | 186,990 | 9 | 1.26 s |
+
+用 Pillow 等比缩放每帧，在上下补透明留白后重新编码。保留黄色画面、每帧 140 ms 和无限循环。浅色与深色背景都能看到原作的黄色边界，重播时会从眨眼跳回初始姿势。本次通过 240×240、500 KB 内和动画解码检查。微信聊天、投稿和审核状态待核。 [作者原作与原词](../prompts/bunny-reaction-set.md) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+We resized each frame proportionally in Pillow, added transparent padding above and below, and re-encoded the animation. It keeps the yellow artwork, all nine 140 ms frames and infinite looping. The yellow edges stay visible on light and dark backgrounds, and the pose jumps at the loop seam. The exported file passes the 240×240 size, 500 KB file limit and animated GIF decoding checks. WeChat use and submission remain unverified. [Creator and prompt](../prompts/bunny-reaction-set.md) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+用自己的作品走完这一步后，欢迎反馈具体卡点，或提交可核对的聊天添加和投稿记录。 If you try this with your own GIF, share where you got stuck or provide a reproducible WeChat result. [反馈或贡献案例 / Report a result](../CONTRIBUTING.md#wechat-result)
+
 <a id="submit"></a>
 
 ## 专辑投稿 / Submit a pack
